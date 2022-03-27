@@ -99,13 +99,13 @@ TweakItem("AxeRecrafting.FireAxeHead","DisplayCategory","Craft");
 TweakItem("AxeRecrafting.WoodAxeHead","DisplayCategory","Craft");
 TweakItem("AxeRecrafting.HandAxeHead","DisplayCategory","Craft");
 TweakItem("AxeRecrafting.MetalAxeHandle","DisplayCategory","Craft");
+--BetterHelicopter
+TweakItem("AI_HELI.HeliMag","DisplayCategory","LitR");
 --BetterLockpicking
 TweakItem("BetLock.LockpickingMag","DisplayCategory","LitR");
 TweakItem("BetLock.AlarmMag","DisplayCategory","LitR");
 TweakItem("BetLock.BobbyPin","DisplayCategory","Tool");
 TweakItem("BetLock.HandmadeBobbyPin","DisplayCategory","Tool");
---BetterHelicopter
-TweakItem("AI_HELI.HeliMag","DisplayCategory","LitR");
 --BetterTowing
 TweakItem("TowingCar.TowBar","DisplayCategory","Tool");
 --BGCRareWeapons
