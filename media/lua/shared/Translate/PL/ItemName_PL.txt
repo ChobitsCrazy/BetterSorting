@@ -1,0 +1,59 @@
+ItemName_PL = {
+/************** PAINT **************/
+ItemName_Base.PaintBlue="Farba - Niebieska",
+ItemName_Base.PaintBrown="Farba - Brazowa",
+ItemName_Base.PaintCyan="Farba - Blekitna",
+ItemName_Base.PaintGreen="Farba - Zielona",
+ItemName_Base.PaintGrey="Farba - Szara",
+ItemName_Base.PaintLightBlue="Farba - Jasnoniebieska",
+ItemName_Base.PaintLightBrown="Farba - Jasnobrazowa",
+ItemName_Base.PaintOrange="Farba - Pomaranczowa",
+ItemName_Base.PaintPink="Farba - Rozowa",
+ItemName_Base.PaintPurple="Farba - Fioletowa",
+ItemName_Base.PaintRed="Farba - Czerwona",
+ItemName_Base.PaintTurquoise="Farba - Turkusowa",
+ItemName_Base.PaintWhite="Farba - Biala",
+ItemName_Base.PaintYellow="Farba - Zolta",
+
+/************** TELEVISIONS **************/
+ItemName_Radio.TvAntique="Telewizor - Antyk",
+ItemName_Radio.TvWideScreen="Telewizor - Premium Technologies",
+ItemName_Radio.TvBlack="Telewizor - ValuTech",
+
+/************** RADIOS **************/
+ItemName_Base.Radio="Radio",
+ItemName_Radio.RadioRed="Radio - Premium Technologies",
+ItemName_Radio.RadioBlack="Radio - ValuTech",
+ItemName_Radio.RadioMakeShift="Radio - Prowizoryczne",
+ItemName_Radio.HamRadio1="Radiostacja - HAM",
+ItemName_Radio.HamRadio2="Radiostacja - Militarna",
+ItemName_Radio.HamRadioMakeShift="Radiostacja - Prowizoryczna HAM",
+ItemName_Radio.WalkieTalkie1="Krotkofalowka - Toys-R-Mine",
+ItemName_Radio.WalkieTalkie2="Krotkofalowka - ValuTech",
+ItemName_Radio.WalkieTalkie3="Krotkofalowka - Premium Technologies",
+ItemName_Radio.WalkieTalkie4="Krotkofalowka - Taktyczna",
+ItemName_Radio.WalkieTalkie5="Krotkofalowka - Militarna",
+ItemName_Radio.WalkieTalkieMakeShift="Krotkofalowka - Prowizoryczna",
+
+/************** LIGHT BULBS **************/
+ItemName_Base.LightBulbBlue="Zarowka - Niebieska",
+ItemName_Base.LightBulbCyan="Zarowka - Blekitna",
+ItemName_Base.LightBulbGreen="Zarowka - Zielona",
+ItemName_Base.LightBulb="Zarowka - Biala",
+ItemName_Base.LightBulbMagenta="Zarowka - Magenta",
+ItemName_Base.LightBulbOrange="Zarowka - Pomaranczowa",
+ItemName_Base.LightBulbPink="Zarowka - Rozowa",
+ItemName_Base.LightBulbPurple="Zarowka - Fioletowa",
+ItemName_Base.LightBulbRed="Zarowka - Czerwona",
+ItemName_Base.LightBulbYellow="Zarowka - Zolta",
+
+/************** PENS **************/
+ItemName_Base.BluePen="Dlugopis - Niebieski",
+ItemName_Base.RedPen="Dlugopis - Czerwony",
+ItemName_Base.Pen="Dlugopis - Czarny",
+
+/************** LOGS **************/
+ItemName_Base.LogStacks4="Stos czterech klod",
+ItemName_Base.LogStacks3="Stos trzech klod",
+ItemName_Base.LogStacks2="Stos dwoch klod",
+}
