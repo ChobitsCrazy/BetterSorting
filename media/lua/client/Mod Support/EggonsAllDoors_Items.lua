@@ -1,6 +1,6 @@
 require("ItemTweaker_Copy_CC");
 
---EveryDoorIsYours
+--AllDoorsAreYours
 TweakItem("EADAY.CarpentryDoor1","DisplayCategory","CraftCarp");
 TweakItem("EADAY.CarpentryDoor2","DisplayCategory","CraftCarp");
 TweakItem("EADAY.CarpentryDoor3","DisplayCategory","CraftCarp");
