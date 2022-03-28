@@ -246,11 +246,6 @@ TweakItem("LactoseCrossbow.ModernCrossbowStrungNylon","DisplayCategory","WepBow"
 --Ladders
 TweakItem("Ladders.SteelLadder","DisplayCategory","Misc");
 TweakItem("Ladders.WoodenLadder","DisplayCategory","Misc");
---LockpickingOnly
-TweakItem("FMJ.LockPickingMag","DisplayCategory","LitR");
-TweakItem("FMJ.LockPickingMag2","DisplayCategory","LitR");
-TweakItem("FMJ.BobbyPin","DisplayCategory","Tool");
-TweakItem("FMJ.BobbyPinRaw","DisplayCategory","Tool");
 --ManyBags
 TweakItem("Base.AliceBackPack","DisplayCategory","ClothB");
 TweakItem("Base.AliceBackPackExtraPocket","DisplayCategory","ClothB");
