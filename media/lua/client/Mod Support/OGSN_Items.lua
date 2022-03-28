@@ -1,5 +1,10 @@
 require("ItemTweaker_Copy_CC");
 
+--LockpickingOnly
+TweakItem("FMJ.LockPickingMag","DisplayCategory","LitR");
+TweakItem("FMJ.LockPickingMag2","DisplayCategory","LitR");
+TweakItem("FMJ.BobbyPin","DisplayCategory","Tool");
+TweakItem("FMJ.BobbyPinRaw","DisplayCategory","Tool");
 --OGSN ORPHANAGE
 --ForkMJdairy
 TweakItem("Base.DairyCookingMag","DisplayCategory","LitR");
