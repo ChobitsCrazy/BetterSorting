@@ -99,6 +99,18 @@ TweakItem("AxeRecrafting.FireAxeHead","DisplayCategory","Craft");
 TweakItem("AxeRecrafting.WoodAxeHead","DisplayCategory","Craft");
 TweakItem("AxeRecrafting.HandAxeHead","DisplayCategory","Craft");
 TweakItem("AxeRecrafting.MetalAxeHandle","DisplayCategory","Craft");
+--BCGRareWeapons
+TweakItem("BCGRareWeapons.ReinforcedBaseballBat","DisplayCategory","WepMelee");
+TweakItem("BCGRareWeapons.VikingAxe","DisplayCategory","WepMelee");
+--BCGTools
+TweakItem("BCGTools.HandHatchet","DisplayCategory","WepMelee");
+TweakItem("BCGTools.CheapSurvivalKnife","DisplayCategory","WepMelee");
+TweakItem("BCGTools.SurvivalKnife","DisplayCategory","WepMelee");
+TweakItem("BCGTools.RancherMachete","DisplayCategory","WepMelee");
+TweakItem("BCGTools.KukriMachete","DisplayCategory","WepMelee");
+TweakItem("BCGTools.SplittingAxe","DisplayCategory","WepMelee");
+TweakItem("BCGTools.SpearSurvivalKnife","DisplayCategory","WepMelee");
+TweakItem("BCGTools.SpearCheapSurvivalKnife","DisplayCategory","WepMelee");
 --Bedford Falls
 TweakItem("Base.BedfordMap","DisplayCategory","Map");
 --BetterHelicopter
@@ -110,18 +122,6 @@ TweakItem("BetLock.BobbyPin","DisplayCategory","Tool");
 TweakItem("BetLock.HandmadeBobbyPin","DisplayCategory","Tool");
 --BetterTowing
 TweakItem("TowingCar.TowBar","DisplayCategory","Tool");
---BGCRareWeapons
-TweakItem("BCGRareWeapons.ReinforcedBaseballBat","DisplayCategory","WepMelee");
-TweakItem("BCGRareWeapons.VikingAxe","DisplayCategory","WepMelee");
---BGCTools
-TweakItem("BCGTools.HandHatchet","DisplayCategory","WepMelee");
-TweakItem("BCGTools.CheapSurvivalKnife","DisplayCategory","WepMelee");
-TweakItem("BCGTools.SurvivalKnife","DisplayCategory","WepMelee");
-TweakItem("BCGTools.RancherMachete","DisplayCategory","WepMelee");
-TweakItem("BCGTools.KukriMachete","DisplayCategory","WepMelee");
-TweakItem("BCGTools.SplittingAxe","DisplayCategory","WepMelee");
-TweakItem("BCGTools.SpearSurvivalKnife","DisplayCategory","WepMelee");
-TweakItem("BCGTools.SpearCheapSurvivalKnife","DisplayCategory","WepMelee");
 --BogasPizza
 TweakItem("BogaPizza.PizzaDough","DisplayCategory","FoodP");
 TweakItem("BogaPizza.PizzaCheese","DisplayCategory","FoodP");
