@@ -122,6 +122,8 @@ TweakItem("BetLock.BobbyPin","DisplayCategory","Tool");
 TweakItem("BetLock.HandmadeBobbyPin","DisplayCategory","Tool");
 --BetterTowing
 TweakItem("TowingCar.TowBar","DisplayCategory","Tool");
+--4ColorBicPen
+TweakItem("BicPen.BicPen","DisplayCategory","LitW");
 --BogasPizza
 TweakItem("BogaPizza.PizzaDough","DisplayCategory","FoodP");
 TweakItem("BogaPizza.PizzaCheese","DisplayCategory","FoodP");
