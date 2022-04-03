@@ -243,6 +243,7 @@ TweakItem("ISA.SolarPanelFlat","DisplayCategory","Electronics");
 TweakItem("ISA.SolarPanelWall","DisplayCategory","Electronics");
 TweakItem("ISA.SolarPanelMounted","DisplayCategory","Electronics");
 TweakItem("ISA.SolarFailsafe","DisplayCategory","Electronics");
+TweakItem("ISA.ISAMag1","DisplayCategory","LitR");
 --KitsuneAmmoCraftBrita
 TweakItem("Base.Lyman49th_Manual","DisplayCategory","LitR");
 TweakItem("Base.Lyman_TMag","DisplayCategory","Tool");
