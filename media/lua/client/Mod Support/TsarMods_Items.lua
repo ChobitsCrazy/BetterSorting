@@ -54,6 +54,15 @@ TweakItem("Autotsar.ATAJeepInteractiveTrunkRoofRackItem","DisplayCategory","Mech
 TweakItem("Autotsar.ATAJeepInteractiveTrunkWheelRackItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAJeepRoofTentItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAJeepSnorkelItem","DisplayCategory","Mechanics");
+--ATA-Dadge
+TweakItem("Autotsar.ATADodgeTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATADodgeRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATADodgeWindowRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATADodgeBullbar1Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATADodgeBullbar2Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATADodgeBullbar3Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATADodgeProtectionWindowSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATADodgeProtectionWindowFrontItem","DisplayCategory","Mechanics");
 --ATA-Petyarbuilt
 TweakItem("Autotsar.ATAPetyarbuiltTuningMag","DisplayCategory","LitR");
 TweakItem("Autotsar.ATAPetyarbuiltProtectionSleeperItem","DisplayCategory","Mechanics");
