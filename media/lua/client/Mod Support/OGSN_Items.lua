@@ -94,6 +94,7 @@ TweakItem("GidOrganizedFood.OS8pkWhiskeyEmpty","DisplayCategory","Container");
 TweakItem("GidOrganizedFood.OS24pkWaterBottleEmpty","DisplayCategory","Container");
 TweakItem("GidOrganizedFood.OS24pkWaterBottleFull","DisplayCategory","FoodB");
 TweakItem("GidOrganizedFood.OS4pkDuctTape","DisplayCategory","Craft");
+if getActivatedMods():contains("OGSN_Orphan_RodsStore") then
 --OGSN_Orphan_RodsStore
 TweakItem("RS.KnuckleKnife","DisplayCategory","WepMelee");
 TweakItem("RS.PoliceKnife","DisplayCategory","WepMelee");
@@ -214,6 +215,7 @@ TweakItem("RS.FilledMediumTupperware","DisplayCategory","FoodP");
 TweakItem("RS.Cream","DisplayCategory","FoodP");
 TweakItem("RS.CherriesJar","DisplayCategory","FoodN");
 TweakItem("RS.Pepperoni","DisplayCategory","FoodN");
+end
 --OSGNTieOnSpearHead
 TweakItem("Base.SpearChippedStone","DisplayCategory","WepMelee");
 --VanillaFoodFixes
