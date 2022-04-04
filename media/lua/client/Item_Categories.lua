@@ -723,6 +723,8 @@ TweakItem("Base.MuffinTray","DisplayCategory","Cooking");
 TweakItem("Base.OilOlive","DisplayCategory","Cooking");
 TweakItem("Base.OilVegetable","DisplayCategory","Cooking");
 TweakItem("Base.PancakeMix","DisplayCategory","Cooking");
+TweakItem("Base.CakeBatter","DisplayCategory","Cooking");
+TweakItem("Base.CakePrep","DisplayCategory","Cooking");
 --CRAFTING
 TweakItem("Base.BucketPlasterFull","DisplayCategory","Craft");
 TweakItem("Base.Doorknob","DisplayCategory","Craft");
@@ -889,8 +891,6 @@ TweakItem("Base.WaterMugWhite","DisplayCategory","FoodB");
 TweakItem("Base.WaterTeacup","DisplayCategory","FoodB");
 TweakItem("Base.BeefJerky","DisplayCategory","FoodN");
 TweakItem("Base.Butter","DisplayCategory","FoodN");
-TweakItem("Base.CakeBatter","DisplayCategory","FoodN");
-TweakItem("Base.CakePrep","DisplayCategory","FoodN");
 TweakItem("Base.Candycane","DisplayCategory","FoodN");
 TweakItem("Base.CandyPackage","DisplayCategory","FoodN");
 TweakItem("Base.CannedBolognese","DisplayCategory","FoodN");
