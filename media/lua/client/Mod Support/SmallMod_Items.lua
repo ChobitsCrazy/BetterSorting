@@ -395,6 +395,8 @@ TweakItem("Silencer.Silencer","DisplayCategory","WepPart");
 TweakItem("Silencer.HMSilencer","DisplayCategory","WepPart");
 --SimplePowderedMilk
 TweakItem("Base.fhqPowderedMilkPouch","DisplayCategory","FoodN");
+--SkillRecoveryJournal
+TweakItem("Base.SkillRecoveryJournal","DisplayCategory","LitS");
 --SleepingBags
 TweakItem("Base.Sleepingbag","DisplayCategory","SurCamp");
 TweakItem("Base.SleepingbagG","DisplayCategory","SurCamp");
