@@ -68,6 +68,8 @@ TweakItem("Base.MilitaryAirportMap","DisplayCategory","Map");
 TweakItem("Base.ChernavilleMap","DisplayCategory","Map");
 TweakItem("Base.BlueberryMap","DisplayCategory","Map");
 TweakItem("Base.GreenleafMap","DisplayCategory","Map");
+TweakItem("Base.CoryerdonMap","DisplayCategory","Map");
+TweakItem("Base.OldParkTownMap","DisplayCategory","Map");
 TweakItem("Base.WestPointExpansionMap","DisplayCategory","Map");
 TweakItem("Base.GlenportMap","DisplayCategory","Map");
 TweakItem("Base.EC_CustomsBorderZoneMap","DisplayCategory","Map");
