@@ -92,6 +92,14 @@ TweakItem("Autotsar.ATAMotoHarleyGasTank","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoHarleyHolster","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoHarleySeat","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoQuadSeat","DisplayCategory","Mechanics");
+--ATA-Luton
+TweakItem("Autotsar.ATALutonTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATALutonProtectionSideFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionHoodItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
 --AutotsarTrailers
 TweakItem("Base.GunRack","DisplayCategory","Mechanics");
 TweakItem("filcher.SFCarCounter","DisplayCategory","Mechanics");
