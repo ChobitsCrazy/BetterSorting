@@ -91,7 +91,7 @@ TweakItem("Armor.Hat_BalaclavaFace","DisplayCategory","Cloth");
 TweakItem("Armor.Hat_BalaclavaFull","DisplayCategory","Cloth");
 --AutoGate
 TweakItem("AutoGate.AutoGateMag","DisplayCategory","LitR");
-TweakItem("AutoGate.GateController","DisplayCategory","CraftElec");
+TweakItem("AutoGate.GateController","DisplayCategory","Electronics");
 TweakItem("AutoGate.GateComponents","DisplayCategory","CraftElec");
 --AxesRecrafting
 TweakItem("AxeRecrafting.AxeHandle","DisplayCategory","Craft");
