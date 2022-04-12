@@ -298,3 +298,7 @@ TweakItem("Base.MakeUp_GreenCamo","DisplayCategory","ClothM");
 TweakItem("Base.MakeUp_GreenCamo2","DisplayCategory","ClothM");
 --KeyTool
 TweakItem("Keytool.KeyRing","DisplayCategory","ClothA");
+--Slim Jim
+TweakItem("Base.PA_SlimJim","DisplayCategory","Tool");
+TweakItem("Base.PA_TrueCrimeMag2","DisplayCategory","LitR");
+TweakItem("Base.PA_TrueCrimeMag2_b","DisplayCategory","LitR");
