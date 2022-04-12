@@ -113,6 +113,25 @@ TweakItem("BCGTools.SpearSurvivalKnife","DisplayCategory","WepMelee");
 TweakItem("BCGTools.SpearCheapSurvivalKnife","DisplayCategory","WepMelee");
 --Bedford Falls
 TweakItem("Base.BedfordMap","DisplayCategory","Map");
+--Better Flashlights
+TweakItem("Base.BF_HeadLight","DisplayCategory","Tool");
+TweakItem("Base.Hat_HardHat_Miner_With_Light","DisplayCategory","Cloth");
+TweakItem("Base.HandTorch_CK_LED","DisplayCategory","Tool");
+TweakItem("Base.HandTorch_ManLite","DisplayCategory","Tool");
+TweakItem("Base.HandTorch_Army1","DisplayCategory","Tool");
+TweakItem("Base.HandTorch_Army2","DisplayCategory","Tool");
+TweakItem("Base.Torch1","DisplayCategory","Tool");
+TweakItem("Base.Torch2","DisplayCategory","Tool");
+TweakItem("Base.Torch3","DisplayCategory","Tool");
+TweakItem("Base.Torch4","DisplayCategory","Tool");
+TweakItem("Base.Torch5","DisplayCategory","Tool");
+TweakItem("Base.Torch6","DisplayCategory","Tool");
+TweakItem("Base.Torch7","DisplayCategory","Tool");
+TweakItem("Base.TorchArmy1","DisplayCategory","Tool");
+TweakItem("Base.TorchArmy2","DisplayCategory","Tool");
+TweakItem("Base.BF_EgenerexLite","DisplayCategory","Tool");
+TweakItem("Base.BF_SpiffoLite","DisplayCategory","Tool");
+TweakItem("Base.BF_OldFlashlight","DisplayCategory","Tool");
 --BetterHelicopter
 TweakItem("AI_HELI.HeliMag","DisplayCategory","LitR");
 --BetterLockpicking
