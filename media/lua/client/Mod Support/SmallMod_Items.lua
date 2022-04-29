@@ -377,6 +377,10 @@ TweakItem("MoreTraits.Bag_SmallHikingBag","DisplayCategory","ClothB");
 TweakItem("MoreTraits.AntiqueSpear","DisplayCategory","WepMelee");
 TweakItem("MoreTraits.AntiqueHammer","DisplayCategory","Tool");
 TweakItem("MoreTraits.AntiqueKatana","DisplayCategory","WepMelee");
+--Pitstop
+TweakItem("Base.KleanBackPack","DisplayCategory","ClothB");
+TweakItem("Base.CleanUpKrewJumpsuit","DisplayCategory","Cloth");
+TweakItem("Base.Shoes_CleanUpKrewSneakers","DisplayCategory","Cloth");
 --PlayerTraps
 TweakItem("Trap.PropaneTrap","DisplayCategory","SurTrap");
 TweakItem("Trap.BearTrap","DisplayCategory","SurTrap");
