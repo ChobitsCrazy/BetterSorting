@@ -2,7 +2,6 @@ require "ItemTweaker_Copy_CC"
 --Courtesy of Elzetia
 
 -- Book Occupations Expertises
-
 TweakItem("OccupationsExpertises.BookFitness1","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookFitness2","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookFitness3","DisplayCategory","LitS");
