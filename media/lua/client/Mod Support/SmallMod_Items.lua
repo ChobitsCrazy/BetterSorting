@@ -240,6 +240,9 @@ TweakItem("Base.BookFitness5","DisplayCategory","LitS");
 TweakItem("ExamineCorpse.nmMedicalMagazine1","DisplayCategory","LitR");
 TweakItem("ExamineCorpse.nmMedicalMagazine2","DisplayCategory","LitR");
 TweakItem("ExamineCorpse.nmMedicalStudiesJournal","DisplayCategory","Medical");
+--Fencing Kits
+TweakItem("FencingKit.FenceKit","DisplayCategory","CraftMetal");
+TweakItem("FencingKit.ChainWireRoll","DisplayCategory","CraftMetal");
 --ForScience
 TweakItem("Base.BookMedicalJournal","DisplayCategory","LitS");
 TweakItem("Base.BookElectricManual","DisplayCategory","LitS");

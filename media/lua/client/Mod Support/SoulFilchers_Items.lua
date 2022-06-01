@@ -390,3 +390,17 @@ TweakItem("filcher.SFChessboard","DisplayCategory","Junk");
 TweakItem("filcher.SFLetter","DisplayCategory","Junk");
 TweakItem("filcher.Magic8Ball","DisplayCategory","Junk");
 TweakItem("filcher.MulticolorPen","DisplayCategory","LitW");
+--PhotographingTime
+TweakItem("Base.CameraReady","DisplayCategory","Electronics");
+TweakItem("Base.CameraDisposable","DisplayCategory","Electronics");
+TweakItem("Base.CameraExpensiveReady","DisplayCategory","Electronics");
+TweakItem("Base.CameraFilm","DisplayCategory","Junk");
+TweakItem("Base.CameraFilmRevealed","DisplayCategory","Junk");
+TweakItem("Base.PhotographicPaper","DisplayCategory","LitW");
+TweakItem("Base.SFPhotoMag","DisplayCategory","LitR");
+TweakItem("Base.Picture","DisplayCategory","Junk");
+TweakItem("Base.BookPhotography1","DisplayCategory","LitS");
+TweakItem("Base.BookPhotography2","DisplayCategory","LitS");
+TweakItem("Base.BookPhotography3","DisplayCategory","LitS");
+TweakItem("Base.BookPhotography4","DisplayCategory","LitS");
+TweakItem("Base.BookPhotography5","DisplayCategory","LitS");
