@@ -309,3 +309,7 @@ TweakItem("SLEOClothing.Trousers_SheriffTacticalTucked","DisplayCategory","Cloth
 --XM93_CBRN
 TweakItem("Base.XM93LabContainer","DisplayCategory","Mechanics");
 TweakItem("Base.XM93VehicleInterior","DisplayCategory","Mechanics");
+--'93 FJ75 Land Cruiser Pickup
+TweakItem("Base.FJ75DoorArmor2","DisplayCategory","Mechanics");
+TweakItem("Base.FJ75WindshieldArmor2","DisplayCategory","Mechanics");
+TweakItem("Base.FJ75Bullbar2","DisplayCategory","Mechanics");

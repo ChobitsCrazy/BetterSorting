@@ -100,6 +100,19 @@ TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Me
 TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
+--DeRumba Van
+TweakItem("Autotsar.ATAVanDeRumbaTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar1Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar2Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar3Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionHoodItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowRearItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaLadderItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaRoofBaseItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbRoofBoxItem","DisplayCategory","Mechanics");
 --AutotsarTrailers
 TweakItem("Base.GunRack","DisplayCategory","Mechanics");
 TweakItem("filcher.SFCarCounter","DisplayCategory","Mechanics");
