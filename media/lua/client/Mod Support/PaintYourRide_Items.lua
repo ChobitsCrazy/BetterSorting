@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --PaintYourRide
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2281256511
+if getActivatedMods():contains("PaintYourRide") then
 TweakItem("PaintYourRide.VehiclePaintingMag1","DisplayCategory","LitR");
 TweakItem("PaintYourRide.VehiclePaintingMag2","DisplayCategory","LitR");
 TweakItem("PaintYourRide.SprayGun","DisplayCategory","Paint");
@@ -49,3 +51,4 @@ TweakItem("PaintYourRide.AutomotiveSprayPaintWhite","DisplayCategory","Paint");
 TweakItem("PaintYourRide.AutomotiveSprayPaintYellow","DisplayCategory","Paint");
 TweakItem("PaintYourRide.AutomotiveSprayPaintYellowNeon","DisplayCategory","Paint");
 TweakItem("PaintYourRide.AutomotiveSprayPaintYellowTuscany","DisplayCategory","Paint");
+end

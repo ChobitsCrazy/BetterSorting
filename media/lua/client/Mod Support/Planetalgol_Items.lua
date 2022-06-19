@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --AdvancedGEAR
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2050264961
+if getActivatedMods():contains("ADVANCEDGEAR") then
 TweakItem("Base.AssaultBoots","DisplayCategory","Cloth");
 TweakItem("Base.AssaultBootsDesert","DisplayCategory","Cloth");
 TweakItem("Base.CalfSheath","DisplayCategory","ClothA");
@@ -296,9 +298,18 @@ TweakItem("Base.MRE_FlamelessRationHeater_Trash","DisplayCategory","Junk");
 --GEAR
 TweakItem("Base.MakeUp_GreenCamo","DisplayCategory","ClothM");
 TweakItem("Base.MakeUp_GreenCamo2","DisplayCategory","ClothM");
+end
+
 --KeyTool
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2266521599
+if getActivatedMods():contains("Keytool") then
 TweakItem("Keytool.KeyRing","DisplayCategory","ClothA");
+end
+
 --Slim Jim
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2793314838
+if getActivatedMods():contains("SlimJimLockoutTool") then
 TweakItem("Base.PA_SlimJim","DisplayCategory","Tool");
 TweakItem("Base.PA_TrueCrimeMag2","DisplayCategory","LitR");
 TweakItem("Base.PA_TrueCrimeMag2_b","DisplayCategory","LitR");
+end

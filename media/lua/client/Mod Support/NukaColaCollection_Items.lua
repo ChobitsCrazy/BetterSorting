@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --NukaColaCollection
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2613274731
+if getActivatedMods():contains("NukaColaCollection") then
 TweakItem("nuka.NukaCherry","DisplayCategory","FoodB");
 TweakItem("nuka.NukaCherryOpen","DisplayCategory","FoodB");
 TweakItem("nuka.EmptyNukaCherry","DisplayCategory","Container");
@@ -55,3 +57,4 @@ TweakItem("nuka.NukaWildOpen","DisplayCategory","FoodB");
 TweakItem("nuka.EmptyNukaWild","DisplayCategory","Container");
 TweakItem("nuka.NukaWildWater","DisplayCategory","FoodB");
 TweakItem("nuka.NukaWildCap","DisplayCategory","Junk");
+end

@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --59Meteor
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2772575623
+if getActivatedMods():contains("59meteor") or getActivatedMods():contains("ECTO1") then
 TweakItem("Base.ECTO1tire2_Item","DisplayCategory","Mechanics");
 TweakItem("Base.ECTO1tire1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.ECTO1Trunk2","DisplayCategory","Mechanics");
@@ -24,13 +26,21 @@ TweakItem("Base.ECTO1DefaultInterior2","DisplayCategory","Mechanics");
 TweakItem("Base.ECTO1Windshield2","DisplayCategory","Mechanics");
 TweakItem("Base.ECTO1RearWindshield2","DisplayCategory","Mechanics");
 TweakItem("Base.ECTO1SideWindow2","DisplayCategory","Mechanics");
+end
+
 --67Commando
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2478247379
+if getActivatedMods():contains("67commando") then
 TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.FrontLeftV100Door2","DisplayCategory","Mechanics");
 TweakItem("Base.FrontRightV100Door2","DisplayCategory","Mechanics");
 TweakItem("Base.RearV100Door2","DisplayCategory","Mechanics");
 TweakItem("Base.V100Window2","DisplayCategory","Mechanics");
+end
+
 --74amgeneralM151A2
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2785549133
+if getActivatedMods():contains("74amgeneralM151A2") then
 TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.V102Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.M151A2Trunk2","DisplayCategory","Mechanics");
@@ -50,7 +60,11 @@ TweakItem("Base.M151A2WindshieldArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M151A2CabArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M151A2BarrierLeft1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M151A2BarrierRight1_Item","DisplayCategory","Mechanics");
+end
+
 --78amgeneralM35A2
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2799152995
+if getActivatedMods():contains("78amgeneralM35A2") then
 TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.V103Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.V103Axle2","DisplayCategory","Mechanics");
@@ -73,7 +87,11 @@ TweakItem("Base.M35A2Door2","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2WindshieldArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2DoorArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2Mudflaps1_Item","DisplayCategory","Mechanics");
+end
+
 --80kz1000
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2818847163
+if getActivatedMods():contains("80kz1000") then
 TweakItem("Base.KZ1Kstorage3","DisplayCategory","Mechanics");
 TweakItem("Base.KZ1Ksidestorage3","DisplayCategory","Mechanics");
 TweakItem("Base.KZ1Kextra3","DisplayCategory","Mechanics");
@@ -87,7 +105,11 @@ TweakItem("Base.KZ1KgasTank","DisplayCategory","Mechanics");
 TweakItem("Base.KZ1Kseat","DisplayCategory","Mechanics");
 TweakItem("Base.KZ1Kwindshield3","DisplayCategory","Mechanics");
 TweakItem("Base.Hat_CHiPsHelmet","DisplayCategory","Cloth");
+end
+
 --83AMGeneralM923
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2811383142
+if getActivatedMods():contains("83amgeneralM923") then
 TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.M923Axle2","DisplayCategory","Mechanics");
 TweakItem("Base.M923Trunk2","DisplayCategory","Mechanics");
@@ -113,7 +135,11 @@ TweakItem("Base.M923DoorArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M923GuntruckArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M923Mudflaps1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M923SpareMount1_Item","DisplayCategory","Mechanics");
+end
+
 --84Merc
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2805630347
+if getActivatedMods():contains("84merc") then
 TweakItem("Base.W460NormalTire2","DisplayCategory","Mechanics");
 TweakItem("Base.W460WideTire2","DisplayCategory","Mechanics");
 TweakItem("Base.W460Trunk2","DisplayCategory","Mechanics");
@@ -141,23 +167,43 @@ TweakItem("Base.W460Windshield2","DisplayCategory","Mechanics");
 TweakItem("Base.W460SideWindow2","DisplayCategory","Mechanics");
 TweakItem("Base.W460RearWindshield2","DisplayCategory","Mechanics");
 TweakItem("Base.W460Mudflaps1_Item","DisplayCategory","Mechanics");
+end
+
 --85Merc
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2469388752
+if getActivatedMods():contains("85merc") then
 TweakItem("Base.mercroofrack1","DisplayCategory","Mechanics");
 TweakItem("Base.mercroofrack2","DisplayCategory","Mechanics");
 TweakItem("Base.mercroofrack3","DisplayCategory","Mechanics");
+end
+
 --87Cruiser
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2489148104
+if getActivatedMods():contains("87cruiser") then
 TweakItem("Base.cruiserRoofrack1","DisplayCategory","Mechanics");
 TweakItem("Base.cruiserRoofrack2","DisplayCategory","Mechanics");
 TweakItem("Base.cruiserRoofrack3","DisplayCategory","Mechanics");
+end
+
 --89Defender90
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2443275640
+if getActivatedMods():contains("89def90") then
 TweakItem("Base.def90SpareCompartment1","DisplayCategory","Mechanics");
 TweakItem("Base.def90SpareCompartment2","DisplayCategory","Mechanics");
 TweakItem("Base.def90SpareCompartment3","DisplayCategory","Mechanics");
+end
+
 --89Defender110
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2441990998
+if getActivatedMods():contains("89def110") then
 TweakItem("Base.def110SpareCompartment1","DisplayCategory","Mechanics");
 TweakItem("Base.def110SpareCompartment2","DisplayCategory","Mechanics");
 TweakItem("Base.def110SpareCompartment3","DisplayCategory","Mechanics");
+end
+
 --92AMGeneralM998
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2642541073
+if getActivatedMods():contains("92amgeneralM998") then
 TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.V101Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.M998Trunk2","DisplayCategory","Mechanics");
@@ -192,10 +238,18 @@ TweakItem("Base.M101A3TrunkDoorTwo2","DisplayCategory","Mechanics");
 TweakItem("Base.M101A3Cover1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M101A3Tarp1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.leafSuspension2","DisplayCategory","Mechanics");
+end
+
 --ISOContainers
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2625625421
+if getActivatedMods():contains("isoContainers") then
 TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
 TweakItem("Base.IsoContainerTankerTrunkDoor2","DisplayCategory","Mechanics");
+end
+
 --Oshkosh82M911
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2618213077
+if getActivatedMods():contains("82oshkoshM911") then
 TweakItem("OshkoshShirts.TShirt_OshkoshGray","DisplayCategory","Cloth");
 TweakItem("OshkoshShirts.TShirt_OshkoshBlack","DisplayCategory","Cloth");
 TweakItem("OshkoshShirts.TShirt_bknht","DisplayCategory","Cloth");
@@ -210,8 +264,13 @@ TweakItem("Base.V100AxleSmall2","DisplayCategory","Mechanics");
 TweakItem("Base.M911Trunk2","DisplayCategory","Mechanics");
 TweakItem("Base.M911Toolbox2","DisplayCategory","Mechanics");
 TweakItem("Base.M911SpareTire2","DisplayCategory","Mechanics");
+end
+
 --Oshkosh86P19A
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2566953935
+if getActivatedMods():contains("86oshkoshP19A") then
 TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.P19ARoofHatch2","DisplayCategory","Mechanics");
 TweakItem("Base.P19ABigTrunk2","DisplayCategory","Mechanics");
 TweakItem("Base.P19ASmallTrunk2","DisplayCategory","Mechanics");
+end

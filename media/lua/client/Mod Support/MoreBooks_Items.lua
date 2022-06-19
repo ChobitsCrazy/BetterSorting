@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --More Books!
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2815857931
+if getActivatedMods():contains("MoreBooks") then
 --Literature Entertainment
 TweakItem("Books.Book","DisplayCategory","LitE");
 TweakItem("Books.Nineteen_Eighty-Four","DisplayCategory","LitE");
@@ -103,3 +105,4 @@ TweakItem("Books.Romeo_and_Juliet","DisplayCategory","LitE");
 TweakItem("Books.The_Diary_of_a_Young_Girl","DisplayCategory","LitE");
 TweakItem("Books.Factotum","DisplayCategory","LitE");
 TweakItem("Books.The_Art_of_War","DisplayCategory","LitE");
+end

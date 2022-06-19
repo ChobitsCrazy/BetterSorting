@@ -1,6 +1,9 @@
 require("ItemTweaker_Copy_CC");
 
 --AuthenticZ
+if getActivatedMods():contains("AuthenticZBackpacks+") 
+or getActivatedMods():contains("Authentic Z - Current") 
+or getActivatedMods():contains("AuthenticZLite") then
 TweakItem("AuthenticZClothing.FlareGun","DisplayCategory","WepFire");
 TweakItem("AuthenticZClothing.Flare12GaugeShot","DisplayCategory","Ammo");
 TweakItem("AuthenticZClothing.PZAZ_HitList","DisplayCategory","LitW");
@@ -810,3 +813,4 @@ TweakItem("AuthenticZClothing.WeddingDressBlue","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.WeddingDressPink","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Fat01_AmmoStrap","DisplayCategory","WepPart");
 TweakItem("AuthenticZClothing.Fat01_Vest_HighViz","DisplayCategory","Cloth");
+end

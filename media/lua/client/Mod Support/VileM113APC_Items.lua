@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --VILEM113APC
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1983277711
+if getActivatedMods():contains("VileM113APC") then
 TweakItem("Base.M113Tire1","DisplayCategory","Mechanics");
 TweakItem("Base.M113Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.M113Tire3","DisplayCategory","Mechanics");
@@ -34,3 +36,4 @@ TweakItem("Base.M113FrontWindow3","DisplayCategory","Mechanics");
 TweakItem("Base.M113GloveBox1","DisplayCategory","Mechanics");
 TweakItem("Base.M113GloveBox2","DisplayCategory","Mechanics");
 TweakItem("Base.M113GloveBox3","DisplayCategory","Mechanics");
+end

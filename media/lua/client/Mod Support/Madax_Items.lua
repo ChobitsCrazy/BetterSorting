@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --Melee Weapons Pack
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2492565135
+if getActivatedMods():contains("Max") then
 TweakItem("MWPWeapons.fiskarcurvedmachete","DisplayCategory","WepMelee");
 TweakItem("MWPWeapons.aluminiumbaseballbat","DisplayCategory","WepMelee");
 TweakItem("MWPWeapons.muelahuntingknife","DisplayCategory","WepMelee");
@@ -51,7 +53,11 @@ TweakItem("MWPWeapons.reavercleaver","DisplayCategory","WepMelee");
 TweakItem("MWPWeapons.coldsteelspear","DisplayCategory","WepMelee");
 TweakItem("MWPWeapons.taigamachete","DisplayCategory","WepMelee");
 TweakItem("MWPWeapons.dmmiceaxe","DisplayCategory","WepMelee");
+end
+
 --Akier Machete
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2798493195
+if getActivatedMods():contains("MDXakiermachete") then
 TweakItem("Base.akiermachete","DisplayCategory","WepMelee");
 TweakItem("Base.akiermacheteshortmod","DisplayCategory","WepMelee");
 TweakItem("Base.akiermacheteergonomicmod","DisplayCategory","WepMelee");
@@ -59,13 +65,22 @@ TweakItem("Base.akiermacheteergonomic&shortmod","DisplayCategory","WepMelee");
 TweakItem("Base.akiermachetebarbedmod","DisplayCategory","WepMelee");
 TweakItem("Base.akiermachetebleedmod","DisplayCategory","WepMelee");
 TweakItem("Base.akiermacheteergonomic&bleedmod","DisplayCategory","WepMelee");
+end
+
 --Elgor Camp Axe
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2748133073
+if getActivatedMods():contains("MDXelgorcampaxe") then
 TweakItem("Base.elgorcampaxe","DisplayCategory","WepMelee");
 TweakItem("Base.elgorcampaxehammermod","DisplayCategory","WepMelee");
 TweakItem("Base.elgorcampaxepiercemod","DisplayCategory","WepMelee");
+end
+
 --Rager Baseball Bat
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2693183552
+if getActivatedMods():contains("MDXragerbaseballbat") then
 TweakItem("Base.ragerbaseballbat","DisplayCategory","WepMelee");
 TweakItem("Base.ragerbaseballbatnailmod","DisplayCategory","WepMelee");
 TweakItem("Base.ragerbaseballbatbarbedmod","DisplayCategory","WepMelee");
 TweakItem("Base.ragerbaseballbatheavymod","DisplayCategory","WepMelee");
 TweakItem("Base.ragerbaseballbataxemod","DisplayCategory","WepMelee");
+end

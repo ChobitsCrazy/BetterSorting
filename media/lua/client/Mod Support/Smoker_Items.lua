@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --SMOKER
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2026976958
+if getActivatedMods():contains("Smoker") then
 TweakItem("SM.SMPack","DisplayCategory","Drugs")
 TweakItem("SM.SMPackLight","DisplayCategory","Drugs")
 TweakItem("SM.SMPackGold","DisplayCategory","Drugs")
@@ -52,3 +54,4 @@ TweakItem("SM.SMHandfulTobacco","DisplayCategory","Craft")
 TweakItem("SM.SMPileTobacco","DisplayCategory","Craft")
 TweakItem("SM.SMBigPileTobacco","DisplayCategory","Craft")
 TweakItem("SM.SMSmokingBlend","DisplayCategory","Craft")
+end

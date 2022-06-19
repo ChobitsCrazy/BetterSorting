@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --AllDoorsAreYours
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2733027635
+if getActivatedMods():contains("eggonsAllDoorsAreYours") then
 TweakItem("EADAY.CarpentryDoor1","DisplayCategory","CraftCarp");
 TweakItem("EADAY.CarpentryDoor2","DisplayCategory","CraftCarp");
 TweakItem("EADAY.CarpentryDoor3","DisplayCategory","CraftCarp");
@@ -56,3 +58,4 @@ TweakItem("EADAY.SplitGlassDoor_PizzaWhirled","DisplayCategory","CraftCarp");
 TweakItem("EADAY.ToiletCabinDoor_Blue","DisplayCategory","CraftCarp");
 TweakItem("EADAY.ToiletCabinDoor_Rose","DisplayCategory","CraftCarp");
 TweakItem("EADAY.UnknownDoor","DisplayCategory","CraftCarp");
+end

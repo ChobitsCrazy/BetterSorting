@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --DLTS
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1962914415
+if getActivatedMods():contains("DLTS") then
 --Container
 TweakItem("DLTS.LTSDryingMeatWet","DisplayCategory","Container");
 TweakItem("DLTS.LTSDryingMeat","DisplayCategory","Container");
@@ -170,3 +172,4 @@ TweakItem("DLTS.LTSWoodBurner","DisplayCategory","Tool");
 TweakItem("DLTS.LTSBatHardened","DisplayCategory","WepMelee");
 TweakItem("DLTS.LTSBatBarbed","DisplayCategory","WepMelee");
 TweakItem("DLTS.LTSBatSpiked","DisplayCategory","WepMelee");
+end

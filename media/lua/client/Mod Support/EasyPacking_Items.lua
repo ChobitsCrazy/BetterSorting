@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --EASYPACKING
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2438225189
+if getActivatedMods():contains("EasyPacking") or getActivatedMods():contains("EasyPackingHC") then
 TweakItem("Base.Soap2","DisplayCategory","Cleaning");
 TweakItem("GidOrganized.OS30pkAntibiotics","DisplayCategory","Medical");
 TweakItem("GidOrganized.OS12pkAdhesiveBandages","DisplayCategory","Medical");
@@ -140,4 +142,4 @@ TweakItem("Packing.pkMetalwork","DisplayCategory","LitS");
 TweakItem("Packing.pkTrapping","DisplayCategory","LitS");
 TweakItem("Packing.10pkBook","DisplayCategory","LitE");
 TweakItem("Packing.5pkBook","DisplayCategory","LitE");
-
+end

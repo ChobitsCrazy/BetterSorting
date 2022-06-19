@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --LITERATUREANDMAGAZINES
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2440051148
+if getActivatedMods():contains("Literature&Magazines") then
 --Literature
 TweakItem("Literature.BookTheHobbitorThereandBackAgain","DisplayCategory","LitE");
 TweakItem("Literature.BookTheFellowshipoftheRing","DisplayCategory","LitE");
@@ -1184,3 +1186,4 @@ TweakItem("Literature.ComicBookTales","DisplayCategory","LitE");
 TweakItem("Literature.ComicBookTales2","DisplayCategory","LitE");
 TweakItem("Literature.ComicBookDareDevil","DisplayCategory","LitE");
 TweakItem("Literature.ComicBookDareDevil2","DisplayCategory","LitE");
+end

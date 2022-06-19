@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --JIGGASGREENFIREMOD
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1703604612
+if getActivatedMods():contains("jiggasGreenfireMod") or getActivatedMods():contains("jiggasAddictionMod") then
 --Drugs
 TweakItem("Greenfire.FreshUnCanna","DisplayCategory","Drugs");
 TweakItem("Greenfire.FreshTCanna","DisplayCategory","Drugs");
@@ -113,3 +115,4 @@ TweakItem("Greenfire.TobaccoPipe","DisplayCategory","Drugs");
 TweakItem("Greenfire.TobaccoSeed","DisplayCategory","SurFarm");
 TweakItem("Greenfire.TobaccoBagSeed","DisplayCategory","SurFarm");
 TweakItem("Greenfire.PipeTobaccoBag","DisplayCategory","Drugs");
+end

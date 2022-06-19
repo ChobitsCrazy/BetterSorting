@@ -1,6 +1,9 @@
 require("ItemTweaker_Copy_CC");
 
 --KCMCROSSBOW
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2205190407
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2572385719
+if getActivatedMods():contains("TKCM") or getActivatedMods():contains("Remastered Kitsune's Crossbow Mod") then
 TweakItem("KCMweapons.KCM_Flax","DisplayCategory","Craft");
 TweakItem("KCMweapons.CrossbowBoltShaft","DisplayCategory","Craft");
 TweakItem("KCMweapons.CrossbowBoltParts","DisplayCategory","Craft");
@@ -35,3 +38,4 @@ TweakItem("KCMweapons.ShortShaft","DisplayCategory","Craft");
 TweakItem("KCMweapons.LongShaft","DisplayCategory","Craft");
 TweakItem("KCMweapons.CrossbowBoltHead","DisplayCategory","Craft");
 TweakItem("KCMweapons.CrossbowBoltFletching","DisplayCategory","Craft");
+end

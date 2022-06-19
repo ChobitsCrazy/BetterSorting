@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --VFE
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2667899942
+if getActivatedMods():contains("VFExpansion1") then
 TweakItem("Base.x2Scope","DisplayCategory","WepPart");
 TweakItem("Base.x4Scope","DisplayCategory","WepPart");
 TweakItem("Base.x8Scope","DisplayCategory","WepPart");
@@ -64,3 +66,4 @@ TweakItem("Base.OilFilter2","DisplayCategory","Tool");
 TweakItem("Base.9mmClip20","DisplayCategory","WepAmmoMag");
 TweakItem("Base.9mmClip17","DisplayCategory","WepAmmoMag");
 TweakItem("Base.9mmClip30","DisplayCategory","WepAmmoMag");
+end

@@ -1,6 +1,10 @@
 require("ItemTweaker_Copy_CC");
 
 --PLLOOT
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2279084780
+if getActivatedMods():contains("PLLoot") 
+or getActivatedMods():contains("PLLootF") 
+or getActivatedMods():contains("PLLootG") then
 TweakItem("Base.Animask1","DisplayCategory","ClothA");
 TweakItem("Base.Animask12","DisplayCategory","ClothA");
 TweakItem("Base.Animask13","DisplayCategory","ClothA");
@@ -125,4 +129,4 @@ TweakItem("Base.MP5GL2","DisplayCategory","WepFire");
 TweakItem("Base.Vulcan","DisplayCategory","WepFire");
 TweakItem("Base.Tanto","DisplayCategory","WepMelee");
 TweakItem("Base.WitchyStaff","DisplayCategory","WepMelee");
-
+end

@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --AllSkillBooks
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2699202565
+if getActivatedMods():contains("AllSkillBooks") then
 TweakItem("AllSkillBooks.BookFitness1","DisplayCategory","LitS");
 TweakItem("AllSkillBooks.BookFitness2","DisplayCategory","LitS");
 TweakItem("AllSkillBooks.BookFitness3","DisplayCategory","LitS");
@@ -76,3 +78,4 @@ TweakItem("AllSkillBooks.BookReloading2","DisplayCategory","LitS");
 TweakItem("AllSkillBooks.BookReloading3","DisplayCategory","LitS");
 TweakItem("AllSkillBooks.BookReloading4","DisplayCategory","LitS");
 TweakItem("AllSkillBooks.BookReloading5","DisplayCategory","LitS");
+end

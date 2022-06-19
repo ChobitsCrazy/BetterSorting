@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --CornerStoreCandiesAndSodas
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2412050672
+if getActivatedMods():contains("2412050672") then
 TweakItem("CCS.Pepso","DisplayCategory","FoodB");
 TweakItem("CCS.DrPepppa","DisplayCategory","FoodB");
 TweakItem("CCS.FantoOrange","DisplayCategory","FoodB");
@@ -64,3 +66,4 @@ TweakItem("CCS.HateradeYl","DisplayCategory","FoodB");
 TweakItem("CCS.minichugBL","DisplayCategory","FoodB");
 TweakItem("CCS.minichugPi","DisplayCategory","FoodB");
 TweakItem("CCS.minichugOr","DisplayCategory","FoodB");
+end

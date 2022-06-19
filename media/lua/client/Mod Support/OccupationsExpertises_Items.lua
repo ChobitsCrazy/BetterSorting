@@ -1,7 +1,9 @@
 require "ItemTweaker_Copy_CC"
 --Courtesy of Elzetia
 
--- Book Occupations Expertises
+--Book Occupations Expertises
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2729436580
+if getActivatedMods():contains("OccupationsExpertises") then
 TweakItem("OccupationsExpertises.BookFitness1","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookFitness2","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookFitness3","DisplayCategory","LitS");
@@ -76,3 +78,4 @@ TweakItem("OccupationsExpertises.BookReloading2","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookReloading3","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookReloading4","DisplayCategory","LitS");
 TweakItem("OccupationsExpertises.BookReloading5","DisplayCategory","LitS");
+end

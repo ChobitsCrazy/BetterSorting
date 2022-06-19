@@ -2,6 +2,8 @@ require "ItemTweaker_Copy_CC"
 --Courtesy of Baldovino98
 
 --BeautifyingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2425267353
+if getActivatedMods():contains("BeautifyingTime") or getActivatedMods():contains("SoulFilchersBeautifyingTime") then
 TweakItem("filcher.HairDyeAuburn","DisplayCategory","Appear");
 TweakItem("filcher.HairDyeAvocado","DisplayCategory","Appear");
 TweakItem("filcher.HairDyeCherry","DisplayCategory","Appear");
@@ -20,7 +22,11 @@ TweakItem("filcher.HairDyeOrange","DisplayCategory","Appear");
 TweakItem("filcher.HairDyePurple","DisplayCategory","Appear");
 TweakItem("filcher.HairDyeSnowWhite","DisplayCategory","Appear");
 TweakItem("filcher.HairDyeTurquoise","DisplayCategory","Appear");
+end
+
 --BuildingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2324586266
+if getActivatedMods():contains("BuildingTime") or getActivatedMods():contains("SoulFilchersBuildingTime") then
 TweakItem("filcher.SFChisel","DisplayCategory","Tool");
 TweakItem("filcher.MasonsTrowel","DisplayCategory","Tool");
 TweakItem("filcher.BookMasonry1","DisplayCategory","LitS");
@@ -39,7 +45,11 @@ TweakItem("filcher.HandTruckRed","DisplayCategory","Tool");
 TweakItem("filcher.SFMoldedBricks","DisplayCategory","CraftMas");
 TweakItem("filcher.SFSealant","DisplayCategory","CraftMas");
 TweakItem("filcher.SFGlassPanel","DisplayCategory","CraftMas");
+end
+
 --ClearingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1926311864
+if getActivatedMods():contains("ClearingTime") or getActivatedMods():contains("SoulFilchersClearingTime") then
 TweakItem("filcher.NailGun","DisplayCategory","WepRange");
 TweakItem("filcher.PoolballInSock","DisplayCategory","WepMelee");
 TweakItem("filcher.Recorder","DisplayCategory","WepMelee");
@@ -48,7 +58,11 @@ TweakItem("filcher.ClosedUmbrellaPink","DisplayCategory","WepMelee");
 TweakItem("filcher.WalkingCane","DisplayCategory","WepMelee");
 TweakItem("filcher.WoodenCross","DisplayCategory","WepMelee");
 TweakItem("Base.Corkscrew","DisplayCategory","WepMelee");
+end
+
 --CookingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1910606509
+if getActivatedMods():contains("CookingTime") or getActivatedMods():contains("SoulFilchersCookingTime") then
 TweakItem("filcher.SFCookingMag1","DisplayCategory","LitR");
 TweakItem("filcher.SFCookingMag2","DisplayCategory","LitR");
 TweakItem("filcher.SFCookingMag3","DisplayCategory","LitR");
@@ -145,7 +159,11 @@ TweakItem("filcher.SFCupcakeTray","DisplayCategory","Cooking");
 TweakItem("filcher.EmptyGlass","DisplayCategory","Cooking");
 TweakItem("filcher.JarAndLid","DisplayCategory","Cooking");
 TweakItem("filcher.SFThinStick","DisplayCategory","Cooking");
+end
+
 --DressingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2296517419
+if getActivatedMods():contains("DressingTime") or getActivatedMods():contains("SoulFilchersDressingTime") then
 TweakItem("MoreSkillBooks.Bag_FannyPackTINTFront","DisplayCategory","ClothB");
 TweakItem("MoreSkillBooks.Bag_FannyPackTINTBack","DisplayCategory","ClothB");
 TweakItem("MoreSkillBooks.Bag_NormalHikingBagTINT","DisplayCategory","ClothB");
@@ -248,7 +266,11 @@ TweakItem("MoreSkillBooks.Shoes_Clown","DisplayCategory","Cloth");
 TweakItem("MoreSkillBooks.Shoes_SantaBoots","DisplayCategory","Cloth");
 TweakItem("MoreSkillBooks.Socks_Ballet","DisplayCategory","Cloth");
 TweakItem("MoreSkillBooks.Socks_StockingsBlack","DisplayCategory","Cloth");
+end
+
 --DrinkingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2578460720
+if getActivatedMods():contains("DrinkingTime") or getActivatedMods():contains("SoulFilchersDrinkingTime") then
 TweakItem("filcher.JarWater","DisplayCategory","FoodB");
 TweakItem("filcher.PetrolCanWater","DisplayCategory","FoodB");
 TweakItem("filcher.PopCanWater","DisplayCategory","FoodB");
@@ -259,7 +281,11 @@ TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
 TweakItem("filcher.WaterDishFull","DisplayCategory","FoodB");
 TweakItem("filcher.WaterGallon","DisplayCategory","FoodB");
 TweakItem("filcher.WaterGallonEmpty","DisplayCategory","Container");
+end
+
 --ExploringTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2244879881
+if getActivatedMods():contains("ExploringTime") or getActivatedMods():contains("SoulFilchersExploringTime") then
 TweakItem("filcher.BottleWithGasPop","DisplayCategory","Fuel");
 TweakItem("filcher.BottleWithGasWater","DisplayCategory","Fuel");
 TweakItem("filcher.Flare","DisplayCategory","Tool");
@@ -274,7 +300,11 @@ TweakItem("filcher.TorchPlank","DisplayCategory","Tool");
 TweakItem("filcher.TorchPlankLit","DisplayCategory","Tool");
 TweakItem("filcher.TorchTableLeg","DisplayCategory","Tool");
 TweakItem("filcher.TorchTableLegLit","DisplayCategory","Tool");
+end
+
 --FarmingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1915420850
+if getActivatedMods():contains("FarmingTime") or getActivatedMods():contains("SoulFilchersFarmingTime") then
 TweakItem("filcher.SFBeetSyrupPot","DisplayCategory","FoodN");
 TweakItem("filcher.SFBeetPot","DisplayCategory","FoodN");
 TweakItem("filcher.Beetroot","DisplayCategory","FoodP");
@@ -300,7 +330,11 @@ TweakItem("filcher.GardeningSprayMilk","DisplayCategory","SurFarm");
 TweakItem("filcher.SFGrainGrinder","DisplayCategory","Tool");
 TweakItem("filcher.SFCloth","DisplayCategory","Junk");
 TweakItem("filcher.SFClothDirty","DisplayCategory","Junk");
+end
+
 --ForagingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2677920531
+if getActivatedMods():contains("ForagingTime") or getActivatedMods():contains("SoulFilchersForagingTime") then
 TweakItem("filcher.SFAcorns","DisplayCategory","FoodN");
 TweakItem("filcher.SFHickoryNut","DisplayCategory","FoodN");
 TweakItem("filcher.SFHoney","DisplayCategory","FoodN");
@@ -312,7 +346,11 @@ TweakItem("filcher.SFRaspberry","DisplayCategory","FoodP");
 TweakItem("filcher.SFTruffles","DisplayCategory","FoodP");
 TweakItem("filcher.Cigarette","DisplayCategory","Drugs");
 TweakItem("filcher.SFDeadCrow","DisplayCategory","FoodP");
+end
+
 --FreezingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2779902452
+if getActivatedMods():contains("FreezingTime") or getActivatedMods():contains("SoulFilchersFreezingTime") then
 TweakItem("filcher.SFBucketSnow","DisplayCategory","Craft");
 TweakItem("filcher.SFEmptyTray","DisplayCategory","Container");
 TweakItem("filcher.SFIceTray","DisplayCategory","FoodB");
@@ -323,7 +361,11 @@ TweakItem("filcher.SFThermometer","DisplayCategory","Junk");
 TweakItem("filcher.TinCanSnow","DisplayCategory","Craft");
 TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
 TweakItem("filcher.SFWaterTray","DisplayCategory","FoodB");
+end
+
 --LearningTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1911229825
+if getActivatedMods():contains("LearningTime") or getActivatedMods():contains("SoulFilchersLearningTime") then
 TweakItem("filcher.BookMaintenance1","DisplayCategory","LitR");
 TweakItem("filcher.BookMaintenance2","DisplayCategory","LitR");
 TweakItem("filcher.BookMaintenance3","DisplayCategory","LitR");
@@ -374,7 +416,11 @@ TweakItem("filcher.SmithingNotes2","DisplayCategory","LitR");
 TweakItem("filcher.SmithingNotes3","DisplayCategory","LitR");
 TweakItem("filcher.SmithingNotes4","DisplayCategory","LitR");
 TweakItem("filcher.SmithingNotes5","DisplayCategory","LitR");
+end
+
 --RelaxingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2039234811
+if getActivatedMods():contains("RelaxingTime") or getActivatedMods():contains("SoulFilchersRelaxingTime") then
 TweakItem("filcher.ColoringBook","DisplayCategory","LitE");
 TweakItem("filcher.Crosswords","DisplayCategory","LitE");
 TweakItem("filcher.GiftCard","DisplayCategory","Junk");
@@ -390,7 +436,11 @@ TweakItem("filcher.SFChessboard","DisplayCategory","Junk");
 TweakItem("filcher.SFLetter","DisplayCategory","Junk");
 TweakItem("filcher.Magic8Ball","DisplayCategory","Junk");
 TweakItem("filcher.MulticolorPen","DisplayCategory","LitW");
+end
+
 --PhotographingTime
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2810116138
+if getActivatedMods():contains("PhotographingTime") or getActivatedMods():contains("SoulFilchersPhotographingTime") then
 TweakItem("Base.CameraReady","DisplayCategory","Electronics");
 TweakItem("Base.CameraDisposable","DisplayCategory","Electronics");
 TweakItem("Base.CameraExpensiveReady","DisplayCategory","Electronics");
@@ -404,3 +454,4 @@ TweakItem("Base.BookPhotography2","DisplayCategory","LitS");
 TweakItem("Base.BookPhotography3","DisplayCategory","LitS");
 TweakItem("Base.BookPhotography4","DisplayCategory","LitS");
 TweakItem("Base.BookPhotography5","DisplayCategory","LitS");
+end

@@ -1,10 +1,15 @@
 require("ItemTweaker_Copy_CC");
 
 --NewEkron
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2712480036
+if getActivatedMods():contains("TheWorkshop(new version)") then
 TweakItem("Base.TheBong","DisplayCategory","WepMelee");
 TweakItem("Base.Rusty","DisplayCategory","WepFire");
+end
 
 --Pitstop
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2597946327
+if getActivatedMods():contains("Pitstop") or getActivatedMods():contains("PitstopLegacy") then
 TweakItem("Base.AirMags","DisplayCategory","Cloth");
 TweakItem("Base.AlienBackPack","DisplayCategory","ClothB");
 TweakItem("Base.AlienCap","DisplayCategory","Cloth");
@@ -61,3 +66,4 @@ TweakItem("Base.GhostTrap","DisplayCategory","WepMelee");
 TweakItem("Base.EnergySword","DisplayCategory","WepMelee");
 TweakItem("Base.DjackzVinyl","DisplayCategory","WepMelee");
 TweakItem("Base.FutureShotgun","DisplayCategory","WepFire");
+end

@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --AMMOCRAFT
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2245813444
+if getActivatedMods():contains("ammocraft") or getActivatedMods():contains("ammocraftfirearms") then
 --Crafting Ammo
 TweakItem("Base.Bullets9mm_casingbox","DisplayCategory","CraftAmmo");
 TweakItem("Base.Bullets45_casingbox","DisplayCategory","CraftAmmo");
@@ -81,3 +83,4 @@ TweakItem("Base.GunnutBible","DisplayCategory","LitR");
 --Tool
 TweakItem("Base.Reloadingpress","DisplayCategory","Tool");
 TweakItem("Base.Pliers","DisplayCategory","Tool");
+end

@@ -1,7 +1,10 @@
 require("ItemTweaker_Copy_CC");
 
 --SnakesModPack
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2719327441
+
 --AliceBackpack5
+if getActivatedMods():contains("AliceSPack") then
 TweakItem("AliceBP.SpearMilitaryKnife","DisplayCategory","WepMelee");
 TweakItem("AliceBP.SupportBackpack","DisplayCategory","ClothB");
 TweakItem("AliceBP.MRE","DisplayCategory","FoodN");
@@ -21,7 +24,10 @@ TweakItem("AliceBP.MilitaryCanteenFull","DisplayCategory","FoodB");
 TweakItem("AliceBP.MilitaryKnife","DisplayCategory","WepMelee");
 TweakItem("AliceBP.AlicePackUrban","DisplayCategory","ClothB");
 TweakItem("AliceBP.AlicePackDesert","DisplayCategory","ClothB");
+end
+
 --AmmoMakerReloaded
+if getActivatedMods():contains("AmmoMaker") then
 TweakItem("Base.Tshirt_AmmoMakerGreen","DisplayCategory","Cloth");
 TweakItem("AmmoMaker.ManualAM","DisplayCategory","LitR");
 TweakItem("AmmoMaker.AMBookAReloading1","DisplayCategory","LitS");
@@ -156,22 +162,37 @@ TweakItem("AmmoMaker.AmmoMagazine11","DisplayCategory","LitR");
 TweakItem("AmmoMaker.AmmoMagazine12","DisplayCategory","LitR");
 TweakItem("AmmoMaker.AmmoMagazine13","DisplayCategory","LitR");
 TweakItem("AmmoMaker.AmmoMagazine14","DisplayCategory","LitR");
+end
+
 --BatsMetalIconsRevived
+if getActivatedMods():contains("BatesMetalicosRevived") then
 TweakItem("BatesMetalicos.Bgrip","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.Bsock","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.MetalBaseballBat","DisplayCategory","WepMelee");
+end
+
 --FuelTanksMod
+if getActivatedMods():contains("FuelTanksMod") then
 TweakItem("FuelTanks.FuelTanksMag1","DisplayCategory","LitR");
 TweakItem("FuelTanks.FuelMeter","DisplayCategory","Tool");
+end
+
 --MilitaryComplex
+if getActivatedMods():contains("MilitaryComplex") then
 TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
+end
+
 --RiversideGunstore
+if getActivatedMods():contains("Riverside Gunstore") then
 TweakItem("Base.Shoes_BowlingTrainers","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_BowlingTrainersRed","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_BowlingTrainersGreen","DisplayCategory","Cloth");
 TweakItem("Base.Bowlingball","DisplayCategory","WepMelee");
 TweakItem("Base.BowlingPin","DisplayCategory","WepMelee");
+end
+
 --SkillsMag
+if getActivatedMods():contains("SkillsMag") then
 TweakItem("SkillMag.SkillMagPackage","DisplayCategory","LitS");
 TweakItem("SkillMag.SkillMagSprint","DisplayCategory","LitS");
 TweakItem("SkillMag.SkillMagLightFoot","DisplayCategory","LitS");
@@ -197,7 +218,10 @@ TweakItem("SkillMag.SkillMagMaintenance","DisplayCategory","LitS");
 TweakItem("SkillMag.SkillMagTailor","DisplayCategory","LitS");
 TweakItem("SkillMag.SkillMagAmmoReloading","DisplayCategory","LitS");
 TweakItem("SkillMag.SkillMagHunting","DisplayCategory","LitS");
+end
+
 --SnakeClothingMod
+if getActivatedMods():contains("SnakeClothingMod") then
 TweakItem("Base.CowToy","DisplayCategory","Junk");
 TweakItem("Base.SafeToy","DisplayCategory","Junk");
 TweakItem("Base.HorseToy","DisplayCategory","Junk");
@@ -222,7 +246,10 @@ TweakItem("Base.Hat_BarcelonaCap_Reverse","DisplayCategory","Cloth");
 TweakItem("Base.DitoHoodieDOWN_WhiteTINT","DisplayCategory","Cloth");
 TweakItem("Base.DitoHoodieUP_WhiteTINT","DisplayCategory","Cloth");
 TweakItem("Base.AlicePackDito","DisplayCategory","ClothB");
+end
+
 --SnakeMansion
+if getActivatedMods():contains("SnakeMansion") then
 TweakItem("Base.RouletteStick","DisplayCategory","WepMelee");
 TweakItem("Base.ZMChip1","DisplayCategory","Junk");
 TweakItem("Base.ZMChip2","DisplayCategory","Junk");
@@ -233,7 +260,10 @@ TweakItem("Base.ZMChip6","DisplayCategory","Junk");
 TweakItem("Base.ZMChip7","DisplayCategory","Junk");
 TweakItem("Base.ZMChip8","DisplayCategory","Junk");
 TweakItem("Base.ZMChip9","DisplayCategory","Junk");
+end
+
 --TableSaw
+if getActivatedMods():contains("TableSaw") then
 TweakItem("ColorDyes.DyesMag","DisplayCategory","LitR");
 TweakItem("ColorDyes.PlantRed","DisplayCategory","Paint");
 TweakItem("ColorDyes.PlantYellow","DisplayCategory","Paint");
@@ -321,7 +351,10 @@ TweakItem("TableSaw.StickStacks","DisplayCategory","CraftCarp");
 TweakItem("TableSaw.PlankStacks1","DisplayCategory","CraftCarp");
 TweakItem("TableSaw.PlankStacks2","DisplayCategory","CraftCarp");
 TweakItem("TableSaw.PlankStacks3","DisplayCategory","CraftCarp");
+end
+
 --TallerMecanico
+if getActivatedMods():contains("TallerMecanico") then
 TweakItem("Base.BatteryCleaner","DisplayCategory","Tool");
 TweakItem("Base.CarVanTunningParts","DisplayCategory","Mechanics");
 TweakItem("Base.CarStepVanTunningParts","DisplayCategory","Mechanics");
@@ -355,7 +388,10 @@ TweakItem("Base.SuspensionParts","DisplayCategory","Mechanics");
 TweakItem("Base.BrakesParts","DisplayCategory","Mechanics");
 TweakItem("Base.BrakesPartsBox","DisplayCategory","Mechanics");
 TweakItem("Base.SuspensionPartsBag","DisplayCategory","Mechanics");
+end
+
 --WPA
+if getActivatedMods():contains("WPA") then
 TweakItem("WPA.SilencerRK","DisplayCategory","Tool");
 TweakItem("WPA.SpongeTube","DisplayCategory","Tool");
 TweakItem("WPA.WeaponsMagazine","DisplayCategory","LitR");
@@ -435,3 +471,4 @@ TweakItem("WPA.SRecoilCompensator","DisplayCategory","WepPart");
 TweakItem("WPA.ShellHolderStock","DisplayCategory","WepPart");
 TweakItem("WPA.ShotgunPolymerStock","DisplayCategory","WepPart");
 TweakItem("WPA.FoldingStock","DisplayCategory","WepPart");
+end
