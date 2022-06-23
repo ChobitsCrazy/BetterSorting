@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --VacsDrinks
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2689863681
+if getActivatedMods():contains("VDK") then
 TweakItem("VDK.VAC_Can_Budlight","DisplayCategory","FoodB");
 TweakItem("VDK.VAC_Budlight_BeerCanEmpty","DisplayCategory","Junk");
 TweakItem("VDK.VAC_Can_Budweiser","DisplayCategory","FoodB");
@@ -56,3 +58,4 @@ TweakItem("VDK.VAC_Karhu_BeerCanEmpty","DisplayCategory","Junk");
 TweakItem("VDK.VAC_Bottle_AbsolutVodkaWaterFull","DisplayCategory","FoodB");
 TweakItem("VDK.VAC_Bottle_AbsolutVodkaFull","DisplayCategory","FoodB");
 TweakItem("VDK.VAC_Bottle_AbsolutVodkaEmpty","DisplayCategory","Junk");
+end

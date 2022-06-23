@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
---PowderedMilkPouch
+--RuggedRecipes
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2715579154
+if getActivatedMods():contains("RuggedRecipes") then
 --FARMING
 TweakItem("RuggedRecipes.Cucumber","DisplayCategory","FoodP");
 --ALCOHOL
@@ -71,3 +73,4 @@ TweakItem("RuggedRecipes.RuggedRecipesMagazine4","DisplayCategory","LitR");
 --SEED
 TweakItem("RuggedRecipes.RuggedRecipesMagazine4","CucumberSeed","SurFarm");
 TweakItem("RuggedRecipes.RuggedRecipesMagazine4","CucumberBagSeed","SurFarm");
+end

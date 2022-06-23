@@ -1,12 +1,19 @@
 require("ItemTweaker_Copy_CC");
 
 --LockpickingOnly
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2056238799
+if getActivatedMods():contains("LockpickingOnly") then
 TweakItem("FMJ.LockPickingMag","DisplayCategory","LitR");
 TweakItem("FMJ.LockPickingMag2","DisplayCategory","LitR");
 TweakItem("FMJ.BobbyPin","DisplayCategory","Tool");
 TweakItem("FMJ.BobbyPinRaw","DisplayCategory","Tool");
+end
+
 --OGSN ORPHANAGE
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2079001985
+
 --ForkMJdairy
+if getActivatedMods():contains("ForkMJdairy") then
 TweakItem("Base.DairyCookingMag","DisplayCategory","LitR");
 TweakItem("Base.Strainer","DisplayCategory","Cooking");
 TweakItem("Base.PowderedMilk","DisplayCategory","FoodN");
@@ -19,7 +26,10 @@ TweakItem("Base.YogurtPrep","DisplayCategory","FoodP");
 TweakItem("Base.YogurtJar","DisplayCategory","FoodP");
 TweakItem("Base.Butter","DisplayCategory","FoodN");
 TweakItem("Base.Yoghurt","DisplayCategory","FoodP");
+end
+
 --ForkMJfoodWild
+if getActivatedMods():contains("ForkMJfoodWild") then
 TweakItem("FMJ.BirchBark","DisplayCategory","SurCamp");
 TweakItem("FMJ.Dandelions","DisplayCategory","FoodP");
 TweakItem("FMJ.Herbs","DisplayCategory","FoodN");
@@ -43,7 +53,10 @@ TweakItem("FMJ.Omelettes","DisplayCategory","FoodP");
 TweakItem("FMJ.PotatoPancakes","DisplayCategory","FoodP");
 TweakItem("FMJ.RollUps","DisplayCategory","Misc");
 TweakItem("FMJ.QRollUps","DisplayCategory","Misc");
+end
+
 --ForkMJjarMeat
+if getActivatedMods():contains("ForkMJjarMeat") then
 TweakItem("FMJ.JarLizard","DisplayCategory","FoodP");
 TweakItem("FMJ.JarPheasant","DisplayCategory","FoodP");
 TweakItem("FMJ.JarSnake","DisplayCategory","FoodP");
@@ -57,7 +70,10 @@ TweakItem("FMJ.JarRabbitmeat","DisplayCategory","FoodP");
 TweakItem("FMJ.JarSmallanimalmeat","DisplayCategory","FoodP");
 TweakItem("FMJ.JarSmallbirdmeat","DisplayCategory","FoodP");
 TweakItem("FMJ.JarSalmon","DisplayCategory","FoodP");
+end
+
 --OGSN_Orphan_OrganizedStorage
+if getActivatedMods():contains("OGSN_Orphan_OrganizedStorage") then
 TweakItem("GidOrganized.OS30pkAntibiotics","DisplayCategory","Medical");
 TweakItem("GidOrganized.OS12pkAdhesiveBandages","DisplayCategory","Medical");
 TweakItem("GidOrganized.OS9pkBandages","DisplayCategory","Medical");
@@ -94,8 +110,10 @@ TweakItem("GidOrganizedFood.OS8pkWhiskeyEmpty","DisplayCategory","Container");
 TweakItem("GidOrganizedFood.OS24pkWaterBottleEmpty","DisplayCategory","Container");
 TweakItem("GidOrganizedFood.OS24pkWaterBottleFull","DisplayCategory","FoodB");
 TweakItem("GidOrganizedFood.OS4pkDuctTape","DisplayCategory","Craft");
-if getActivatedMods():contains("OGSN_Orphan_RodsStore") then
+end
+
 --OGSN_Orphan_RodsStore
+if getActivatedMods():contains("OGSN_Orphan_RodsStore") then
 TweakItem("RS.KnuckleKnife","DisplayCategory","WepMelee");
 TweakItem("RS.PoliceKnife","DisplayCategory","WepMelee");
 TweakItem("RS.CombatKnife","DisplayCategory","WepMelee");
@@ -216,9 +234,18 @@ TweakItem("RS.Cream","DisplayCategory","FoodP");
 TweakItem("RS.CherriesJar","DisplayCategory","FoodN");
 TweakItem("RS.Pepperoni","DisplayCategory","FoodN");
 end
+
 --OSGNTieOnSpearHead
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2036922754
+if getActivatedMods():contains("TieOnSpearheads") 
+or getActivatedMods():contains("TieOnSpearheads_MP") 
+or getActivatedMods():contains("TieOnSpearheads_Crafting") then
 TweakItem("Base.SpearChippedStone","DisplayCategory","WepMelee");
+end
+
 --VanillaFoodFixes
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2072147750
+if getActivatedMods():contains("VFFogsn") or getActivatedMods():contains("VFFogsn_herbsNoRot") then
 TweakItem("Base.StirFryBowl","DisplayCategory","FoodP");
 TweakItem("Base.RoastedVegetablesBowl","DisplayCategory","FoodP");
 TweakItem("Base.RosehipsDried","DisplayCategory","FoodN");
@@ -240,3 +267,4 @@ TweakItem("Base.BlackSageDried","DisplayCategory","Medical");
 TweakItem("Base.GinsengDried","DisplayCategory","Medical");
 TweakItem("Base.PlantainDried","DisplayCategory","Medical");
 TweakItem("Base.WildGarlicDried","DisplayCategory","Medical");
+end

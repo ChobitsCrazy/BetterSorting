@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --SWATPACKREDUX
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2091564445
+if getActivatedMods():contains("Swatpack") then
 TweakItem("Base.SWATPad","DisplayCategory","Cloth");
 TweakItem("Base.SwatNeck","DisplayCategory","Cloth");
 TweakItem("Base.Hat_SwatGasMask","DisplayCategory","Cloth");
@@ -37,3 +39,4 @@ TweakItem("Base.9mmMp5Clip","DisplayCategory","Ammo");
 TweakItem("Base.SwatStunGrenade","DisplayCategory","WepBomb");
 TweakItem("Base.SwatFragGrenade","DisplayCategory","WepBomb");
 TweakItem("Base.SwatSmokeGrenade","DisplayCategory","WepBomb");
+end

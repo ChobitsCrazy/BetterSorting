@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --BRDM-2
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2782916681
+if getActivatedMods():contains("BRDM2") then
 TweakItem("Base.BRDM2VehicleInterior","DisplayCategory","Mechanics");
 TweakItem("Base.BRDM2Tire","DisplayCategory","Mechanics");
 TweakItem("Base.ModernBrake8","DisplayCategory","Mechanics");
@@ -15,8 +17,12 @@ TweakItem("Base.EngineDoor8","DisplayCategory","Mechanics");
 TweakItem("Base.TrunkDoor8","DisplayCategory","Mechanics");
 TweakItem("Base.XM93Seat","DisplayCategory","Mechanics");
 TweakItem("Base.ModernCarMuffler8","DisplayCategory","Mechanics");
+end
+
 --Courtesy of Athigo 
 --Expanded Helicopter Event
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365
+if getActivatedMods():contains("ExpandedHelicopterEvents") then
 TweakItem("EHE.Hat_SPHPolice","DisplayCategory","Cloth");
 TweakItem("EHE.Hat_SPHPoliceVISORUP","DisplayCategory","Cloth");
 TweakItem("EHE.Hat_SPHMilitary","DisplayCategory","Cloth");
@@ -58,7 +64,11 @@ TweakItem("EHE.SurvivorFishingSupplyBox","DisplayCategory","Container");
 TweakItem("EHE.SurvivorSeedSupplyBox","DisplayCategory","Container");
 TweakItem("EHE.SurvivorCanningSupplyBox","DisplayCategory","Container");
 TweakItem("EHE.SurvivorToiletSupplyBox","DisplayCategory","Container");
+end
+
 --Fighter Pilot
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2756035778
+if getActivatedMods():contains("CSPT") then
 TweakItem("HouseMODS.CSU_13","DisplayCategory","Cloth");
 TweakItem("HouseMODS.HGU55","DisplayCategory","Cloth");
 TweakItem("HouseMODS.HGU55_blue","DisplayCategory","Cloth");
@@ -82,7 +92,11 @@ TweakItem("HouseMODS.NOMEX","DisplayCategory","Cloth");
 TweakItem("HouseMODS.Harness","DisplayCategory","Cloth");
 TweakItem("HouseMODS.SurvivalV","DisplayCategory","Cloth");
 TweakItem("HouseMODS.LPU","DisplayCategory","Cloth");
+end
+
 --Interim Fast Attack Vehicle (IFAV)
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2797176641
+if getActivatedMods():contains("IFAV") then
 TweakItem("Base.IFAVDoor2","DisplayCategory","Mechanics");
 TweakItem("Base.IFAVWindshield2","DisplayCategory","Mechanics");
 TweakItem("Base.IFAVWindshieldFrame2","DisplayCategory","Mechanics");
@@ -90,7 +104,11 @@ TweakItem("Base.IFAVFrontBumper2","DisplayCategory","Mechanics");
 TweakItem("Base.IFAVFrontTop2","DisplayCategory","Mechanics");
 TweakItem("Base.IFAVRearTop2","DisplayCategory","Mechanics");
 TweakItem("Base.IFAVSideCovers2","DisplayCategory","Mechanics");
+end
+
 --Shark and Cytt's Kentucky Car Overhaul
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2807356025
+if getActivatedMods():contains("SCKCO") then
 TweakItem("Base.K5Bullbar2","DisplayCategory","Mechanics");
 TweakItem("Base.K5Chevy2","DisplayCategory","Mechanics");
 TweakItem("Base.K5DoorSC2","DisplayCategory","Mechanics");
@@ -133,7 +151,11 @@ TweakItem("Base.CapriceFrontSeatSC2","DisplayCategory","Mechanics");
 TweakItem("Base.CapriceRearSeatSC2","DisplayCategory","Mechanics");
 TweakItem("Base.CapriceWheelSC2","DisplayCategory","Mechanics");
 TweakItem("Base.SCInteriorArmory","DisplayCategory","Mechanics");
+end
+
 --Shark&Peach Military Uniform
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2530389024
+if getActivatedMods():contains("SMUI") then
 TweakItem("SMUIClothing.NightVisionGoggles","DisplayCategory","ClothA");
 TweakItem("SMUIClothing.NightVisionMount","DisplayCategory","ClothA");
 TweakItem("SMUIClothing.MilitaryWebbingSuspenders","DisplayCategory","ClothA");
@@ -258,7 +280,11 @@ TweakItem("SMUIClothing.MilitaryWebbingBag","DisplayCategory","Container");
 TweakItem("SMUIClothing.MilitaryWebbingBagTightened","DisplayCategory","Container");
 TweakItem("SMUIClothing.PistolBeltPouches","DisplayCategory","Container");
 TweakItem("SMUIClothing.PistolBeltBag","DisplayCategory","Container");
+end
+
 --Shark's Law Enforcement Overhaul
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2616752828
+if getActivatedMods():contains("SLEO") then
 TweakItem("SLEOClothing.Bag_DuffelPolice","DisplayCategory","Container");
 TweakItem("SLEOClothing.Bag_DuffelSheriff","DisplayCategory","Container");
 TweakItem("SLEOClothing.Bag_PoliceUtilityBag","DisplayCategory","Container");
@@ -306,10 +332,19 @@ TweakItem("SLEOClothing.Trousers_PoliceTacticalBlack","DisplayCategory","Cloth")
 TweakItem("SLEOClothing.Trousers_PoliceTacticalBlackTucked","DisplayCategory","Cloth");
 TweakItem("SLEOClothing.Trousers_SheriffTactical","DisplayCategory","Cloth");
 TweakItem("SLEOClothing.Trousers_SheriffTacticalTucked","DisplayCategory","Cloth");
+end
+
 --XM93_CBRN
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2782916396
+if getActivatedMods():contains("XM93") then
 TweakItem("Base.XM93LabContainer","DisplayCategory","Mechanics");
 TweakItem("Base.XM93VehicleInterior","DisplayCategory","Mechanics");
+end
+
 --'93 FJ75 Land Cruiser Pickup
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2812534580&searchtext=
+if getActivatedMods():contains("FJ75C") then
 TweakItem("Base.FJ75DoorArmor2","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75WindshieldArmor2","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75Bullbar2","DisplayCategory","Mechanics");
+end

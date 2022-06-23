@@ -2,6 +2,8 @@ require("ItemTweaker_Copy_CC");
 --Courtesy of inhuman
 
 --MoreMaps
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2729427093
+if getActivatedMods():contains("MoreMaps") then
 --MAPS
 TweakItem("Base.KentuckyMap","DisplayCategory","Map");
 TweakItem("Base.EkronMap","DisplayCategory","Map");
@@ -100,3 +102,4 @@ TweakItem("Base.CoryerdonMap","DisplayCategory","Map");
 TweakItem("Base.EastCoryerdonMap","DisplayCategory","Map");
 TweakItem("Base.SouthCoryerdonMap","DisplayCategory","Map");
 TweakItem("Base.CenterCoryerdonMap","DisplayCategory","Map");
+end

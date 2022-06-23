@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC")
 
 --PantryPacking
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2637692469
+if getActivatedMods():contains("PantryPacking") then
 TweakItem("Base.BookBox","DisplayCategory","LitS");
 TweakItem("Base.BookBoxCarpentry","DisplayCategory","LitS");
 TweakItem("Base.BookBoxTrapping","DisplayCategory","LitS");
@@ -57,3 +59,4 @@ TweakItem("Base.BoxOfCanCocktail","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfCanPineapple","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfJamFruit","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfJamMarmalade","DisplayCategory","FoodN");
+end

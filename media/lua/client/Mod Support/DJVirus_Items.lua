@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --BetterBelts
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2127583399
+if getActivatedMods():contains("Better Belts") then
 TweakItem("Base.Belt3","DisplayCategory","Cloth");
 TweakItem("Base.Belt4","DisplayCategory","Cloth");
 TweakItem("Base.HolsterSimpleL","DisplayCategory","ClothA");
@@ -24,7 +26,11 @@ TweakItem("Base.HookedWaterBottleEmptyPurple","DisplayCategory","Container");
 TweakItem("Base.HookedWaterBottleFullPurple","DisplayCategory","FoodB");
 TweakItem("Base.HookedWaterBottleEmptyRed","DisplayCategory","Container");
 TweakItem("Base.HookedWaterBottleFullRed","DisplayCategory","FoodB");
+end
+
 --ScrapArmor
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2658619264
+if getActivatedMods():contains("ScrapArmor(new version)") then
 TweakItem("Base.Rucksack","DisplayCategory","ClothB");
 TweakItem("Base.SwordSheath","DisplayCategory","ClothA");
 TweakItem("Base.ScrapLegPouchL","DisplayCategory","ClothA");
@@ -88,7 +94,11 @@ TweakItem("Base.ScrapVest","DisplayCategory","Cloth");
 TweakItem("Base.ScrapVestPlated","DisplayCategory","Cloth");
 TweakItem("Base.ScrapVestSign","DisplayCategory","Cloth");
 TweakItem("Base.ScrapVestStudded","DisplayCategory","Cloth");
+end
+
 --ScrapGuns
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2125659488
+if getActivatedMods():contains("ScrapGuns(new version)") then
 TweakItem("SGuns.ScrapGunMag1","DisplayCategory","LitR");
 TweakItem("SGuns.ScrapGunMag2","DisplayCategory","LitR");
 TweakItem("SGuns.ScrapGunMag3","DisplayCategory","LitR");
@@ -125,7 +135,11 @@ TweakItem("SGuns.ScrapBullets","DisplayCategory","Ammo");
 TweakItem("SGuns.ScrapBBox","DisplayCategory","Ammo");
 TweakItem("SGuns.ScrapGatling","DisplayCategory","WepFire");
 TweakItem("SGuns.GatlingBoxMagazine","DisplayCategory","WepAmmoMag");
+end
+
 --ScrapWeapons
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2122265954
+if getActivatedMods():contains("ScrapWeapons(new version)") then
 TweakItem("SWeapons.WeaponMag1","DisplayCategory","LitR");
 TweakItem("SWeapons.WeaponMag2","DisplayCategory","LitR");
 TweakItem("SWeapons.WeaponMag3","DisplayCategory","LitR");
@@ -173,7 +187,11 @@ TweakItem("SWeapons.SpearScrapShiv","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SpearScrapMachete","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SpearSalvaged","DisplayCategory","WepMelee");
 TweakItem("SWeapons.ScrapSpear","DisplayCategory","WepMelee");
+end
+
 --TheWorkshop
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2680473910
+if getActivatedMods():contains("TheWorkshop(new version)") then
 TweakItem("Base.Toolbelt","DisplayCategory","ClothA");
 TweakItem("Base.NailGun","DisplayCategory","Tool");
 TweakItem("Base.NailGunMagazine","DisplayCategory","Tool");
@@ -212,3 +230,4 @@ TweakItem("TW.HoeHead","DisplayCategory","Craft");
 TweakItem("TW.PickaxeHead","DisplayCategory","Craft");
 TweakItem("TW.RakeHead","DisplayCategory","Craft");
 TweakItem("TW.ForkHead","DisplayCategory","Craft");
+end

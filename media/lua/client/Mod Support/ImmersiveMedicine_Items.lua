@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --ImmersiveMedicine
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2709866494
+if getActivatedMods():contains("iMeds") then
 --CLOTHING
 TweakItem("iMeds.BloodPressureMonitorLeft","DisplayCategory","Medical");
 TweakItem("iMeds.BloodPressureMonitorRight","DisplayCategory","Medical");
@@ -62,3 +64,4 @@ TweakItem("iMeds.NeedlePack","DisplayCategory","Medical");
 TweakItem("iMeds.Needle","DisplayCategory","Medical");
 TweakItem("iMeds.SyringeWithNeedle","DisplayCategory","Medical");
 TweakItem("iMeds.FullSyringeWithNeedle","DisplayCategory","Medical");
+end

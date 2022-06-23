@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --LastCallForAlcohol
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1997978868
+if getActivatedMods():contains("LCFAV2") then
 TweakItem("CCS.MoonshineFull","DisplayCategory","FoodB");
 TweakItem("CCS.MoonshineEmpty","DisplayCategory","Container");
 TweakItem("CCS.MoonshineBottleWater","DisplayCategory","FoodB");
@@ -52,3 +54,4 @@ TweakItem("CCS.DarkBeerCanSixPack","DisplayCategory","FoodB");
 TweakItem("CCS.TripleSecFull","DisplayCategory","FoodB");
 TweakItem("CCS.TripleSecEmpty","DisplayCategory","Container");
 TweakItem("CCS.TripleSecBottleWater","DisplayCategory","FoodB");
+end

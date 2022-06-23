@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --RAMEN
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2382777667
+if getActivatedMods():contains("Ramen") then
 --Food
 TweakItem("Ramen.RamenChickenFlat","DisplayCategory","FoodN");
 TweakItem("Ramen.RamenChickenPack","DisplayCategory","FoodN");
@@ -46,4 +48,4 @@ TweakItem("Ramen.RamenShrimpPackEmpty","DisplayCategory","Junk");
 TweakItem("Ramen.RamenShrimpFlavEmpty","DisplayCategory","Junk");
 TweakItem("Ramen.RamenCheesePackEmpty","DisplayCategory","Junk");
 TweakItem("Ramen.RamenCheeseFlavEmpty","DisplayCategory","Junk");
-
+end

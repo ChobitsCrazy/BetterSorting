@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --ADDITIONALBOOKS2
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2209099061
+if getActivatedMods():contains("AdditionalBooks2") then
 --Literature
 TweakItem("AdditionalBooks2.BookAiming1","DisplayCategory","LitS");
 TweakItem("AdditionalBooks2.BookAiming2","DisplayCategory","LitS");
@@ -67,3 +69,4 @@ TweakItem("AdditionalBooks2.BookLightfooted2","DisplayCategory","LitS");
 TweakItem("AdditionalBooks2.BookLightfooted3","DisplayCategory","LitS");
 TweakItem("AdditionalBooks2.BookLightfooted4","DisplayCategory","LitS");
 TweakItem("AdditionalBooks2.BookLightfooted5","DisplayCategory","LitS");
+end

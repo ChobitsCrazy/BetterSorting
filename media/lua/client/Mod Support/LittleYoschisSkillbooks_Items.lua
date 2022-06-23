@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --LittleYochisSkillbooks
+--???
+--if getActivatedMods():contains("???") then
 TweakItem("LY_Skillbooks.BookSprinting1","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookSprinting2","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookSprinting3","DisplayCategory","LitS");
@@ -81,3 +83,4 @@ TweakItem("LY_Skillbooks.BookStrength2","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookStrength3","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookStrength4","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookStrength5","DisplayCategory","LitS");
+--end

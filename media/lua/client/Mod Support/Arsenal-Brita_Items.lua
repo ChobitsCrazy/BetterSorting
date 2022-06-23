@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --ARSENAL
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2297098490
+if getActivatedMods():contains("Arsenal(26)GunFighter") then
 TweakItem("Base.AmmoCan30_22","DisplayCategory","Ammo");
 TweakItem("Base.AmmoCan30_57","DisplayCategory","Ammo");
 TweakItem("Base.AmmoCan30_380","DisplayCategory","Ammo");
@@ -1024,7 +1026,11 @@ TweakItem("Base.Suppressor_PBS1_Rifle","DisplayCategory","WepPart");
 TweakItem("Base.Suppressor_PBS4_Rifle","DisplayCategory","WepPart");
 TweakItem("Base.Suppressor_ROME_BMG","DisplayCategory","WepPart");
 TweakItem("Base.Suppressor_SOCOM_Pistol","DisplayCategory","WepPart");
+end
+
 --BritaWeaponPack
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2200148440
+if getActivatedMods():contains("Brita") then
 TweakItem("Base.Bolt_Bear","DisplayCategory","WepAmmo");
 TweakItem("Base.Bolt_Bear_Pack","DisplayCategory","WepAmmo");
 TweakItem("Base.BGMachete","DisplayCategory","WepMelee");
@@ -1040,7 +1046,11 @@ TweakItem("Base.Tactical_Axe","DisplayCategory","WepMelee");
 TweakItem("Base.Tactical_Sickle","DisplayCategory","WepMelee");
 TweakItem("Base.Cleaning","DisplayCategory","Tool");
 TweakItem("Base.WD","DisplayCategory","Tool");
+end
+
 --BritaArmor
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811
+if getActivatedMods():contains("Brita_2") then
 TweakItem("Base.Armor_Defender","DisplayCategory","Cloth");
 TweakItem("Base.Bag_Plate_Carrier","DisplayCategory","Cloth");
 TweakItem("Base.Armor_6B13","DisplayCategory","Cloth");
@@ -1188,3 +1198,4 @@ TweakItem("Base.Rabbit_Suit","DisplayCategory","Cloth");
 TweakItem("Base.Hat_Rabbit","DisplayCategory","Cloth");
 TweakItem("Base.Bag_Smersh_Vest","DisplayCategory","ClothA");
 TweakItem("Base.Bag_Smersh_Vest_Loose","DisplayCategory","ClothA");
+end

@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --MRE XIII
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1521582441
+if getActivatedMods():contains("1521582441") then
 --Food
 TweakItem("USMRE.MREbox","DisplayCategory","FoodN");
 TweakItem("USMRE.MREmenu01","DisplayCategory","FoodN");
@@ -109,3 +111,4 @@ TweakItem("USMRE.MREboxPallet09","DisplayCategory","FoodN");
 TweakItem("USMRE.MREboxPallet10","DisplayCategory","FoodN");
 TweakItem("USMRE.MREboxPallet11","DisplayCategory","FoodN");
 TweakItem("USMRE.MREboxPallet12","DisplayCategory","FoodN");
+end

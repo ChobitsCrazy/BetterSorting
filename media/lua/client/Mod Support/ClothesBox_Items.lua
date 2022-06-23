@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --ClothesBox
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2507488373
+if getActivatedMods():contains("2507488373") then
 TweakItem("Base.	CAPARM_1	","DisplayCategory","	Cloth	");
 TweakItem("Base.	CAPARM_2	","DisplayCategory","	Cloth	");
 TweakItem("Base.	CAPARM_3	","DisplayCategory","	Cloth	");
@@ -108,3 +110,4 @@ TweakItem("Base.	Trousers_CamoUrban2	","DisplayCategory","	Cloth	");
 TweakItem("Base.	Waterproof	","DisplayCategory","	Cloth	");
 TweakItem("Base.	Kurtk_3	","DisplayCategory","	Cloth	");
 TweakItem("Base.	KOMB	","DisplayCategory","	Cloth	");
+end

@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --AllAmericanApocolypse
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2026187681
+if getActivatedMods():contains("AAApoc") then
 TweakItem("TPaste.TPasteBSoda","DisplayCategory","Cooking");
 TweakItem("TPaste.TPasteBSodaEmpty","DisplayCategory","Junk");
 TweakItem("AAApoc.AAAMeatGrinder","DisplayCategory","Cooking");
@@ -192,3 +194,4 @@ TweakItem("AAApoc.AAAToastFJam","DisplayCategory","FoodP");
 TweakItem("AAApoc.AAAToastMarmalade","DisplayCategory","FoodP");
 TweakItem("AAApoc.AAAToastButterFJam","DisplayCategory","FoodP");
 TweakItem("AAApoc.AAAToastButterMarmalade","DisplayCategory","FoodP");
+end

@@ -1,13 +1,19 @@
 require("ItemTweaker_Copy_CC")
 
 --Agrotsar
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2728257015
+if getActivatedMods():contains("agrotsar") then
 TweakItem("Agrotsar.AgrotsarMag","DisplayCategory","LitR");
 TweakItem("Agrotsar.ASeederTankSmall","DisplayCategory","Mechanics");
 TweakItem("Agrotsar.ASeederTankMedium","DisplayCategory","Mechanics");
 TweakItem("Agrotsar.ASeederTankLarge","DisplayCategory","Mechanics");
 TweakItem("Agrotsar.ASeederPlate","DisplayCategory","Mechanics");
 TweakItem("Agrotsar.APlowshare","DisplayCategory","Mechanics");
+end
+
 --ATA_BUS
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2592358528
+if getActivatedMods():contains("ATA_Bus") then
 TweakItem("Autotsar.AtTuningMagBus","DisplayCategory","LitR");
 TweakItem("Autotsar.ATA_Bus_Roof_Rack","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATA_Bus_Roof_Box_Item","DisplayCategory","Mechanics");
@@ -22,7 +28,13 @@ TweakItem("Autotsar.ATA_Bus_Protection_wheels_Item","DisplayCategory","Mechanics
 TweakItem("Autotsar.ATA_Bus_Protection_windows_front_Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATA_Bus_Protection_windows_right_Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATA_Bus_Protection_windows_left_Item","DisplayCategory","Mechanics");
+end
+
 --ATA-Fjord
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2681635926
+if getActivatedMods():contains("ATA_Mustang") 
+or getActivatedMods():contains("ATA_Mustang_x2") 
+or getActivatedMods():contains("ATA_Mustang_x4") then
 TweakItem("Autotsar.ATATuningFordMustang","DisplayCategory","LitR");
 TweakItem("Autotsar.ATAMustangBullbar1Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMustangBullbar2Item","DisplayCategory","Mechanics");
@@ -40,7 +52,14 @@ TweakItem("Autotsar.ATAMustangProtectionWindowRightItem","DisplayCategory","Mech
 TweakItem("Autotsar.ATAMustangProtectionWindowFrontItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMustangProtectionWindowRearItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMustangRoofRackItem","DisplayCategory","Mechanics");
+end
+
 --ATA-JAAP
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2636100523
+if getActivatedMods():contains("ATA_Jeep") 
+or getActivatedMods():contains("ATA_Jeep_x2") 
+or getActivatedMods():contains("ATA_Jeep_x4") 
+or getActivatedMods():contains("ATA_Jeep_x10") then
 TweakItem("Autotsar.AtTuningMagJeep","DisplayCategory","LitR");
 TweakItem("Autotsar.ATAJeepBumper1Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAJeepBumper2Item","DisplayCategory","Mechanics");
@@ -54,7 +73,11 @@ TweakItem("Autotsar.ATAJeepInteractiveTrunkRoofRackItem","DisplayCategory","Mech
 TweakItem("Autotsar.ATAJeepInteractiveTrunkWheelRackItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAJeepRoofTentItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAJeepSnorkelItem","DisplayCategory","Mechanics");
+end
+
 --ATA-Dadge
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2743496289
+if getActivatedMods():contains("ATA_Dadge") then
 TweakItem("Autotsar.ATADodgeTuningMag","DisplayCategory","LitR");
 TweakItem("Autotsar.ATADodgeRoofRackItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATADodgeWindowRackItem","DisplayCategory","Mechanics");
@@ -63,7 +86,11 @@ TweakItem("Autotsar.ATADodgeBullbar2Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATADodgeBullbar3Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATADodgeProtectionWindowSideItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATADodgeProtectionWindowFrontItem","DisplayCategory","Mechanics");
+end
+
 --ATA-Petyarbuilt
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2782258356
+if getActivatedMods():contains("ATA_Petyarbuilt") then
 TweakItem("Autotsar.ATAPetyarbuiltTuningMag","DisplayCategory","LitR");
 TweakItem("Autotsar.ATAPetyarbuiltProtectionSleeperItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAPetyarbuiltProtectionRearWheelsItem","DisplayCategory","Mechanics");
@@ -72,7 +99,11 @@ TweakItem("Autotsar.ATAPetyarbuiltProtectionSideItem","DisplayCategory","Mechani
 TweakItem("Autotsar.ATAPetyarbuiltProtectionSideFrontItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAPetyarbuiltProtectionSideTopItem","DisplayCategory","Mechanics");
 TweakItem("Base.ATSMegaTrunk","DisplayCategory","Mechanics");
+end
+
 --AutotsarMotorclub
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2778576730
+if getActivatedMods():contains("amclub") then
 TweakItem("Autotsar.ATAMotoBagBMW1","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoBagBMW2","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoBMWCustomMuffler","DisplayCategory","Mechanics");
@@ -92,7 +123,11 @@ TweakItem("Autotsar.ATAMotoHarleyGasTank","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoHarleyHolster","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoHarleySeat","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoQuadSeat","DisplayCategory","Mechanics");
+end
+
 --ATA-Luton
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2792425535
+if getActivatedMods():contains("ATA_Luton") then
 TweakItem("Autotsar.ATALutonTuningMag","DisplayCategory","LitR");
 TweakItem("Autotsar.ATALutonProtectionSideFrontItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATALutonProtectionHoodItem","DisplayCategory","Mechanics");
@@ -100,7 +135,11 @@ TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Me
 TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
+end
+
 --DeRumba Van
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2811232708
+if getActivatedMods():contains("ATA_VanDeRumba") then
 TweakItem("Autotsar.ATAVanDeRumbaTuningMag","DisplayCategory","LitR");
 TweakItem("Autotsar.ATAVanDeRumbaBullbar1Item","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAVanDeRumbaBullbar2Item","DisplayCategory","Mechanics");
@@ -113,12 +152,20 @@ TweakItem("Autotsar.ATAVanDeRumbaInteractiveTrunkRoofRackItem","DisplayCategory"
 TweakItem("Autotsar.ATAVanDeRumbaLadderItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAVanDeRumbaRoofBaseItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAVanDeRumbRoofBoxItem","DisplayCategory","Mechanics");
+end
+
 --AutotsarTrailers
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2282429356
+if getActivatedMods():contains("autotsartrailers") then
 TweakItem("Base.GunRack","DisplayCategory","Mechanics");
 TweakItem("filcher.SFCarCounter","DisplayCategory","Mechanics");
 TweakItem("filcher.SFCarFridge","DisplayCategory","Mechanics");
 TweakItem("filcher.SFCarOven","DisplayCategory","Mechanics");
+end
+
 --TrueActionsDancing
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2648779556
+if getActivatedMods():contains("TrueActionsDancing") then
 TweakItem("TAD.OpenKosmotsars","DisplayCategory","FoodN");
 TweakItem("TAD.CloseKosmotsars","DisplayCategory","FoodN");
 TweakItem("TAD.BobTA_African_Noodle_Mag","DisplayCategory","LitR");
@@ -194,11 +241,20 @@ TweakItem("TAD.BobTA_Tut_One_card","DisplayCategory","Misc");
 TweakItem("TAD.BobTA_Tut_Two_card","DisplayCategory","Misc");
 TweakItem("TAD.BobTA_Wave_One_card","DisplayCategory","Misc");
 TweakItem("TAD.BobTA_Wave_Two_card","DisplayCategory","Misc");
+end
+
 --TrueMusic
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2613146550
+if getActivatedMods():contains("truemusic") then
 TweakItem("Tsarcraft.TCBoombox","DisplayCategory","Electronics");
 TweakItem("Tsarcraft.TCVinylplayer","DisplayCategory","Electronics");
+end
+
 --ZuperCart
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2478768005
+if getActivatedMods():contains("TMC_Trolley") then
 TweakItem("TMC.TrolleyContainer","DisplayCategory","Tool");
 TweakItem("TMC.TrolleyContainer2","DisplayCategory","Tool");
 TweakItem("TMC.CartContainer","DisplayCategory","Tool");
 TweakItem("TMC.CartContainer2","DisplayCategory","Tool");
+end

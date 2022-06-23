@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --ZombieVirusVaccine
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2512119000
+if getActivatedMods():contains("DemoniusZombieVirusVaccine") then
 TweakItem("LabBooks.BkLaboratoryEquipment1","DisplayCategory","LitR");
 TweakItem("LabBooks.BkVirologyCourses1","DisplayCategory","LitR");
 TweakItem("LabBooks.BkChemistryCourse","DisplayCategory","LitR");
@@ -74,3 +76,4 @@ TweakItem("LabItems.FrnGolgNugget","DisplayCategory","Craft");
 TweakItem("LabItems.FrnSilverNugget","DisplayCategory","Craft");
 TweakItem("LabItems.FrnGolgIngot","DisplayCategory","Craft");
 TweakItem("LabItems.FrnSilverIngot","DisplayCategory","Craft");
+end

@@ -1,6 +1,10 @@
 require("ItemTweaker_Copy_CC");
 
 --MORECIGSMOD
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2396329386
+if getActivatedMods():contains("MoreCigsMod") 
+or getActivatedMods():contains("MCMGreenfire") 
+or getActivatedMods():contains("MCMLitter") then
 --Drugs
 TweakItem("Cigs.CigsCigaretteReg","DisplayCategory","Drugs");
 TweakItem("Cigs.CigsButtReg","DisplayCategory","Drugs");
@@ -84,3 +88,4 @@ TweakItem("Greenfire.TobaccoPipe","DisplayCategory","Drugs");
 TweakItem("Greenfire.TobaccoSeed","DisplayCategory","SurFarm");
 TweakItem("Greenfire.TobaccoBagSeed","DisplayCategory","SurFarm");
 TweakItem("Greenfire.PipeTobaccoBag","DisplayCategory","Drugs");
+end

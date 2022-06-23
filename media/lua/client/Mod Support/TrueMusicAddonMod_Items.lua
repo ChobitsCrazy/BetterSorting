@@ -1,6 +1,8 @@
 require("ItemTweaker_Copy_CC");
 
 --SpiffosTrueMusic
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2723341089
+if getActivatedMods():contains("SpiffoTrueMusic") then
 TweakItem("Tsarcraft.Cassette2pacIGetAround(1993)","DisplayCategory","MediaA");
 TweakItem("Tsarcraft.CassetteahaTakeonMe(1985)","DisplayCategory","MediaA");
 TweakItem("Tsarcraft.CassetteABBADancingQueen(1976)","DisplayCategory","MediaA");
@@ -411,3 +413,4 @@ TweakItem("Tsarcraft.VinylVillagePeopleReadyForThe80's(1979)","DisplayCategory",
 TweakItem("Tsarcraft.VinylVillagePeopleYMCA(1978)","DisplayCategory","MediaA");
 TweakItem("Tsarcraft.VinylWhitneyHoustonIWillAlwaysLoveYou(1992)","DisplayCategory","MediaA");
 TweakItem("Tsarcraft.VinylYesRoundabout(1971)","DisplayCategory","MediaA");
+end
