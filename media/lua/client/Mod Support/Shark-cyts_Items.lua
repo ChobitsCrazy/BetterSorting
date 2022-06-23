@@ -313,3 +313,15 @@ TweakItem("Base.XM93VehicleInterior","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75DoorArmor2","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75WindshieldArmor2","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75Bullbar2","DisplayCategory","Mechanics");
+--'92 Armored International 4700 Truck
+TweakItem("Base.Int4700Bullbar2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700FrontDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700FrontWheel2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700FrontWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700Hood2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700RearDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700RearWheel2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700RearWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700Seat2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700Windshield2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700SideWindow2","DisplayCategory","Mechanics");
