@@ -342,9 +342,25 @@ TweakItem("Base.XM93VehicleInterior","DisplayCategory","Mechanics");
 end
 
 --'93 FJ75 Land Cruiser Pickup
---https://steamcommunity.com/sharedfiles/filedetails/?id=2812534580&searchtext=
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2812534580
 if getActivatedMods():contains("FJ75C") then
 TweakItem("Base.FJ75DoorArmor2","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75WindshieldArmor2","DisplayCategory","Mechanics");
 TweakItem("Base.FJ75Bullbar2","DisplayCategory","Mechanics");
+end
+
+--'92 Armored International 4700 Truck
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2822199130
+if getActivatedMods():contains("CytSB") then
+TweakItem("Base.Int4700Bullbar2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700FrontDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700FrontWheel2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700FrontWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700Hood2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700RearDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700RearWheel2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700RearWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700Seat2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700Windshield2","DisplayCategory","Mechanics");
+TweakItem("Base.Int4700SideWindow2","DisplayCategory","Mechanics");
 end
