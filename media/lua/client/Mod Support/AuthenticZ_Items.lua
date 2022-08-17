@@ -75,6 +75,7 @@ TweakItem("AuthenticZClothing.AuthenticCanteenGreyfull","DisplayCategory","FoodB
 TweakItem("AuthenticZClothing.AuthenticCanteenSilver","DisplayCategory","Container");
 TweakItem("AuthenticZClothing.AuthenticCanteenSilverfull","DisplayCategory","FoodB");
 TweakItem("AuthenticZClothing.CigarAZ2","DisplayCategory","Drugs");
+TweakItem("AuthenticZClothing.CigarAZHalf","DisplayCategory","Drugs");
 TweakItem("AuthenticZClothing.AuthenticCigaretteHolder","DisplayCategory","Drugs");
 TweakItem("AuthenticZClothing.Authentic_MilitaryFlashlightGrey","DisplayCategory","Tool");
 TweakItem("AuthenticZClothing.Authentic_MilitaryFlashlightGreen","DisplayCategory","Tool");
@@ -813,4 +814,12 @@ TweakItem("AuthenticZClothing.WeddingDressBlue","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.WeddingDressPink","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Fat01_AmmoStrap","DisplayCategory","WepPart");
 TweakItem("AuthenticZClothing.Fat01_Vest_HighViz","DisplayCategory","Cloth");
+TweakItem("AuthenticZClothing.PopBottle","DisplayCategory","FoodB");
+TweakItem("AuthenticZClothing.Pop","DisplayCategory","FoodB");
+TweakItem("AuthenticZClothing.Pop2","DisplayCategory","FoodB");
+TweakItem("AuthenticZClothing.Pop3","DisplayCategory","FoodB");
+TweakItem("AuthenticZBackpacksPlus.PopBottle","DisplayCategory","FoodB");
+TweakItem("AuthenticZBackpacksPlus.Pop","DisplayCategory","FoodB");
+TweakItem("AuthenticZBackpacksPlus.Pop2","DisplayCategory","FoodB");
+TweakItem("AuthenticZBackpacksPlus.Pop3","DisplayCategory","FoodB");
 end
