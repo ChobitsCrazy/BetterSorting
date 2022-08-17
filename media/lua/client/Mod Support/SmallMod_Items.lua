@@ -157,7 +157,7 @@ end
 --Bedford Falls
 --https://steamcommunity.com/sharedfiles/filedetails/?id=522891356
 if getActivatedMods():contains("BedfordFalls") then
-TweakItem("Base.BedfordMap","DisplayCategory","Map");
+-- TweakItem("Base.BedfordMap","DisplayCategory","Map");
 end
 
 --Better Flashlights

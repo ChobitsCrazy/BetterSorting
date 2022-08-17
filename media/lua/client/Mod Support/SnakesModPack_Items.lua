@@ -179,7 +179,7 @@ end
 
 --MilitaryComplex
 if getActivatedMods():contains("MilitaryComplex") then
-TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
+-- TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
 end
 
 --RiversideGunstore

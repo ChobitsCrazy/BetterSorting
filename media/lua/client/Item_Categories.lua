@@ -1525,12 +1525,12 @@ TweakItem("Base.Pepper","DisplayCategory","Cooking");
 TweakItem("Base.RedPen","DisplayCategory","LitW");
 TweakItem("Base.SheetPaper2","DisplayCategory","LitW");
 --MAPS
-TweakItem("Base.MarchRidgeMap","DisplayCategory","Map");
-TweakItem("Base.MuldraughMap","DisplayCategory","Map");
-TweakItem("Base.RiversideMap","DisplayCategory","Map");
-TweakItem("Base.RosewoodMap","DisplayCategory","Map");
-TweakItem("Base.WestpointMap","DisplayCategory","Map");
-TweakItem("Base.Map","DisplayCategory","Map");
+-- TweakItem("Base.MarchRidgeMap","DisplayCategory","Map");
+-- TweakItem("Base.MuldraughMap","DisplayCategory","Map");
+-- TweakItem("Base.RiversideMap","DisplayCategory","Map");
+-- TweakItem("Base.RosewoodMap","DisplayCategory","Map");
+-- TweakItem("Base.WestpointMap","DisplayCategory","Map");
+-- TweakItem("Base.Map","DisplayCategory","Map");
 --MECHANICS
 TweakItem("Base.BigCarSeat1","DisplayCategory","Mechanics");
 TweakItem("Base.BigCarSeat2","DisplayCategory","Mechanics");
