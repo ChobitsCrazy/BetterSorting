@@ -5,12 +5,20 @@ if not BetterSorting then BetterSorting = {} end
 function BetterSorting.CategorizeItem(item)
   local category = "";
 
-  if (item:getTypeString() == "Food") then
+  if item:getTypeString() == "Food" then
     if item:getDaysTotallyRotten() > 0 then
       category = "FoodP";
     else
       category = "FoodN";
     end
+  
+  -- Tsar's True Music Cassette and Vinyls
+  elseif string.find(item:getFullName(), "Tsarcraft.Cassette") or string.find(item:getFullName(), "Tsarcraft.Vinyl") then
+    category = "MediaA";
+
+  -- Tsar's True Actions Dance Cards
+  elseif item:getTypeString() == "Normal" and item:getModuleName() == "TAD" then
+    category = "Misc";
   end
 
   if string.len(category) > 0 then
