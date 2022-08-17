@@ -4,45 +4,45 @@ require("ItemTweaker_Copy_CC");
 --AlecMods
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1537876121
 if getActivatedMods():contains("1537876121") then
-TweakItem("BottlingFish.BottlingFishFillet","DisplayCategory","FoodP");
-TweakItem("BottlingFish.BottlingSalmon","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingChicken","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingSteak","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingFrogMeat","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingMeatPatty","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingMuttonChop","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingPorkChop","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingRabbitmeat","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingSmallanimalmeat","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingSmallbirdmeat","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingBacon","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingBaconBits","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingBaconRashers","DisplayCategory","FoodP");
-TweakItem("Bottling.BottlingHam","DisplayCategory","FoodP");
+-- TweakItem("BottlingFish.BottlingFishFillet","DisplayCategory","FoodP");
+-- TweakItem("BottlingFish.BottlingSalmon","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingChicken","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingSteak","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingFrogMeat","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingMeatPatty","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingMuttonChop","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingPorkChop","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingRabbitmeat","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingSmallanimalmeat","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingSmallbirdmeat","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingBacon","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingBaconBits","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingBaconRashers","DisplayCategory","FoodP");
+-- TweakItem("Bottling.BottlingHam","DisplayCategory","FoodP");
 TweakItem("Base.JarLidBoxs","DisplayCategory","Misc");
 end
 
 --AlfretysAdditionalSodas
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2427699853
 if getActivatedMods():contains("AAS") then
-TweakItem("AAS.MountainDew","DisplayCategory","FoodB");
-TweakItem("AAS.Pepsi","DisplayCategory","FoodB");
-TweakItem("AAS.RCCola","DisplayCategory","FoodB");
-TweakItem("AAS.RootBeer","DisplayCategory","FoodB");
-TweakItem("AAS.FantaGrape","DisplayCategory","FoodB");
-TweakItem("AAS.GingerAle","DisplayCategory","FoodB");
-TweakItem("AAS.CocaCola","DisplayCategory","FoodB");
-TweakItem("AAS.DrPepper","DisplayCategory","FoodB");
-TweakItem("AAS.DietCoke","DisplayCategory","FoodB");
-TweakItem("AAS.MountainDewBox","DisplayCategory","FoodB");
-TweakItem("AAS.PepsiBox","DisplayCategory","FoodB");
-TweakItem("AAS.RCColaBox","DisplayCategory","FoodB");
-TweakItem("AAS.RootBeerBox","DisplayCategory","FoodB");
-TweakItem("AAS.FantaGrapeBox","DisplayCategory","FoodB");
-TweakItem("AAS.CocaColaBox","DisplayCategory","FoodB");
-TweakItem("AAS.DietCokeBox","DisplayCategory","FoodB");
-TweakItem("AAS.DrPepperBox","DisplayCategory","FoodB");
-TweakItem("AAS.GingerAleBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.MountainDew","DisplayCategory","FoodB");
+-- TweakItem("AAS.Pepsi","DisplayCategory","FoodB");
+-- TweakItem("AAS.RCCola","DisplayCategory","FoodB");
+-- TweakItem("AAS.RootBeer","DisplayCategory","FoodB");
+-- TweakItem("AAS.FantaGrape","DisplayCategory","FoodB");
+-- TweakItem("AAS.GingerAle","DisplayCategory","FoodB");
+-- TweakItem("AAS.CocaCola","DisplayCategory","FoodB");
+-- TweakItem("AAS.DrPepper","DisplayCategory","FoodB");
+-- TweakItem("AAS.DietCoke","DisplayCategory","FoodB");
+-- TweakItem("AAS.MountainDewBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.PepsiBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.RCColaBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.RootBeerBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.FantaGrapeBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.CocaColaBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.DietCokeBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.DrPepperBox","DisplayCategory","FoodB");
+-- TweakItem("AAS.GingerAleBox","DisplayCategory","FoodB");
 TweakItem("AAS.MountainDewEmpty","DisplayCategory","Junk");
 TweakItem("AAS.PepsiEmpty","DisplayCategory","Junk");
 TweakItem("AAS.RootBeerEmpty","DisplayCategory","Junk");
@@ -63,15 +63,15 @@ TweakItem("ANL.WildYeastBase","DisplayCategory","Cooking");
 TweakItem("ANL.JarOfYeast","DisplayCategory","Cooking");
 TweakItem("ANL.DryJarOfYeast","DisplayCategory","Cooking");
 TweakItem("ANL.AnlRenewMag1","DisplayCategory","LitR");
-TweakItem("ANL.SugarBeet","DisplayCategory","FoodP");
+-- TweakItem("ANL.SugarBeet","DisplayCategory","FoodP");
 TweakItem("ANL.SugarBeetSeed","DisplayCategory","SurFarm");
 TweakItem("ANL.SugarBeetBagSeed","DisplayCategory","SurFarm");
-TweakItem("ANL.SlicedSugarBeets","DisplayCategory","FoodP");
+-- TweakItem("ANL.SlicedSugarBeets","DisplayCategory","FoodP");
 TweakItem("ANL.DriedSugarBeets","DisplayCategory","Cooking");
 TweakItem("ANL.AnlRenewMag2","DisplayCategory","LitR");
-TweakItem("ANL.GratedBerries","DisplayCategory","FoodP");
+-- TweakItem("ANL.GratedBerries","DisplayCategory","FoodP");
 TweakItem("ANL.JarOfCrushedBerries","DisplayCategory","Cooking");
-TweakItem("ANL.WildBerryWine","DisplayCategory","FoodB");
+-- TweakItem("ANL.WildBerryWine","DisplayCategory","FoodB");
 TweakItem("ANL.JarOfVinegarBase","DisplayCategory","Cooking");
 end
 
@@ -213,25 +213,25 @@ end
 --BogasPizza
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2675786278
 if getActivatedMods():contains("BogaPizza") then
-TweakItem("BogaPizza.PizzaDough","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaCheese","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaSauced","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaEtna","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaHawaii","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaPineapple","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaHamMushroom","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaSeafood","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaNduja","DisplayCategory","FoodP");
-TweakItem("BogaPizza.PizzaRumHam","DisplayCategory","FoodP");
-TweakItem("BogaPizza.NdujaSausage","DisplayCategory","FoodP");
-TweakItem("BogaPizza.NdujaSausageSlice","DisplayCategory","FoodP");
-TweakItem("BogaPizza.ChiliPepper","DisplayCategory","FoodP");
-TweakItem("BogaPizza.DicedPineapple","DisplayCategory","FoodP");
-TweakItem("BogaPizza.RumFull","DisplayCategory","FoodB");
-TweakItem("BogaPizza.RumHam","DisplayCategory","FoodP");
-TweakItem("BogaPizza.RumHamSlice","DisplayCategory","FoodP");
-TweakItem("BogaPizza.WhiteSauce","DisplayCategory","FoodN");
-TweakItem("BogaPizza.BBQSauce","DisplayCategory","FoodN");
+-- TweakItem("BogaPizza.PizzaDough","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaCheese","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaSauced","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaEtna","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaHawaii","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaPineapple","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaHamMushroom","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaSeafood","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaNduja","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.PizzaRumHam","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.NdujaSausage","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.NdujaSausageSlice","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.ChiliPepper","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.DicedPineapple","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.RumFull","DisplayCategory","FoodB");
+-- TweakItem("BogaPizza.RumHam","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.RumHamSlice","DisplayCategory","FoodP");
+-- TweakItem("BogaPizza.WhiteSauce","DisplayCategory","FoodN");
+-- TweakItem("BogaPizza.BBQSauce","DisplayCategory","FoodN");
 end
 
 --Books
@@ -376,22 +376,22 @@ TweakItem("Base.BookElectricManual","DisplayCategory","LitS");
 --Icecream-Maker
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2754525193
 if getActivatedMods():contains("icecreammaker") then
-TweakItem("icecreammaker.IceCreamChocolate","DisplayCategory","FoodP");
-TweakItem("icecreammaker.IceCreamStrawberry","DisplayCategory","FoodP");
-TweakItem("icecreammaker.IceCreamCaramel","DisplayCategory","FoodP");
-TweakItem("icecreammaker.IceCreamCookieDough","DisplayCategory","FoodP");
-TweakItem("icecreammaker.IceCreamCookiesCreme","DisplayCategory","FoodP");
-TweakItem("icecreammaker.IceCreamMix","DisplayCategory","FoodN");
-TweakItem("icecreammaker.IceCreamMix","DisplayCategory","FoodN");
-TweakItem("icecreammaker.IceCreamMixStrawberry","DisplayCategory","FoodN");
-TweakItem("icecreammaker.IceCreamMixCaramel","DisplayCategory","FoodN");
-TweakItem("icecreammaker.IceCreamMixCookieDough","DisplayCategory","FoodN");
-TweakItem("icecreammaker.IceCreamMixCookiesCreme","DisplayCategory","FoodN");
-TweakItem("icecreammaker.ConeChocolate","DisplayCategory","FoodP");
-TweakItem("icecreammaker.ConeStrawberry","DisplayCategory","FoodP");
-TweakItem("icecreammaker.ConeCaramel","DisplayCategory","FoodP");
-TweakItem("icecreammaker.ConeCookieDough","DisplayCategory","FoodP");
-TweakItem("icecreammaker.ConeCookiesCreme","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.IceCreamChocolate","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.IceCreamStrawberry","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.IceCreamCaramel","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.IceCreamCookieDough","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.IceCreamCookiesCreme","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.IceCreamMix","DisplayCategory","FoodN");
+-- TweakItem("icecreammaker.IceCreamMix","DisplayCategory","FoodN");
+-- TweakItem("icecreammaker.IceCreamMixStrawberry","DisplayCategory","FoodN");
+-- TweakItem("icecreammaker.IceCreamMixCaramel","DisplayCategory","FoodN");
+-- TweakItem("icecreammaker.IceCreamMixCookieDough","DisplayCategory","FoodN");
+-- TweakItem("icecreammaker.IceCreamMixCookiesCreme","DisplayCategory","FoodN");
+-- TweakItem("icecreammaker.ConeChocolate","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.ConeStrawberry","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.ConeCaramel","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.ConeCookieDough","DisplayCategory","FoodP");
+-- TweakItem("icecreammaker.ConeCookiesCreme","DisplayCategory","FoodP");
 end
 
 --ImmersiveSolarArrays
@@ -541,8 +541,8 @@ TweakItem("MoreTraits.AntiqueMag2","DisplayCategory","LitR");
 TweakItem("MoreTraits.AntiqueMag3","DisplayCategory","LitR");
 TweakItem("MoreTraits.PapierMache","DisplayCategory","Misc");
 TweakItem("MoreTraits.PapierMacheSword","DisplayCategory","WepMelee");
-TweakItem("MoreTraits.ZombPatty","DisplayCategory","FoodP");
-TweakItem("MoreTraits.BloodBox","DisplayCategory","FoodB");
+-- TweakItem("MoreTraits.ZombPatty","DisplayCategory","FoodP");
+-- TweakItem("MoreTraits.BloodBox","DisplayCategory","FoodB");
 TweakItem("MoreTraits.AntiqueJacket","DisplayCategory","Cloth");
 TweakItem("MoreTraits.AntiqueVest","DisplayCategory","Cloth");
 TweakItem("MoreTraits.AntiqueBoots","DisplayCategory","Cloth");
@@ -610,7 +610,7 @@ end
 --SimplePowderedMilk
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2698725395
 if getActivatedMods():contains("SimplePowderedMilk") then
-TweakItem("Base.fhqPowderedMilkPouch","DisplayCategory","FoodN");
+-- TweakItem("Base.fhqPowderedMilkPouch","DisplayCategory","FoodN");
 end
 
 --SkillRecoveryJournal
@@ -842,11 +842,11 @@ end
 --WildFruits
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2618566294
 if getActivatedMods():contains("MattSimpleAddonsFriuts") then
-TweakItem("MattSimpleAddons.MSABlack_Cherry","DisplayCategory","FoodP");
-TweakItem("MattSimpleAddons.MSAmerican_Plumb","DisplayCategory","FoodP");
-TweakItem("MattSimpleAddons.MSARaspberries","DisplayCategory","FoodP");
-TweakItem("MattSimpleAddons.MSABlackBerries","DisplayCategory","FoodP");
-TweakItem("MattSimpleAddons.MSAMulberry","DisplayCategory","FoodP");
+-- TweakItem("MattSimpleAddons.MSABlack_Cherry","DisplayCategory","FoodP");
+-- TweakItem("MattSimpleAddons.MSAmerican_Plumb","DisplayCategory","FoodP");
+-- TweakItem("MattSimpleAddons.MSARaspberries","DisplayCategory","FoodP");
+-- TweakItem("MattSimpleAddons.MSABlackBerries","DisplayCategory","FoodP");
+-- TweakItem("MattSimpleAddons.MSAMulberry","DisplayCategory","FoodP");
 end
 
 --Xnertot Farmable Trees

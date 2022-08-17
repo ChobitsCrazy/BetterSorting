@@ -17,15 +17,15 @@ TweakItem("Base.PistolCase1B","DisplayCategory","ClothB");
 TweakItem("Base.TentKitGreen","DisplayCategory","SurCamp");
 TweakItem("Base.HookB","DisplayCategory","Craft");
 TweakItem("Base.HookedWaterBottleEmptyOrange","DisplayCategory","Container");
-TweakItem("Base.HookedWaterBottleFullOrange","DisplayCategory","FoodB");
+-- TweakItem("Base.HookedWaterBottleFullOrange","DisplayCategory","FoodB");
 TweakItem("Base.HookedWaterBottleEmptyYellow","DisplayCategory","Container");
-TweakItem("Base.HookedWaterBottleFullYellow","DisplayCategory","FoodB");
+-- TweakItem("Base.HookedWaterBottleFullYellow","DisplayCategory","FoodB");
 TweakItem("Base.HookedWaterBottleEmptyGreen","DisplayCategory","Container");
-TweakItem("Base.HookedWaterBottleFullGreen","DisplayCategory","FoodB");
+-- TweakItem("Base.HookedWaterBottleFullGreen","DisplayCategory","FoodB");
 TweakItem("Base.HookedWaterBottleEmptyPurple","DisplayCategory","Container");
-TweakItem("Base.HookedWaterBottleFullPurple","DisplayCategory","FoodB");
+-- TweakItem("Base.HookedWaterBottleFullPurple","DisplayCategory","FoodB");
 TweakItem("Base.HookedWaterBottleEmptyRed","DisplayCategory","Container");
-TweakItem("Base.HookedWaterBottleFullRed","DisplayCategory","FoodB");
+-- TweakItem("Base.HookedWaterBottleFullRed","DisplayCategory","FoodB");
 end
 
 --ScrapArmor

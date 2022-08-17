@@ -62,7 +62,7 @@ TweakItem("Greenfire.PipeTobaccoBag","DisplayCategory","Drugs");
 TweakItem("Greenfire.SBrownieBatter","DisplayCategory","Drugs");
 TweakItem("Greenfire.SBrowniePan","DisplayCategory","Drugs");
 TweakItem("Greenfire.SBrownie","DisplayCategory","Drugs");
-TweakItem("Greenfire.Marshmallows","DisplayCategory","FoodN");
+-- TweakItem("Greenfire.Marshmallows","DisplayCategory","FoodN");
 TweakItem("Greenfire.SCrispyMix","DisplayCategory","Drugs");
 TweakItem("Greenfire.SCrispySauce","DisplayCategory","Drugs");
 TweakItem("Greenfire.NiceCrispiezPan","DisplayCategory","Drugs");
