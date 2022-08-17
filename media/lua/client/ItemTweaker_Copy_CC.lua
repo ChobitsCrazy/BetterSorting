@@ -29,7 +29,7 @@ function TweakItem(itemName, itemProperty, propertyValue)
 	TweakItemData[itemName][itemProperty] = propertyValue;
 end
 
-Events.OnGameBoot.Add(ItemTweaker.tweakItems)
+-- Events.OnGameBoot.Add(ItemTweaker.tweakItems)
 
 
 --[[
