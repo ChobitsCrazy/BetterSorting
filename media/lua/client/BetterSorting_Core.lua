@@ -6,7 +6,7 @@ function BetterSorting.CategorizeItem(item)
   local category = "";
 
   if item:getTypeString() == "Food" then
-    if item:getDaysTotallyRotten() > 0 then
+    if item:getDaysTotallyRotten() > 0 and item:getDaysTotallyRotten() < 1000000000 then
       category = "FoodP";
     else
       category = "FoodN";
