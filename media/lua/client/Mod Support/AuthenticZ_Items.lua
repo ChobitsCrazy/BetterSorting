@@ -319,7 +319,7 @@ TweakItem("AuthenticZClothing.Hat_DeathMask","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Hat_Dimitrescu","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Hat_Dimitrescu_Back","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Hat_DRLegoHead","DisplayCategory","Cloth");
--- TweakItem("AuthenticZClothing.Hat_FastFood_Donut","DisplayCategory","Cloth");
+TweakItem("AuthenticZClothing.Hat_FastFood_Donut","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Hat_FootballHelmet_BlueStar","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Hat_FootballHelmet_Chiefs","DisplayCategory","Cloth");
 TweakItem("AuthenticZClothing.Hat_FootballHelmet_Packers","DisplayCategory","Cloth");

@@ -314,7 +314,7 @@ TweakItem("ColorCrates.CrateWhite","DisplayCategory","Container");
 TweakItem("ColorCrates.CrateRed","DisplayCategory","Container");
 TweakItem("ColorCrates.CrateBlack","DisplayCategory","Container");
 TweakItem("ColorCrates.CrateAmmo","DisplayCategory","Container");
--- TweakItem("ColorCrates.CrateFood","DisplayCategory","Container");
+TweakItem("ColorCrates.CrateFood","DisplayCategory","Container");
 TweakItem("ColorCrates.CrateLiterature","DisplayCategory","Container");
 TweakItem("ColorCrates.CrateMedical","DisplayCategory","Container");
 TweakItem("ColorCrates.CrateWeapons","DisplayCategory","Container");

@@ -104,12 +104,12 @@ TweakItem("GidOrganizedFood.OS6pkFizz","DisplayCategory","FoodB");
 -- TweakItem("GidOrganizedFood.OS8pkCannedTuna","DisplayCategory","FoodN");
 -- TweakItem("GidOrganizedFood.OS4pkSardines","DisplayCategory","FoodN");
 TweakItem("GidOrganizedFood.OS4pkCoffee","DisplayCategory","FoodB");
--- TweakItem("GidOrganizedFood.OS12pkWineEmpty","DisplayCategory","Container");
--- TweakItem("GidOrganizedFood.OS12pkWineEmpty2","DisplayCategory","Container");
--- TweakItem("GidOrganizedFood.OS8pkWhiskeyEmpty","DisplayCategory","Container");
--- TweakItem("GidOrganizedFood.OS24pkWaterBottleEmpty","DisplayCategory","Container");
+TweakItem("GidOrganizedFood.OS12pkWineEmpty","DisplayCategory","Container");
+TweakItem("GidOrganizedFood.OS12pkWineEmpty2","DisplayCategory","Container");
+TweakItem("GidOrganizedFood.OS8pkWhiskeyEmpty","DisplayCategory","Container");
+TweakItem("GidOrganizedFood.OS24pkWaterBottleEmpty","DisplayCategory","Container");
 TweakItem("GidOrganizedFood.OS24pkWaterBottleFull","DisplayCategory","FoodB");
--- TweakItem("GidOrganizedFood.OS4pkDuctTape","DisplayCategory","Craft");
+TweakItem("GidOrganizedFood.OS4pkDuctTape","DisplayCategory","Craft");
 end
 
 --OGSN_Orphan_RodsStore
