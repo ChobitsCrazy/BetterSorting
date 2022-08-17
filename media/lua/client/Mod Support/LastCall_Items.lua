@@ -3,19 +3,19 @@ require("ItemTweaker_Copy_CC");
 --LastCallForAlcohol
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1997978868
 if getActivatedMods():contains("LCFAV2") then
--- TweakItem("CCS.MoonshineFull","DisplayCategory","FoodB");
+TweakItem("CCS.MoonshineFull","DisplayCategory","FoodB");
 TweakItem("CCS.MoonshineEmpty","DisplayCategory","Container");
--- TweakItem("CCS.MoonshineBottleWater","DisplayCategory","FoodB");
--- TweakItem("CCS.AbsintheFull","DisplayCategory","FoodB");
+TweakItem("CCS.MoonshineBottleWater","DisplayCategory","FoodB");
+TweakItem("CCS.AbsintheFull","DisplayCategory","FoodB");
 TweakItem("CCS.AbsintheEmpty","DisplayCategory","Container");
--- TweakItem("CCS.AbsintheWaterFull","DisplayCategory","FoodB");
--- TweakItem("CCS.Beer","DisplayCategory","FoodB");
+TweakItem("CCS.AbsintheWaterFull","DisplayCategory","FoodB");
+TweakItem("CCS.Beer","DisplayCategory","FoodB");
 TweakItem("CCS.BeerCanEmpty","DisplayCategory","Junk");
--- TweakItem("CCS.BeerCanSixPack","DisplayCategory","FoodB");
--- TweakItem("CCS.SojuFull","DisplayCategory","FoodB");
+TweakItem("CCS.BeerCanSixPack","DisplayCategory","FoodB");
+TweakItem("CCS.SojuFull","DisplayCategory","FoodB");
 TweakItem("CCS.SojuEmpty","DisplayCategory","Container");
--- TweakItem("CCS.SojuWaterFull","DisplayCategory","FoodB");
--- TweakItem("CCS.SakeFull","DisplayCategory","FoodB");
+TweakItem("CCS.SojuWaterFull","DisplayCategory","FoodB");
+TweakItem("CCS.SakeFull","DisplayCategory","FoodB");
 TweakItem("CCS.SakeEmpty","DisplayCategory","Container");
 -- TweakItem("CCS.SakeWaterFull","DisplayCategory","FoodN");
 -- TweakItem("CCS.GinFull","DisplayCategory","FoodN");
@@ -47,11 +47,11 @@ TweakItem("CCS.WhiskeyBlackLabelEmpty","DisplayCategory","Container");
 -- TweakItem("CCS.WhiskeyBlackLabelBottleWater","DisplayCategory","FoodN");
 -- TweakItem("CCS.WhiteWineFull","DisplayCategory","FoodN");
 TweakItem("CCS.WhiteWineEmpty","DisplayCategory","Container");
--- TweakItem("CCS.WhiteWineBottleWater","DisplayCategory","FoodB");
--- TweakItem("CCS.DarkBeer","DisplayCategory","FoodB");
+TweakItem("CCS.WhiteWineBottleWater","DisplayCategory","FoodB");
+TweakItem("CCS.DarkBeer","DisplayCategory","FoodB");
 TweakItem("CCS.DarkBeerCanEmpty","DisplayCategory","Junk");
--- TweakItem("CCS.DarkBeerCanSixPack","DisplayCategory","FoodB");
--- TweakItem("CCS.TripleSecFull","DisplayCategory","FoodB");
+TweakItem("CCS.DarkBeerCanSixPack","DisplayCategory","FoodB");
+TweakItem("CCS.TripleSecFull","DisplayCategory","FoodB");
 TweakItem("CCS.TripleSecEmpty","DisplayCategory","Container");
--- TweakItem("CCS.TripleSecBottleWater","DisplayCategory","FoodB");
+TweakItem("CCS.TripleSecBottleWater","DisplayCategory","FoodB");
 end

@@ -20,7 +20,7 @@ TweakItem("AliceBP.UpgradedAlicePack2b","DisplayCategory","ClothB");
 TweakItem("AliceBP.UpgradedAlicePack3","DisplayCategory","ClothB");
 TweakItem("AliceBP.UpgradedAlicePack3b","DisplayCategory","ClothB");
 TweakItem("AliceBP.MilitaryCanteenEmpty","DisplayCategory","Container");
--- TweakItem("AliceBP.MilitaryCanteenFull","DisplayCategory","FoodB");
+TweakItem("AliceBP.MilitaryCanteenFull","DisplayCategory","FoodB");
 TweakItem("AliceBP.MilitaryKnife","DisplayCategory","WepMelee");
 TweakItem("AliceBP.AlicePackUrban","DisplayCategory","ClothB");
 TweakItem("AliceBP.AlicePackDesert","DisplayCategory","ClothB");

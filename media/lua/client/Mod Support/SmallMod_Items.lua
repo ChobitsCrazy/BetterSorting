@@ -25,24 +25,24 @@ end
 --AlfretysAdditionalSodas
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2427699853
 if getActivatedMods():contains("AAS") then
--- TweakItem("AAS.MountainDew","DisplayCategory","FoodB");
--- TweakItem("AAS.Pepsi","DisplayCategory","FoodB");
--- TweakItem("AAS.RCCola","DisplayCategory","FoodB");
--- TweakItem("AAS.RootBeer","DisplayCategory","FoodB");
--- TweakItem("AAS.FantaGrape","DisplayCategory","FoodB");
--- TweakItem("AAS.GingerAle","DisplayCategory","FoodB");
--- TweakItem("AAS.CocaCola","DisplayCategory","FoodB");
--- TweakItem("AAS.DrPepper","DisplayCategory","FoodB");
--- TweakItem("AAS.DietCoke","DisplayCategory","FoodB");
--- TweakItem("AAS.MountainDewBox","DisplayCategory","FoodB");
--- TweakItem("AAS.PepsiBox","DisplayCategory","FoodB");
--- TweakItem("AAS.RCColaBox","DisplayCategory","FoodB");
--- TweakItem("AAS.RootBeerBox","DisplayCategory","FoodB");
--- TweakItem("AAS.FantaGrapeBox","DisplayCategory","FoodB");
--- TweakItem("AAS.CocaColaBox","DisplayCategory","FoodB");
--- TweakItem("AAS.DietCokeBox","DisplayCategory","FoodB");
--- TweakItem("AAS.DrPepperBox","DisplayCategory","FoodB");
--- TweakItem("AAS.GingerAleBox","DisplayCategory","FoodB");
+TweakItem("AAS.MountainDew","DisplayCategory","FoodB");
+TweakItem("AAS.Pepsi","DisplayCategory","FoodB");
+TweakItem("AAS.RCCola","DisplayCategory","FoodB");
+TweakItem("AAS.RootBeer","DisplayCategory","FoodB");
+TweakItem("AAS.FantaGrape","DisplayCategory","FoodB");
+TweakItem("AAS.GingerAle","DisplayCategory","FoodB");
+TweakItem("AAS.CocaCola","DisplayCategory","FoodB");
+TweakItem("AAS.DrPepper","DisplayCategory","FoodB");
+TweakItem("AAS.DietCoke","DisplayCategory","FoodB");
+TweakItem("AAS.MountainDewBox","DisplayCategory","FoodB");
+TweakItem("AAS.PepsiBox","DisplayCategory","FoodB");
+TweakItem("AAS.RCColaBox","DisplayCategory","FoodB");
+TweakItem("AAS.RootBeerBox","DisplayCategory","FoodB");
+TweakItem("AAS.FantaGrapeBox","DisplayCategory","FoodB");
+TweakItem("AAS.CocaColaBox","DisplayCategory","FoodB");
+TweakItem("AAS.DietCokeBox","DisplayCategory","FoodB");
+TweakItem("AAS.DrPepperBox","DisplayCategory","FoodB");
+TweakItem("AAS.GingerAleBox","DisplayCategory","FoodB");
 TweakItem("AAS.MountainDewEmpty","DisplayCategory","Junk");
 TweakItem("AAS.PepsiEmpty","DisplayCategory","Junk");
 TweakItem("AAS.RootBeerEmpty","DisplayCategory","Junk");
@@ -71,7 +71,7 @@ TweakItem("ANL.DriedSugarBeets","DisplayCategory","Cooking");
 TweakItem("ANL.AnlRenewMag2","DisplayCategory","LitR");
 -- TweakItem("ANL.GratedBerries","DisplayCategory","FoodP");
 TweakItem("ANL.JarOfCrushedBerries","DisplayCategory","Cooking");
--- TweakItem("ANL.WildBerryWine","DisplayCategory","FoodB");
+TweakItem("ANL.WildBerryWine","DisplayCategory","FoodB");
 TweakItem("ANL.JarOfVinegarBase","DisplayCategory","Cooking");
 end
 
@@ -227,7 +227,7 @@ if getActivatedMods():contains("BogaPizza") then
 -- TweakItem("BogaPizza.NdujaSausageSlice","DisplayCategory","FoodP");
 -- TweakItem("BogaPizza.ChiliPepper","DisplayCategory","FoodP");
 -- TweakItem("BogaPizza.DicedPineapple","DisplayCategory","FoodP");
--- TweakItem("BogaPizza.RumFull","DisplayCategory","FoodB");
+TweakItem("BogaPizza.RumFull","DisplayCategory","FoodB");
 -- TweakItem("BogaPizza.RumHam","DisplayCategory","FoodP");
 -- TweakItem("BogaPizza.RumHamSlice","DisplayCategory","FoodP");
 -- TweakItem("BogaPizza.WhiteSauce","DisplayCategory","FoodN");
@@ -542,7 +542,7 @@ TweakItem("MoreTraits.AntiqueMag3","DisplayCategory","LitR");
 TweakItem("MoreTraits.PapierMache","DisplayCategory","Misc");
 TweakItem("MoreTraits.PapierMacheSword","DisplayCategory","WepMelee");
 -- TweakItem("MoreTraits.ZombPatty","DisplayCategory","FoodP");
--- TweakItem("MoreTraits.BloodBox","DisplayCategory","FoodB");
+TweakItem("MoreTraits.BloodBox","DisplayCategory","FoodB");
 TweakItem("MoreTraits.AntiqueJacket","DisplayCategory","Cloth");
 TweakItem("MoreTraits.AntiqueVest","DisplayCategory","Cloth");
 TweakItem("MoreTraits.AntiqueBoots","DisplayCategory","Cloth");

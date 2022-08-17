@@ -105,8 +105,8 @@ TweakItem("filcher.Cinnamon","DisplayCategory","Cooking");
 -- TweakItem("filcher.SFCupcakes","DisplayCategory","FoodP");
 TweakItem("filcher.SFCurry","DisplayCategory","Cooking");
 -- TweakItem("filcher.DriedApricots","DisplayCategory","FoodN");
--- TweakItem("filcher.SFDrink","DisplayCategory","FoodB");
--- TweakItem("filcher.SFDrinkBase","DisplayCategory","FoodB");
+TweakItem("filcher.SFDrink","DisplayCategory","FoodB");
+TweakItem("filcher.SFDrinkBase","DisplayCategory","FoodB");
 -- TweakItem("filcher.EggFried","DisplayCategory","FoodP");
 -- TweakItem("filcher.SFFig","DisplayCategory","FoodP");
 -- TweakItem("filcher.SFGuacamole","DisplayCategory","FoodP");
@@ -115,9 +115,9 @@ TweakItem("filcher.SFCurry","DisplayCategory","Cooking");
 -- TweakItem("filcher.IcecreamBowl","DisplayCategory","FoodP");
 -- TweakItem("filcher.SFIcecreamEvolved","DisplayCategory","FoodN");
 -- TweakItem("filcher.SFJelly","DisplayCategory","FoodN");
--- TweakItem("filcher.SFJuice","DisplayCategory","FoodB");
+TweakItem("filcher.SFJuice","DisplayCategory","FoodB");
 -- TweakItem("filcher.SFKiwi","DisplayCategory","FoodP");
--- TweakItem("filcher.Lemonade","DisplayCategory","FoodB");
+TweakItem("filcher.Lemonade","DisplayCategory","FoodB");
 -- TweakItem("filcher.Macaroni","DisplayCategory","FoodN");
 -- TweakItem("filcher.Olives","DisplayCategory","FoodN");
 TweakItem("filcher.SFOregano","DisplayCategory","Cooking");
@@ -152,7 +152,7 @@ TweakItem("filcher.SFPaprika","DisplayCategory","Cooking");
 -- TweakItem("filcher.Toasts","DisplayCategory","FoodP");
 -- TweakItem("filcher.SFTomatoSauce","DisplayCategory","FoodN");
 -- TweakItem("filcher.SFTurnip","DisplayCategory","FoodP");
--- TweakItem("filcher.WaterGlass","DisplayCategory","FoodB");
+TweakItem("filcher.WaterGlass","DisplayCategory","FoodB");
 -- TweakItem("filcher.SFWaterPotBeans","DisplayCategory","FoodN");
 -- TweakItem("filcher.SFWhippedCream","DisplayCategory","FoodN");
 TweakItem("filcher.SFCupcakeTray","DisplayCategory","Cooking");
@@ -271,15 +271,15 @@ end
 --DrinkingTime
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2578460720
 if getActivatedMods():contains("DrinkingTime") or getActivatedMods():contains("SoulFilchersDrinkingTime") then
--- TweakItem("filcher.JarWater","DisplayCategory","FoodB");
--- TweakItem("filcher.PetrolCanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.PopCanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.Pop2CanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.Pop3CanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.RoastingPanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.WaterDishFull","DisplayCategory","FoodB");
--- TweakItem("filcher.WaterGallon","DisplayCategory","FoodB");
+TweakItem("filcher.JarWater","DisplayCategory","FoodB");
+TweakItem("filcher.PetrolCanWater","DisplayCategory","FoodB");
+TweakItem("filcher.PopCanWater","DisplayCategory","FoodB");
+TweakItem("filcher.Pop2CanWater","DisplayCategory","FoodB");
+TweakItem("filcher.Pop3CanWater","DisplayCategory","FoodB");
+TweakItem("filcher.RoastingPanWater","DisplayCategory","FoodB");
+TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
+TweakItem("filcher.WaterDishFull","DisplayCategory","FoodB");
+TweakItem("filcher.WaterGallon","DisplayCategory","FoodB");
 TweakItem("filcher.WaterGallonEmpty","DisplayCategory","Container");
 end
 
@@ -353,14 +353,14 @@ end
 if getActivatedMods():contains("FreezingTime") or getActivatedMods():contains("SoulFilchersFreezingTime") then
 TweakItem("filcher.SFBucketSnow","DisplayCategory","Craft");
 TweakItem("filcher.SFEmptyTray","DisplayCategory","Container");
--- TweakItem("filcher.SFIceTray","DisplayCategory","FoodB");
+TweakItem("filcher.SFIceTray","DisplayCategory","FoodB");
 TweakItem("filcher.SFSnowball","DisplayCategory","Misc");
 TweakItem("filcher.SnowPaintbucket","DisplayCategory","Craft");
 TweakItem("filcher.SnowPot","DisplayCategory","Craft");
 TweakItem("filcher.SFThermometer","DisplayCategory","Junk");
 TweakItem("filcher.TinCanSnow","DisplayCategory","Craft");
--- TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
--- TweakItem("filcher.SFWaterTray","DisplayCategory","FoodB");
+TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
+TweakItem("filcher.SFWaterTray","DisplayCategory","FoodB");
 end
 
 --LearningTime
