@@ -11,6 +11,17 @@ function BetterSorting.CategorizeItem(item)
     else
       category = "FoodN";
     end
+
+  elseif item:getTypeString() == "Literature" then
+    if string.len(item:getSkillTrained()) > 0 then
+      category = "LitS";
+    elseif item:getTeachedRecipes() and not item:getTeachedRecipes():isEmpty() then
+      category = "LitR";
+    elseif item:getStressChange() or item:getBoredomChange() or item:getUnhappyChange() then
+      category = "LitE";
+    else
+      category = "LitW";
+    end
   
   -- Tsar's True Music Cassette and Vinyls
   elseif string.find(item:getFullName(), "Tsarcraft.Cassette") or string.find(item:getFullName(), "Tsarcraft.Vinyl") then
