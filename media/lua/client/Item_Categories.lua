@@ -1369,7 +1369,7 @@ TweakItem("Base.CameraExpensive","DisplayCategory","Junk");
 TweakItem("Base.CameraFilm","DisplayCategory","Junk");
 TweakItem("Base.Chopsticks","DisplayCategory","Junk");
 TweakItem("Base.Cork","DisplayCategory","Junk");
-TweakItem("Base.Doodle","DisplayCategory","Junk");
+TweakItem("Base.Doodle","DisplayCategory","LitW");
 TweakItem("Base.FountainCup","DisplayCategory","Junk");
 TweakItem("Base.GlassTumbler","DisplayCategory","Junk");
 TweakItem("Base.GlassWine","DisplayCategory","Junk");
