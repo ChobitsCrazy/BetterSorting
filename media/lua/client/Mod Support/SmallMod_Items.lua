@@ -208,6 +208,7 @@ end
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2753894806
 if getActivatedMods():contains("4ColorBicPen") then
 TweakItem("BicPen.BicPen","DisplayCategory","LitW");
+TweakItem("BicPen.ComicBicPen","DisplayCategory","LitW");
 end
 
 --BogasPizza
