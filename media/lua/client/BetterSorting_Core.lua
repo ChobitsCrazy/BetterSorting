@@ -22,6 +22,11 @@ function BetterSorting.CategorizeItem(item)
     else
       category = "LitW";
     end
+
+  elseif item:getTypeString() == "Weapon" then
+    if item:getDisplayCategory() == "Explosives" or item:getDisplayCategory() == "Devices" then
+      category = "WepBomb";
+    end
   
   -- Tsar's True Music Cassette and Vinyls
   elseif string.find(item:getFullName(), "Tsarcraft.Cassette") or string.find(item:getFullName(), "Tsarcraft.Vinyl") then
