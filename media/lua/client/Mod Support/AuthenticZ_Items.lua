@@ -77,6 +77,7 @@ TweakItem("AuthenticZClothing.AuthenticCanteenSilverfull","DisplayCategory","Foo
 TweakItem("AuthenticZClothing.CigarAZ2","DisplayCategory","Drugs");
 TweakItem("AuthenticZClothing.CigarAZHalf","DisplayCategory","Drugs");
 TweakItem("AuthenticZClothing.AuthenticCigaretteHolder","DisplayCategory","Drugs");
+TweakItem("AuthenticZClothing.AuthenticCigaretteHolder_Cig","DisplayCategory","Drugs");
 TweakItem("AuthenticZClothing.Authentic_MilitaryFlashlightGrey","DisplayCategory","Tool");
 TweakItem("AuthenticZClothing.Authentic_MilitaryFlashlightGreen","DisplayCategory","Tool");
 TweakItem("AuthenticZClothing.Authentic_MinerLightbulb","DisplayCategory","Tool");

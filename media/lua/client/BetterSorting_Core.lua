@@ -5,7 +5,17 @@ if not BetterSorting then BetterSorting = {} end
 function BetterSorting.CategorizeItem(item)
   local category = "";
 
-  if item:getTypeString() == "Food" then
+  if item:getCanStoreWater() then
+    if item:getTypeString() ~= "Drainable" then
+      category = "Container";
+    else
+      category = "FoodB";
+    end
+
+  elseif item:getDisplayCategory() == "Water" then
+    category = "FoodB";
+
+  elseif item:getTypeString() == "Food" then
     if item:getDaysTotallyRotten() > 0 and item:getDaysTotallyRotten() < 1000000000 then
       category = "FoodP";
     else
