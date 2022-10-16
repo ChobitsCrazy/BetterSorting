@@ -166,8 +166,8 @@ end
 --TrueActionsDancing
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2648779556
 if getActivatedMods():contains("TrueActionsDancing") then
-TweakItem("TAD.OpenKosmotsars","DisplayCategory","FoodN");
-TweakItem("TAD.CloseKosmotsars","DisplayCategory","FoodN");
+-- TweakItem("TAD.OpenKosmotsars","DisplayCategory","FoodN");
+-- TweakItem("TAD.CloseKosmotsars","DisplayCategory","FoodN");
 TweakItem("TAD.BobTA_African_Noodle_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_African_Rainbow_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_Arms_Hip_Hop_Mag","DisplayCategory","LitR");
@@ -212,35 +212,35 @@ TweakItem("TAD.BobTA_Twist_One_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_Twist_Two_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_Uprock_Indian_Step_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_YMCA_Mag","DisplayCategory","LitR");
-TweakItem("TAD.BobTA_Afoxe_Samba_Raggae_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Belly_Dancing_One_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Belly_Dancing_Three_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Boogaloo_cardBobTA_Belly_Dancing_Two_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Breakdance_1990_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Breakdance_Freezes_Combo_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Charleston_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Gandy_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_House_Dancing_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Locking_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Moonwalk_Two_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Northern_Soul_Spin_and_Floor_Work_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Northern_Soul_Spin_Dip_and_SpLitR_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Rick_Dancing_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Robot_One_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Robot_Two_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Salsa_Two_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Samba_Olodum_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Samba_Pagode_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Slide_Step_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Snake_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Thriller_Four_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Thriller_One_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Thriller_Three_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Thriller_Two_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Tut_One_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Tut_Two_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Wave_One_card","DisplayCategory","Misc");
-TweakItem("TAD.BobTA_Wave_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Afoxe_Samba_Raggae_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Belly_Dancing_One_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Belly_Dancing_Three_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Boogaloo_cardBobTA_Belly_Dancing_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Breakdance_1990_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Breakdance_Freezes_Combo_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Charleston_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Gandy_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_House_Dancing_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Locking_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Moonwalk_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Northern_Soul_Spin_and_Floor_Work_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Northern_Soul_Spin_Dip_and_SpLitR_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Rick_Dancing_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Robot_One_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Robot_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Salsa_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Samba_Olodum_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Samba_Pagode_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Slide_Step_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Snake_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Thriller_Four_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Thriller_One_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Thriller_Three_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Thriller_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Tut_One_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Tut_Two_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Wave_One_card","DisplayCategory","Misc");
+-- TweakItem("TAD.BobTA_Wave_Two_card","DisplayCategory","Misc");
 end
 
 --TrueMusic

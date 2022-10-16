@@ -7,10 +7,10 @@ require("ItemTweaker_Copy_CC");
 if getActivatedMods():contains("AliceSPack") then
 TweakItem("AliceBP.SpearMilitaryKnife","DisplayCategory","WepMelee");
 TweakItem("AliceBP.SupportBackpack","DisplayCategory","ClothB");
-TweakItem("AliceBP.MRE","DisplayCategory","FoodN");
-TweakItem("AliceBP.BoxMRE","DisplayCategory","FoodN");
-TweakItem("AliceBP.BoxMRE2","DisplayCategory","FoodN");
-TweakItem("AliceBP.BoxMRE3","DisplayCategory","FoodN");
+-- TweakItem("AliceBP.MRE","DisplayCategory","FoodN");
+-- TweakItem("AliceBP.BoxMRE","DisplayCategory","FoodN");
+-- TweakItem("AliceBP.BoxMRE2","DisplayCategory","FoodN");
+-- TweakItem("AliceBP.BoxMRE3","DisplayCategory","FoodN");
 TweakItem("AliceBP.MilitiaPouch1","DisplayCategory","Container");
 TweakItem("AliceBP.MilitiaPouch2","DisplayCategory","Container");
 TweakItem("AliceBP.AlicePack","DisplayCategory","ClothB");
@@ -179,7 +179,7 @@ end
 
 --MilitaryComplex
 if getActivatedMods():contains("MilitaryComplex") then
-TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
+-- TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
 end
 
 --RiversideGunstore
