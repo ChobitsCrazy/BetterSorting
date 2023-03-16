@@ -191,7 +191,9 @@ end
 
 --BetterLockpicking
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2368058459
-if getActivatedMods():contains("betterLockpicking") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2929123989
+if getActivatedMods():contains("betterLockpicking")
+or getActivatedMods():contains("zReBetterLockpicking") then
 TweakItem("BetLock.LockpickingMag","DisplayCategory","LitR");
 TweakItem("BetLock.AlarmMag","DisplayCategory","LitR");
 TweakItem("BetLock.BobbyPin","DisplayCategory","Tool");
@@ -771,6 +773,16 @@ TweakItem("UndeadSurvivor.OminousNomadMask","DisplayCategory","Cloth");
 TweakItem("UndeadSurvivor.NomadBoots","DisplayCategory","Cloth");
 TweakItem("UndeadSurvivor.NomadTrousers","DisplayCategory","Cloth");
 TweakItem("UndeadSurvivor.NomadTrousersTucked","DisplayCategory","Cloth");
+TweakItem("UndeadSurvivor.BountyPhoto01","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto02","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto03","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto04","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto05","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto06","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto07","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto08","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto09","DisplayCategory","LitW");
+TweakItem("UndeadSurvivor.BountyPhoto10","DisplayCategory","LitW");
 end
 
 --USMCArmory
@@ -860,4 +872,13 @@ TweakItem("XNTree.XNSaplingLemon","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingOrange","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPeach","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPineapple","DisplayCategory","SurFarm");
+end
+
+--Sapphire's Heaters
+--https://steamcommunity.com/workshop/filedetails/?id=2877732496
+if getActivatedMods():contains("SAPPHEATER") then
+TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
 end

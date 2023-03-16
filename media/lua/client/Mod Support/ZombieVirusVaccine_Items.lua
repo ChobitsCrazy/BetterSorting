@@ -2,7 +2,10 @@ require("ItemTweaker_Copy_CC");
 
 --ZombieVirusVaccine
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2512119000
-if getActivatedMods():contains("DemoniusZombieVirusVaccine") then
+if getActivatedMods():contains("DemoniusZombieVirusVaccine") 
+or getActivatedMods():contains("VaccinDrReapers") 
+or getActivatedMods():contains("VaccinDrReapersMP") 
+then
 TweakItem("LabBooks.BkLaboratoryEquipment1","DisplayCategory","LitR");
 TweakItem("LabBooks.BkVirologyCourses1","DisplayCategory","LitR");
 TweakItem("LabBooks.BkChemistryCourse","DisplayCategory","LitR");
