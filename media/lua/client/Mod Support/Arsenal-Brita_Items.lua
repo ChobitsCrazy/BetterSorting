@@ -1380,6 +1380,8 @@ TweakItem("Base.Val_Spear_Thrown","DisplayCategory","WepMelee");
 TweakItem("Base.WA2000_Bipod","DisplayCategory","WepFire");
 TweakItem("Base.WristRocket_Marble","DisplayCategory","WepFire");
 TweakItem("Base.WristRocket_Rock","DisplayCategory","WepFire");
+  
+  end
 
 --Brita's Armors
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811
