@@ -1,9 +1,12 @@
 require("ItemTweaker_Copy_CC");
 
+--Thank you to Maltsi for new Brita stuff
+
+--ARSENAL
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2297098490
 --Brita's Weapons
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2200148440
 
---Original Better Sorting list (Gunfighter and Brita's weapons combined since both are needed anyway)
 if getActivatedMods():contains("Brita") then
 TweakItem("Base.AmmoCan30_22","DisplayCategory","Ammo");
 TweakItem("Base.AmmoCan30_57","DisplayCategory","Ammo");
@@ -1380,8 +1383,8 @@ TweakItem("Base.Val_Spear_Thrown","DisplayCategory","WepMelee");
 TweakItem("Base.WA2000_Bipod","DisplayCategory","WepFire");
 TweakItem("Base.WristRocket_Marble","DisplayCategory","WepFire");
 TweakItem("Base.WristRocket_Rock","DisplayCategory","WepFire");
-  
-  end
+
+end
 
 --Brita's Armors
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811
