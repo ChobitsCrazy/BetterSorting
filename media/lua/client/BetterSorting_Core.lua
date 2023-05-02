@@ -27,7 +27,7 @@ function BetterSorting.CategorizeItem(item)
       category = "LitS";
     elseif item:getTeachedRecipes() and not item:getTeachedRecipes():isEmpty() then
       category = "LitR";
-    elseif item:getStressChange() or item:getBoredomChange() or item:getUnhappyChange() then
+    elseif item:getStressChange() ~= 0 or item:getBoredomChange() ~= 0 or item:getUnhappyChange() ~= 0 then
       category = "LitE";
     else
       category = "LitW";

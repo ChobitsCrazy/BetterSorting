@@ -1,0 +1,25 @@
+Tooltip_EN = {
+  /************** BOOK TOOLTIPS **************/
+  Tooltip_BookTitle = "Book Title",
+  Tooltip_BookTitle_1 = "%1 for Beginners",
+  Tooltip_BookTitle_3 = "%1 for Intermediates",
+  Tooltip_BookTitle_5 = "%1 for Advanced",
+  Tooltip_BookTitle_7 = "%1 for Experts",
+  Tooltip_BookTitle_9 = "%1 for Masters",
+  Tooltip_BookTitle_Blacksmith = "Smithing",
+  Tooltip_BookTitle_Carpentry = "Carpentry",
+  Tooltip_BookTitle_Cooking = "Cooking",
+  Tooltip_BookTitle_Electricity = "Electricity",
+  Tooltip_BookTitle_Farming = "Farming",
+  Tooltip_BookTitle_FirstAid = "First Aid",
+  Tooltip_BookTitle_Fishing = "Fishing",
+  Tooltip_BookTitle_Foraging = "Foraging",
+  Tooltip_BookTitle_Mechanics = "Mechanics",
+  Tooltip_BookTitle_MetalWelding = "Metalwork",
+  Tooltip_BookTitle_Tailoring = "Tailoring",
+  Tooltip_BookTitle_Trapping = "Trapping",
+  /************** BOOK TOOLTIPS FROM MODS **************/
+  Tooltip_BookTitle_Scavenging = "Scavenging",
+  Tooltip_BookTitle_Driving = "Driving",
+  Tooltip_BookTitle_Tinkering = "Tinkering",
+}
