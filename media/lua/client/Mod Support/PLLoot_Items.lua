@@ -38,6 +38,8 @@ TweakItem("Base.strapchest","DisplayCategory","ClothA");
 TweakItem("Base.strapchest2","DisplayCategory","ClothA");
 TweakItem("Base.TacticalWaistBagBack","DisplayCategory","ClothB");
 TweakItem("Base.TacticalWaistBagFront","DisplayCategory","ClothB");
+TweakItem("Base.TacticalWaistBagBackMed","DisplayCategory","ClothB");
+TweakItem("Base.TacticalWaistBagFrontMed","DisplayCategory","ClothB");
 TweakItem("Base.ClericNeck","DisplayCategory","Cloth");
 TweakItem("Base.ClericPants","DisplayCategory","Cloth");
 TweakItem("Base.CropTop","DisplayCategory","Cloth");
