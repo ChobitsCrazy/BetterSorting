@@ -26,6 +26,7 @@ TweakItem("Base.HookedWaterBottleEmptyPurple","DisplayCategory","Container");
 TweakItem("Base.HookedWaterBottleFullPurple","DisplayCategory","FoodB");
 TweakItem("Base.HookedWaterBottleEmptyRed","DisplayCategory","Container");
 TweakItem("Base.HookedWaterBottleFullRed","DisplayCategory","FoodB");
+TweakItem("Radio.CDplayer","DisplayCategory","Electronics");
 end
 
 --ScrapArmor
