@@ -5,6 +5,7 @@ IGUI_EN = {
 	IGUI_ItemCat_ClothA = "Clothing - Accessory",
 	IGUI_ItemCat_ClothB = "Clothing - Bag",
 	IGUI_ItemCat_ClothM = "Clothing - Misc",
+	IGUI_ItemCat_Collect = "Collectable",
 	IGUI_ItemCat_Container = "Container",
 	IGUI_ItemCat_Cooking = "Cooking",
 	IGUI_ItemCat_Craft = "Crafting",
