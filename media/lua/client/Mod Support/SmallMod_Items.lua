@@ -284,6 +284,12 @@ TweakItem("Base.WaterPocket","DisplayCategory","Tool");
 TweakItem("Base.IcePocket","DisplayCategory","Tool");
 end
 
+--CorpseStudy
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2695355759
+if getActivatedMods():contains("ttr-CorpseStudy") then
+TweakItem("CorpseStudyMod.MedicalJournal","DisplayCategory","Medical");
+end
+
 --CrashedCarsMod
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1539281445
 if getActivatedMods():contains("CrashedCarsMod") then
