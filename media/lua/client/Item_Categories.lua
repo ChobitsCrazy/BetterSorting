@@ -889,7 +889,7 @@ TweakItem("Base.WaterMugSpiffo","DisplayCategory","FoodB");
 TweakItem("Base.WaterMugWhite","DisplayCategory","FoodB");
 TweakItem("Base.WaterTeacup","DisplayCategory","FoodB");
 -- TweakItem("Base.BeefJerky","DisplayCategory","FoodN");
-TweakItem("Base.Butter","DisplayCategory","Cooking");
+-- TweakItem("Base.Butter","DisplayCategory","FoodN");
 -- TweakItem("Base.Candycane","DisplayCategory","FoodN");
 -- TweakItem("Base.CandyPackage","DisplayCategory","FoodN");
 -- TweakItem("Base.CannedBolognese","DisplayCategory","FoodN");
