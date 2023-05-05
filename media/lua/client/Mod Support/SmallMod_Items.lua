@@ -594,6 +594,15 @@ TweakItem("rat.RadioBlackGrid","DisplayCategory","Electronics");
 TweakItem("rat.RadioMakeShiftGrid","DisplayCategory","Electronics");
 end
 
+--RifleSlings
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2644986930
+if getActivatedMods():contains("SlingMod") then
+TweakItem("Base.SlingA","DisplayCategory","ClothA");
+TweakItem("Base.SlingAalt","DisplayCategory","ClothA");
+TweakItem("Base.SlingAalt2","DisplayCategory","ClothA");
+TweakItem("Base.SlingAalt3","DisplayCategory","ClothA");
+end
+
 --Scavenger Skill
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2721290568
 if getActivatedMods():contains("ScavengingSkill") then
