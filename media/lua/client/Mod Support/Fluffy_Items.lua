@@ -82,5 +82,4 @@ TweakItem("UndeadSurvivor.PrepperKnifeKnock","DisplayCategory","WepMelee");
 TweakItem("UndeadSurvivor.PrepperKnifeSwing","DisplayCategory","WepMelee");
 TweakItem("UndeadSurvivor.PrepperKnifeStab","DisplayCategory","WepMelee");
 TweakItem("UndeadSurvivor.StalkerKnife","DisplayCategory","WepMelee");
-
-  END
+end
