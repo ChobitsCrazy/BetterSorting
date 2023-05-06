@@ -851,10 +851,11 @@ TweakItem("WaterDispenser.WaterJugWaterFull","DisplayCategory","Container");
 TweakItem("WaterDispenser.WaterJugPetrolFull","DisplayCategory","Fuel");
 end
 
---WaterPipes
+--Irrigation pipes for farming and water supply [B41+]
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2464581798
 if getActivatedMods():contains("waterPipes") then
-TweakItem("Waterpipes.WaterPipe","DisplayCategory","SurFarm");
+TweakItem("waterPipes.WaterPipe","DisplayCategory","SurFarm");
+TweakItem("waterPipes.WaterPipe2","DisplayCategory","SurFarm");
 end
 
 --WaterTrailer
@@ -897,4 +898,43 @@ TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
 TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
 TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
 TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
+end
+
+--Essential Crafting
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2903127760
+if getActivatedMods():contains("EssentialCrafting") then
+TweakItem("Base.LighterEmpty","DisplayCategory","Tool");
+end
+
+--Can Repair Doors
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2905027525
+if getActivatedMods():contains("CanRepairDoors") then
+TweakItem("Base.DoorsRepairKitMetal","DisplayCategory","Tool");
+TweakItem("Base.DoorsRepairKitWood","DisplayCategory","Tool");
+TweakItem("Base.DoorsRepairKitEpoxy","DisplayCategory","Tool");
+end
+
+--Tsar's Common Library 2.0
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2392709985
+if getActivatedMods():contains("tsarslib") then
+TweakItem("Base.1000Tank1","DisplayCategory","Mechanics");
+TweakItem("Base.1000Tank2","DisplayCategory","Mechanics");
+TweakItem("Base.1000Tank3","DisplayCategory","Mechanics");
+TweakItem("Base.500Tank1","DisplayCategory","Mechanics");
+TweakItem("Base.500Tank2","DisplayCategory","Mechanics");
+TweakItem("Base.500Tank3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA2.ATA2ItemContainer","DisplayCategory","Mechanics");
+TweakItem("Base.ATAProtectionWheelsChain","DisplayCategory","Mechanics");
+TweakItem("Base.ATARoofLightItem","DisplayCategory","Mechanics");
+TweakItem("Base.ATASleepingBag","DisplayCategory","Mechanics");
+TweakItem("Base.TransportSeatBoxWooden","DisplayCategory","Mechanics");
+TweakItem("Base.TransportMicrowave","DisplayCategory","Furniture");
+TweakItem("Base.TransportOven","DisplayCategory","Furniture");
+TweakItem("Base.TransportShelve","DisplayCategory","Furniture");
+TweakItem("Base.TransportCounter","DisplayCategory","Furniture");
+TweakItem("Base.TransportMedicine","DisplayCategory","Furniture");
+TweakItem("Base.TransportDrawer","DisplayCategory","Furniture");
+TweakItem("Base.TransportFreezer","DisplayCategory","Furniture");
+TweakItem("Base.TransportFridge","DisplayCategory","Furniture");
+TweakItem("Base.TransportCupboard","DisplayCategory","Furniture");
 end
