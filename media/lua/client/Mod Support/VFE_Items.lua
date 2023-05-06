@@ -51,6 +51,7 @@ TweakItem("Base.Revolver_Short","DisplayCategory","WepFire");
 TweakItem("Base.Revolver_Long","DisplayCategory","WepFire");
 TweakItem("Base.Pistol3","DisplayCategory","WepFire");
 TweakItem("Base.Revolver","DisplayCategory","WepFire");
+TweakItem("Base.P229","DisplayCategory","WepFire");
 TweakItem("Base.FireKlean","DisplayCategory","Tool");
 TweakItem("Base.CleaningKit","DisplayCategory","Tool");
 TweakItem("Base.762Clip","DisplayCategory","WepAmmoMag");
@@ -66,6 +67,7 @@ TweakItem("Base.OilFilter2","DisplayCategory","Tool");
 TweakItem("Base.9mmClip20","DisplayCategory","WepAmmoMag");
 TweakItem("Base.9mmClip17","DisplayCategory","WepAmmoMag");
 TweakItem("Base.9mmClip30","DisplayCategory","WepAmmoMag");
+TweakItem("Base.9mmClip13","DisplayCategory","WepAmmoMag");
 end
 
 --VFES
