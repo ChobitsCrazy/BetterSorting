@@ -8,6 +8,7 @@ IGUI_EN = {
 	IGUI_ItemCat_Collect = "Collectable",
 	IGUI_ItemCat_Container = "Container",
 	IGUI_ItemCat_Cooking = "Cooking",
+	IGUI_ItemCat_CookB = "Cooking - Brewing",
 	IGUI_ItemCat_Craft = "Crafting",
 	IGUI_ItemCat_CraftAmmo = "Crafting - Ammunition",
 	IGUI_ItemCat_CraftCarp = "Crafting - Carpentry",
