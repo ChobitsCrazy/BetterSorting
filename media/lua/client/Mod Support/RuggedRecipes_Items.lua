@@ -9,13 +9,13 @@ if getActivatedMods():contains("RuggedRecipes") then
 -- TweakItem("RuggedRecipes.HoochMash","DisplayCategory","FoodP");
 -- TweakItem("RuggedRecipes.FermentingHoochMash","DisplayCategory","FoodP");
 -- TweakItem("RuggedRecipes.ReadyHoochMash","DisplayCategory","FoodN");
-TweakItem("RuggedRecipes.Hooch","DisplayCategory","FoodB");
+TweakItem("RuggedRecipes.Hooch","DisplayCategory","FoodA");
 -- TweakItem("RuggedRecipes.FermentingBerryWine","DisplayCategory","FoodP");
 -- TweakItem("RuggedRecipes.ReadyBerryWine","DisplayCategory","FoodN");
-TweakItem("RuggedRecipes.BerryWine","DisplayCategory","FoodB");
+TweakItem("RuggedRecipes.BerryWine","DisplayCategory","FoodA");
 -- TweakItem("RuggedRecipes.FermentingKvass","DisplayCategory","FoodP");
 -- TweakItem("RuggedRecipes.ReadyKvass","DisplayCategory","FoodN");
-TweakItem("RuggedRecipes.Kvass","DisplayCategory","FoodB");
+TweakItem("RuggedRecipes.Kvass","DisplayCategory","FoodA");
 --PRESERVEDFOOD
 -- TweakItem("RuggedRecipes.UndriedBeefJerky","DisplayCategory","FoodP");
 -- TweakItem("RuggedRecipes.UndriedSmokedFish","DisplayCategory","FoodP");
