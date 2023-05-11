@@ -60,6 +60,8 @@ TweakItem("Base.PFPants","DisplayCategory","Cloth");
 TweakItem("Base.PFShorts","DisplayCategory","Cloth");
 TweakItem("Base.PFVest","DisplayCategory","Cloth");
 TweakItem("Base.PFVest2","DisplayCategory","Cloth");
+TweakItem("Base.MVest","DisplayCategory","ClothA");
+TweakItem("Base.MVest2","DisplayCategory","ClothA");
 TweakItem("Base.RogueArms","DisplayCategory","Cloth");
 TweakItem("Base.RogueGreaves","DisplayCategory","Cloth");
 TweakItem("Base.RogueHoodie","DisplayCategory","Cloth");
