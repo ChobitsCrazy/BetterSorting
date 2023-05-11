@@ -167,7 +167,7 @@ end
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2648779556
 if getActivatedMods():contains("TrueActionsDancing") then
 -- TweakItem("TAD.OpenKosmotsars","DisplayCategory","FoodN");
--- TweakItem("TAD.CloseKosmotsars","DisplayCategory","FoodN");
+TweakItem("TAD.CloseKosmotsars","DisplayCategory","FoodN");
 TweakItem("TAD.BobTA_African_Noodle_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_African_Rainbow_Mag","DisplayCategory","LitR");
 TweakItem("TAD.BobTA_Arms_Hip_Hop_Mag","DisplayCategory","LitR");
