@@ -231,4 +231,6 @@ TweakItem("TW.HoeHead","DisplayCategory","Craft");
 TweakItem("TW.PickaxeHead","DisplayCategory","Craft");
 TweakItem("TW.RakeHead","DisplayCategory","Craft");
 TweakItem("TW.ForkHead","DisplayCategory","Craft");
+--New Categories for Base items
+TweakItem("Base.LeadPipe","DisplayCategory","CraftMetal");
 end
