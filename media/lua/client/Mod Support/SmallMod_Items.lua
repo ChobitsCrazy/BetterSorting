@@ -683,6 +683,33 @@ TweakItem("Base.PlasticLighter_Red","DisplayCategory","Tool");
 TweakItem("Base.PlasticLighter_Yellow","DisplayCategory","Tool");
 end
 
+--SpecialEmergencyVehiclesFRsm
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2849455153
+if getActivatedMods():contains("SpecialEmergencyVehiclesFRsm") then
+TweakItem("Base.Hat_BaseballCapDEA","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapDEA_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapATF","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapATF_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapFBILG","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapFBILG_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Hat_blackRiotHelmetfbilg","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlg","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlgblack","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlgconidfbi","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlgblackconidFBI","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_RIOTlgblack","DisplayCategory","Cloth");
+TweakItem("Base.Vest_Bulletfbi","DisplayCategory","Cloth");
+TweakItem("Base.Vest_Bulletfbigreen","DisplayCategory","Cloth");
+TweakItem("Base.Vest_BulletfbiRIOTLg","DisplayCategory","Cloth");
+TweakItem("Base.Vest_BulletRiotLG","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_ATFclosed","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_USMSHclosed","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_DEAclosed","DisplayCategory","Cloth");
+TweakItem("Base.Vest_BulletRIOTlggeneric","DisplayCategory","Cloth");
+TweakItem("Base.Trousers_PoliceRiotfbilg","DisplayCategory","Cloth");
+TweakItem("Base.Shirt_FormalWhiteFBIIDLG","DisplayCategory","Cloth");
+end
+
 --SprayPaint
 --https://steamcommunity.com/sharedfiles/filedetails/?id=499153179
 if getActivatedMods():contains("spraypaintEDIT") then
