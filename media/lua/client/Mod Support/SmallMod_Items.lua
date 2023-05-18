@@ -239,8 +239,8 @@ TweakItem("BogaPizza.RumFull","DisplayCategory","FoodB");
 end
 
 --Books
---???
---if getActivatedMods():contains("???") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2601912220
+if getActivatedMods():contains("DBDA") then
 TweakItem("DBDA.DBDA1","DisplayCategory","LitE");
 TweakItem("DBDA.DBDA2","DisplayCategory","LitE");
 TweakItem("DBDA.DBDA3","DisplayCategory","LitE");
@@ -259,7 +259,7 @@ TweakItem("DBDA.Doc","DisplayCategory","LitE");
 TweakItem("DBDA.Out","DisplayCategory","LitE");
 TweakItem("DBDA.Who","DisplayCategory","LitE");
 TweakItem("DBDA.It","DisplayCategory","LitE");
---end
+end
 
 --CigaretteCartonMod
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2207313208
