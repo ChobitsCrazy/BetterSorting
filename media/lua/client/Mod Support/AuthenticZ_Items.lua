@@ -113,7 +113,7 @@ TweakItem(moduleName..".Authentic_CoffeeCup","DisplayCategory","WepMelee");
 TweakItem(moduleName..".AuthenticCricketBat","DisplayCategory","WepMelee");
 TweakItem(moduleName..".AuthenticIceStaff","DisplayCategory","WepMelee");
 TweakItem(moduleName..".AuthenticRaiderStaff","DisplayCategory","WepMelee");
-TweakItem(moduleName..".AuthenticTagillaSledgehammer","DisplayCategory","WepMelee");
+TweakItem(moduleName..".AuthenticTagillaSledgehammer","DisplayCategory","Tool");
 TweakItem(moduleName..".AuthenticWalkingCane","DisplayCategory","WepMelee");
 TweakItem(moduleName..".AuthenticWalkingCaneGrandFather","DisplayCategory","WepMelee");
 TweakItem(moduleName..".AuthenticWalkingCaneJP","DisplayCategory","WepMelee");
