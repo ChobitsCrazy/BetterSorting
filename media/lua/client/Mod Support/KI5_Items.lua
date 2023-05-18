@@ -1,4 +1,35 @@
 require("ItemTweaker_Copy_CC");
+--Not Required: '08 Mercury Sable, 
+
+--49powerWagon
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2900580391
+if getActivatedMods():contains("49powerWagon") then
+TweakItem("Base.49powerWagonTire","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonApocalypseTire","DisplayCategory","Mechanics");
+TweakItem("Base.PWRTrunk2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonSideskirts0","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonSideskirts1","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonFrontDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonRearDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonFrontDoorArmor","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonRearDoorArmor","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonWindshieldArmor","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonWindshieldRearArmor","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonEngineDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonTrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonSeat2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonTruckBedSeat2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonBumper0","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonBullbar1","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonBullbar2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonWindshield2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonSideWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonWindshieldRear2","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonFrontFender","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonRearFender","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonFrontFenderMakeshift","DisplayCategory","Mechanics");
+TweakItem("Base.49powerWagonRearFenderMakeshift","DisplayCategory","Mechanics");
+end
 
 --59Meteor
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2772575623
