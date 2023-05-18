@@ -336,6 +336,7 @@ TweakItem(moduleName..".Hat_FootballHelmet_Chiefs","DisplayCategory","Cloth");
 TweakItem(moduleName..".Hat_FootballHelmet_Packers","DisplayCategory","Cloth");
 TweakItem(moduleName..".Hat_FootballHelmet_RedSkull","DisplayCategory","Cloth");
 TweakItem(moduleName..".Hat_FootballHelmet_Patriots","DisplayCategory","Cloth");
+TweakItem(moduleName..".Hat_GasMask","DisplayCategory","ClothA");
 TweakItem(moduleName..".Hat_GhostFace","DisplayCategory","Cloth");
 TweakItem(moduleName..".Hat_Gibus","DisplayCategory","Cloth");
 TweakItem(moduleName..".Hat_Gibus2","DisplayCategory","Cloth");
