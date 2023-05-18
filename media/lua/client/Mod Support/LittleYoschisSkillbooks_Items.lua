@@ -1,8 +1,14 @@
 require("ItemTweaker_Copy_CC");
 
 --LittleYochisSkillbooks
---???
---if getActivatedMods():contains("???") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2737726733
+if getActivatedMods():contains("LY_Skillbooks_agility")
+or getActivatedMods():contains("LY_Skillbooks_firearms")
+or getActivatedMods():contains("LY_Skillbooks_lockpicking")
+or getActivatedMods():contains("LY_Skillbooks_melee")
+or getActivatedMods():contains("LY_Skillbooks_passive")
+then
+
 TweakItem("LY_Skillbooks.BookSprinting1","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookSprinting2","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookSprinting3","DisplayCategory","LitS");
@@ -83,4 +89,4 @@ TweakItem("LY_Skillbooks.BookStrength2","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookStrength3","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookStrength4","DisplayCategory","LitS");
 TweakItem("LY_Skillbooks.BookStrength5","DisplayCategory","LitS");
---end
+end
