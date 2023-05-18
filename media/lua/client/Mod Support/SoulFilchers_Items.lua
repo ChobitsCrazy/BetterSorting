@@ -309,7 +309,8 @@ if getActivatedMods():contains("FarmingTime") or getActivatedMods():contains("So
 -- TweakItem("filcher.SFBeetPot","DisplayCategory","FoodN");
 -- TweakItem("filcher.Beetroot","DisplayCategory","FoodP");
 -- TweakItem("filcher.Cauliflower","DisplayCategory","FoodP");
-TweakItem("filcher.SFWheat","DisplayCategory","SurFarm");
+-- TweakItem("filcher.TeaLeaves","DisplayCategory","FoodN");
+TweakItem("filcher.SFWheat","DisplayCategory","Cooking");
 TweakItem("filcher.BeetSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.BeetBagSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.CornSeed","DisplayCategory","SurFarm");
@@ -320,6 +321,8 @@ TweakItem("filcher.SFLemonGrassSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.SFLemonGrassBagSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.LettuceSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.LettuceBagSeed","DisplayCategory","SurFarm");
+TweakItem("filcher.TeaSeed","DisplayCategory","SurFarm");
+TweakItem("filcher.TeaBagSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.SFWheatSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.SFWheatBagSeed","DisplayCategory","SurFarm");
 TweakItem("filcher.SFBookFarm","DisplayCategory","LitR");
@@ -330,6 +333,7 @@ TweakItem("filcher.GardeningSprayMilk","DisplayCategory","SurFarm");
 TweakItem("filcher.SFGrainGrinder","DisplayCategory","Tool");
 TweakItem("filcher.SFCloth","DisplayCategory","Junk");
 TweakItem("filcher.SFClothDirty","DisplayCategory","Junk");
+TweakItem("filcher.TeaExtract","DisplayCategory","Cooking");
 end
 
 --ForagingTime
