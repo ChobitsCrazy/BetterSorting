@@ -732,28 +732,6 @@ TweakItem("spraypaint.ChalkViolet","DisplayCategory","Tool");
 TweakItem("spraypaint.ChalkCyan","DisplayCategory","Tool");
 end
 
---SpongiesClothing
---https://steamcommunity.com/sharedfiles/filedetails/?id=2684285534
-if getActivatedMods():contains("SpnCloth") or getActivatedMods():contains("SpnClothVanilla") then
-TweakItem("Spongie.Gloves_StripedLong","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_SheepWool","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_SheepWoolOPEN","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_PoliceArmor","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_Flight","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_FlightOPEN","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_FlightVest","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_FlightVestOPEN","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_Cardigan","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_CardiganDOWN","DisplayCategory","Cloth");
-TweakItem("Spongie.TShirt_Compression","DisplayCategory","Cloth");
-TweakItem("Spongie.TShirt_CompressionLong","DisplayCategory","Cloth");
-TweakItem("Spongie.Jumper_TurtleVest","DisplayCategory","Cloth");
-TweakItem("Spongie.Vest_Waterproof","DisplayCategory","Cloth");
-TweakItem("Spongie.Jumper_Military","DisplayCategory","Cloth");
-TweakItem("Spongie.Shorts_Spandex","DisplayCategory","Cloth");
-TweakItem("Spongie.Shorts_SpandexLong","DisplayCategory","Cloth");
-end
-
 --Treads Water Tank Trucks
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2719592131
 if getActivatedMods():contains("RS_WaterCistern") 
