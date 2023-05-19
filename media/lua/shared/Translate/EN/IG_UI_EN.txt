@@ -23,6 +23,7 @@ IGUI_EN = {
 	IGUI_ItemCat_FoodP = "Food - Perishable",
 	IGUI_ItemCat_FoodN = "Food - Non-Perishable",
 	IGUI_ItemCat_Fuel = "Fuel",
+	IGUI_ItemCat_Furn = "Furniture",
 	IGUI_ItemCat_Junk = "Junk",
 	IGUI_ItemCat_LitE = "Literature - Entertainment",
 	IGUI_ItemCat_LitR = "Literature - Recipe",
