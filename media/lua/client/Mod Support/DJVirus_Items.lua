@@ -117,7 +117,7 @@ TweakItem("SGuns.NailBomb","DisplayCategory","WepBomb");
 TweakItem("SGuns.GlassBomb","DisplayCategory","WepBomb");
 TweakItem("SGuns.HPB","DisplayCategory","WepBomb");
 TweakItem("SGuns.HD","DisplayCategory","WepBomb");
-TweakItem("SGuns.TBottle","DisplayCategory","WepRanged");
+TweakItem("SGuns.TBottle","DisplayCategory","WepRange");
 TweakItem("SGuns.SlamFire","DisplayCategory","WepFire");
 TweakItem("SGuns.SBBox","DisplayCategory","Ammo");
 TweakItem("SGuns.SBullets","DisplayCategory","Ammo");
