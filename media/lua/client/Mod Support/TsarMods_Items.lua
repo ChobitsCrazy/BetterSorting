@@ -101,6 +101,14 @@ TweakItem("Autotsar.ATAPetyarbuiltProtectionSideTopItem","DisplayCategory","Mech
 TweakItem("Base.ATSMegaTrunk","DisplayCategory","Mechanics");
 end
 
+--ATA_Samara
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2850439818
+if getActivatedMods():contains("ATA_Samara") then
+TweakItem("Autotsar.ATATuningChevalierSamara","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATASamaraHood2Item3","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATASamaraHood3Item3","DisplayCategory","Mechanics");
+end
+
 --AutotsarMotorclub
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2778576730
 if getActivatedMods():contains("amclub") then
