@@ -8,6 +8,7 @@ require("ItemTweaker_Copy_CC");
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2200148440
 
 if getActivatedMods():contains("Brita") then
+TweakItem("Base.WD","DisplayCategory","Tool");
 TweakItem("Base.AmmoCan30_22","DisplayCategory","Ammo");
 TweakItem("Base.AmmoCan30_57","DisplayCategory","Ammo");
 TweakItem("Base.AmmoCan30_380","DisplayCategory","Ammo");
