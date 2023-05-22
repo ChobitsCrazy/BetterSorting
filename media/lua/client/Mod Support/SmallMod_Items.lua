@@ -975,3 +975,12 @@ TweakItem("Base.TransportFreezer","DisplayCategory","Furniture");
 TweakItem("Base.TransportFridge","DisplayCategory","Furniture");
 TweakItem("Base.TransportCupboard","DisplayCategory","Furniture");
 end
+
+--Viperel's Recycling Center
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2713055926
+if getActivatedMods():contains("VPR_RecyclingCenter") then
+TweakItem("Base.EmptyLighter","DisplayCategory","Tool");
+TweakItem("Base.GlassMold","DisplayCategory","Craft");
+TweakItem("Base.GlassShard","DisplayCategory","Craft");
+TweakItem("Base.GlassPane","DisplayCategory","Craft");
+end
