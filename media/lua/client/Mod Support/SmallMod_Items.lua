@@ -678,6 +678,36 @@ TweakItem("ScavengerSkill.ScavengerSkill_BookScavenging4","DisplayCategory","Lit
 TweakItem("ScavengerSkill.ScavengerSkill_BookScavenging5","DisplayCategory","LitS");
 end
 
+--SecretZ
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2864652763
+if getActivatedMods():contains("SecretZ_v3")
+or getActivatedMods():contains("SecretZ_v2")
+or getActivatedMods():contains("SecretZ") then
+TweakItem("SZ.Barrys_Shotgun","DisplayCategory","WepFire");
+TweakItem("SZ.BCS_Shotgun","DisplayCategory","WepFire");
+TweakItem("SZ.Garrys_44","DisplayCategory","WepFire");
+TweakItem("SZ.BCS_Pistol","DisplayCategory","WepFire");
+TweakItem("SZ.Key_BlueCard","DisplayCategory","Key");
+TweakItem("SZ.Key_RedCard","DisplayCategory","Key");
+TweakItem("SZ.Key_GreenCard","DisplayCategory","Key");
+TweakItem("SZ.Key_YellowCard","DisplayCategory","Key");
+TweakItem("SZ.Key_BlackCard","DisplayCategory","Key");
+TweakItem("SZ.Key_SystemL0","DisplayCategory","Key");
+TweakItem("SZ.Bunker01","DisplayCategory","Map");
+TweakItem("SZ.Bunker02","DisplayCategory","Map");
+TweakItem("SZ.Bunker03","DisplayCategory","Map");
+TweakItem("SZ.Bunker04","DisplayCategory","Map");
+TweakItem("SZ.TopSecret","DisplayCategory","Map");
+TweakItem("SZ.TopSecret2","DisplayCategory","Map");
+TweakItem("SZ.TopSecret3","DisplayCategory","Map");
+TweakItem("SZ.opmap1","DisplayCategory","Map");
+TweakItem("SZ.opmap2","DisplayCategory","Map");
+TweakItem("SZ.opmap3","DisplayCategory","Map");
+TweakItem("SZ.labmap1","DisplayCategory","Map");
+TweakItem("SZ.Mov_Barrier01","DisplayCategory","Furn");
+TweakItem("SZ.Mov_SecurityTerminal","DisplayCategory","Furn");
+end
+
 --Silencer/Suppressor
 --https://steamcommunity.com/sharedfiles/filedetails/?id=639909479
 if getActivatedMods():contains("Silencer") then
