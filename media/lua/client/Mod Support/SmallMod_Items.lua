@@ -609,6 +609,13 @@ TweakItem("Base.SlingAalt2","DisplayCategory","ClothA");
 TweakItem("Base.SlingAalt3","DisplayCategory","ClothA");
 end
 
+--SavottaBackpacks
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2940277485
+if getActivatedMods():contains("SavottaBackpacks") then
+TweakItem("Base.Jaakari_L_Backpack","DisplayCategory","ClothB");
+TweakItem("Base.Jaakari_XL_Backpack","DisplayCategory","ClothB");
+end
+
 --Scavenger Skill
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2721290568
 if getActivatedMods():contains("ScavengingSkill") then
