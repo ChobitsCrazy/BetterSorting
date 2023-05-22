@@ -171,6 +171,53 @@ TweakItem("BatesMetalicos.Bsock","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.MetalBaseballBat","DisplayCategory","WepMelee");
 end
 
+--CustomMapBridge
+if getActivatedMods():contains("CustomMapBridge") then
+TweakItem("Base.Gift1","DisplayCategory","Junk");
+TweakItem("Base.Gift2","DisplayCategory","Junk");
+TweakItem("Base.Gift3","DisplayCategory","Junk");
+TweakItem("Base.Gift4","DisplayCategory","Junk");
+TweakItem("Base.Gift5","DisplayCategory","Junk");
+TweakItem("Base.ArcadeCoin","DisplayCategory","Junk");
+TweakItem("Base.DuaLipaFrame","DisplayCategory","Junk");
+TweakItem("Base.PMRMTire","DisplayCategory","Furn");
+TweakItem("Base.UnknownTire","DisplayCategory","Furn");
+TweakItem("Base.PMRMTireMachine","DisplayCategory","Furn");
+--TweakItem("Base.SmallGKey","DisplayCategory","Key");
+--TweakItem("Base.CMBSecretKey1","DisplayCategory","Key");
+--TweakItem("Base.CMBSecretKey2","DisplayCategory","Key");
+--TweakItem("Base.KeyD","DisplayCategory","Key");
+--TweakItem("Base.KeyE","DisplayCategory","Key");
+--TweakItem("Base.KeyF","DisplayCategory","Key");
+--TweakItem("Base.KeyG","DisplayCategory","Key");
+--TweakItem("Base.KeyH","DisplayCategory","Key");
+--TweakItem("Base.KeyI","DisplayCategory","Key");
+--TweakItem("Base.KeyJ","DisplayCategory","Key");
+--TweakItem("Base.KeyK","DisplayCategory","Key");
+--TweakItem("Base.KeyL","DisplayCategory","Key");
+--TweakItem("Base.KeyM","DisplayCategory","Key");
+--TweakItem("Base.KeyN","DisplayCategory","Key");
+--TweakItem("Base.KeyO","DisplayCategory","Key");
+--TweakItem("Base.KeyP","DisplayCategory","Key");
+--TweakItem("Base.KeyQ","DisplayCategory","Key");
+--TweakItem("Base.KeyR","DisplayCategory","Key");
+--TweakItem("Base.KeyS","DisplayCategory","Key");
+--TweakItem("Base.KeyT","DisplayCategory","Key");
+--TweakItem("Base.KeyU","DisplayCategory","Key");
+TweakItem("Base.GoldenSkull","DisplayCategory","Collect");
+TweakItem("Base.GrapplingHook","DisplayCategory","Rool");
+TweakItem("Base.NewspaperEG","DisplayCategory","LitE");
+TweakItem("Base.Mov_DesktopXFilesComputer","DisplayCategory","Furn");
+TweakItem("Base.XFILE","DisplayCategory","Misc");
+--TweakItem("Base.CMBKeyRed","DisplayCategory","Key");
+TweakItem("Base.Mov_WallDiana","DisplayCategory","Furn");
+TweakItem("Base.Mov_Flag4fun","DisplayCategory","Furn");
+TweakItem("Base.Mov_KakuFlag","DisplayCategory","Furn");
+TweakItem("Base.Mov_FlagPixelDog","DisplayCategory","Furn");
+TweakItem("Base.Mov_FlagPastel","DisplayCategory","Furn");
+TweakItem("Base.Mov_FlagNubAsian","DisplayCategory","Furn");
+end
+
 --FuelTanksMod
 if getActivatedMods():contains("FuelTanksMod") then
 TweakItem("FuelTanks.FuelTanksMag1","DisplayCategory","LitR");
@@ -180,6 +227,7 @@ end
 --MilitaryComplex
 if getActivatedMods():contains("MilitaryComplex") then
 -- TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
+TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
 end
 
 --RiversideGunstore
