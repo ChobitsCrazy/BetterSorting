@@ -288,10 +288,12 @@ end
 if getActivatedMods():contains("ExploringTime") or getActivatedMods():contains("SoulFilchersExploringTime") then
 TweakItem("filcher.BottleWithGasPop","DisplayCategory","Fuel");
 TweakItem("filcher.BottleWithGasWater","DisplayCategory","Fuel");
+TweakItem("filcher.BatteryLamp","DisplayCategory","Tool");
 TweakItem("filcher.Flare","DisplayCategory","Tool");
 TweakItem("filcher.GasLantern","DisplayCategory","Tool");
 TweakItem("filcher.GasLanternEmpty","DisplayCategory","Tool");
 TweakItem("filcher.GasLanternLit","DisplayCategory","Tool");
+TweakItem("filcher.HeadTorch","DisplayCategory","Tool");
 TweakItem("filcher.TorchBranch","DisplayCategory","Tool");
 TweakItem("filcher.TorchBranchLit","DisplayCategory","Tool");
 TweakItem("filcher.TorchChairLeg","DisplayCategory","Tool");
