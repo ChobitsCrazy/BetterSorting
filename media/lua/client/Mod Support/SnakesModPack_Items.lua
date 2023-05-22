@@ -232,6 +232,9 @@ end
 
 --RiversideGunstore
 if getActivatedMods():contains("Riverside Gunstore") then
+TweakItem("Base.FunMetalBaseballBat","DisplayCategory","WepMelee");
+TweakItem("Base.Chipote","DisplayCategory","WepMelee");
+--TweakItem("Base.RiversideGunstoreMap","DisplayCategory","Map");
 TweakItem("Base.Shoes_BowlingTrainers","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_BowlingTrainersRed","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_BowlingTrainersGreen","DisplayCategory","Cloth");
