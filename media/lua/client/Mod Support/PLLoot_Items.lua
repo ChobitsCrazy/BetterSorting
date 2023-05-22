@@ -155,3 +155,26 @@ TweakItem("Base.VulcanClip","DisplayCategory","Ammo");
 TweakItem("Base.556HMGBelt","DisplayCategory","Ammo");
 TweakItem("Base.WitchyStaff","DisplayCategory","WepMelee");
 end
+
+--PLLoot_Patch
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2703858802
+if getActivatedMods():contains("PLLoot_Patch") then
+TweakItem("Base.strapchest_Black","DisplayCategory","ClothA");
+TweakItem("Base.strapchest2_Black","DisplayCategory","ClothA");
+TweakItem("Base.strapchest_Military","DisplayCategory","ClothA");
+TweakItem("Base.strapchest2_Military","DisplayCategory","ClothA");
+TweakItem("Base.Vest_RogueVest_Black","DisplayCategory","Cloth");
+TweakItem("Base.Vest_RogueVest_Military","DisplayCategory","Cloth");
+TweakItem("Base.Vest_WitchyCarrier_Military","DisplayCategory","Cloth");
+TweakItem("Base.Vest_WitchyCarrier_Black","DisplayCategory","Cloth");
+TweakItem("Base.MVest_Black","DisplayCategory","ClothA");
+TweakItem("Base.MVest2_Black","DisplayCategory","ClothA");
+TweakItem("Base.MVest_Military","DisplayCategory","ClothA");
+TweakItem("Base.MVest2_Military","DisplayCategory","ClothA");
+TweakItem("Base.TacticalWaistBagBack_Black","DisplayCategory","ClothB");
+TweakItem("Base.TacticalWaistBagFront_Black","DisplayCategory","ClothB");
+TweakItem("Base.TacticalWaistBagBack_Military","DisplayCategory","ClothB");
+TweakItem("Base.TacticalWaistBagFront_Military","DisplayCategory","ClothB");
+TweakItem("Base.RogueWaistBag_Black","DisplayCategory","ClothB");
+TweakItem("Base.RogueWaistBag_Military","DisplayCategory","ClothB");
+end
