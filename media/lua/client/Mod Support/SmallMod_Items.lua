@@ -1,6 +1,31 @@
 require("ItemTweaker_Copy_CC");
 --Mods with 30 or fewer added new items--
 
+--ahzclothing
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2908013174
+if getActivatedMods():contains("ahzclothing") then
+TweakItem("Base.ahzfitnesssocks","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnessarms","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnesspants","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnessbra","DisplayCategory","Cloth");
+TweakItem("Base.ahzuwhighwaist_t","DisplayCategory","Cloth");
+TweakItem("Base.ahzuwtightsshort","DisplayCategory","Cloth");
+TweakItem("Base.ahztoplongsleeve","DisplayCategory","Cloth");
+TweakItem("Base.ahztoplongsleevecut","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid1","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid1_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid2","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid2_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt_t","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt_t_plaid1","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt_t_plaid2","DisplayCategory","Cloth");
+end
+
 --AlecMods
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1537876121
 if getActivatedMods():contains("1537876121") then
