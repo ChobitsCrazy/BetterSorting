@@ -402,11 +402,17 @@ TweakItem("FencingKit.ChainWireRoll","DisplayCategory","CraftMetal");
 end
 
 --ForScience
---???
---if getActivatedMods():contains("???") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394
+if getActivatedMods():contains("ForScience") then
 TweakItem("Base.BookMedicalJournal","DisplayCategory","LitS");
 TweakItem("Base.BookElectricManual","DisplayCategory","LitS");
---end
+end
+
+--FunctionalChainsaw
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2921981763
+if getActivatedMods():contains("FunctionalChainsaw") then
+TweakItem("Ftool.Chainsaw","DisplayCategory","Tool");
+end
 
 --Icecream-Maker
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2754525193
