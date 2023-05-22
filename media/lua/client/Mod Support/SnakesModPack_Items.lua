@@ -205,7 +205,7 @@ TweakItem("Base.PMRMTireMachine","DisplayCategory","Furn");
 --TweakItem("Base.KeyT","DisplayCategory","Key");
 --TweakItem("Base.KeyU","DisplayCategory","Key");
 TweakItem("Base.GoldenSkull","DisplayCategory","Collect");
-TweakItem("Base.GrapplingHook","DisplayCategory","Rool");
+TweakItem("Base.GrapplingHook","DisplayCategory","Tool");
 TweakItem("Base.NewspaperEG","DisplayCategory","LitE");
 TweakItem("Base.Mov_DesktopXFilesComputer","DisplayCategory","Furn");
 TweakItem("Base.XFILE","DisplayCategory","Misc");
