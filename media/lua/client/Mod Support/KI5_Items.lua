@@ -276,6 +276,45 @@ TweakItem("Base.82JeepJ10Dorothy","DisplayCategory","Mechanics");
 TweakItem("Base.82JeepJ10DorothyAnemometer","DisplayCategory","Mechanics");
 end
 
+--82oshkoshM911
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2618213077
+if getActivatedMods():contains("82oshkoshM911") then
+TweakItem("OshkoshShirts.TShirt_OshkoshGray","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.TShirt_OshkoshGray","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.TShirt_OshkoshBlack","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.TShirt_bknht","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.Hoodie_OshkoshBlack","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.HoodieDOWN_OshkoshBlack","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.Hoodie_OshkoshGray","DisplayCategory","Cloth");
+TweakItem("OshkoshShirts.HoodieDOWN_OshkoshGray","DisplayCategory","Cloth");
+TweakItem("Base.M911Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.M967SmallTrunk2","DisplayCategory","Mechanics");
+TweakItem("Base.M911Toolbox2","DisplayCategory","Mechanics");
+TweakItem("Base.M911EngineDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M911TrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M127TrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M128TrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M129TrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M967TrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M911CarFrontDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.M911Windshield2","DisplayCategory","Mechanics");
+TweakItem("Base.M911SideWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.M911WindshieldRear2","DisplayCategory","Mechanics");
+TweakItem("Base.M911CarFrontDoorArmor","DisplayCategory","Mechanics");
+TweakItem("Base.M911WindshieldArmor","DisplayCategory","Mechanics");
+TweakItem("Base.M911WindshieldRearArmor","DisplayCategory","Mechanics");
+TweakItem("Base.M911Bullbar0","DisplayCategory","Mechanics");
+TweakItem("Base.M911Bullbar1","DisplayCategory","Mechanics");
+TweakItem("Base.M911Muffler","DisplayCategory","Mechanics");
+TweakItem("Base.M911Mudflaps","DisplayCategory","Mechanics");
+TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
+TweakItem("Base.V100Tires2","DisplayCategory","Mechanics");
+TweakItem("Base.V100Axle2","DisplayCategory","Mechanics");
+TweakItem("Base.V100AxleSmall2","DisplayCategory","Mechanics");
+TweakItem("USMIL.Seat0","DisplayCategory","Mechanics");
+end
+
 --83AMGeneralM923
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2811383142
 if getActivatedMods():contains("83amgeneralM923") then
@@ -812,25 +851,6 @@ TweakItem("Base.99fordCVPIFrontSideWindow1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIRearSideWindow1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIRearWindshield1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPICabBarrier1","DisplayCategory","Mechanics");
-end
-
---Oshkosh82M911
---https://steamcommunity.com/sharedfiles/filedetails/?id=2618213077
-if getActivatedMods():contains("82oshkoshM911") then
-TweakItem("OshkoshShirts.TShirt_OshkoshGray","DisplayCategory","Cloth");
-TweakItem("OshkoshShirts.TShirt_OshkoshBlack","DisplayCategory","Cloth");
-TweakItem("OshkoshShirts.TShirt_bknht","DisplayCategory","Cloth");
-TweakItem("OshkoshShirts.Hoodie_OshkoshBlack","DisplayCategory","Cloth");
-TweakItem("OshkoshShirts.HoodieDOWN_OshkoshBlack","DisplayCategory","Cloth");
-TweakItem("OshkoshShirts.Hoodie_OshkoshGray","DisplayCategory","Cloth");
-TweakItem("OshkoshShirts.HoodieDOWN_OshkoshGray","DisplayCategory","Cloth");
-TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
-TweakItem("Base.V100Tires2","DisplayCategory","Mechanics");
-TweakItem("Base.V100Axle2","DisplayCategory","Mechanics");
-TweakItem("Base.V100AxleSmall2","DisplayCategory","Mechanics");
-TweakItem("Base.M911Trunk2","DisplayCategory","Mechanics");
-TweakItem("Base.M911Toolbox2","DisplayCategory","Mechanics");
-TweakItem("Base.M911SpareTire2","DisplayCategory","Mechanics");
 end
 
 --Oshkosh86P19A
