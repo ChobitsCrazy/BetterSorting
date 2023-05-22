@@ -183,6 +183,8 @@ TweakItem("SWeapons.GlassShiv","DisplayCategory","WepMelee");
 TweakItem("SWeapons.ScrapShiv","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SalvagedShiv","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SalvagedShivO","DisplayCategory","WepMelee");
+TweakItem("SWeapons.ScrapClub","DisplayCategory","WepMelee");
+TweakItem("SWeapons.SalvagedClub","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SpearSharpenedScrewdriver","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SpearScrapShiv","DisplayCategory","WepMelee");
 TweakItem("SWeapons.SpearScrapMachete","DisplayCategory","WepMelee");
