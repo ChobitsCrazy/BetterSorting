@@ -1332,6 +1332,11 @@ TweakItem("Base.WaterTeacup","DisplayCategory","FoodB");
 --TweakItem("Base.SackOnions","DisplayCategory","FoodP");
 --FUEL
 TweakItem("Base.PetrolCan","DisplayCategory","Fuel");
+TweakItem("Base.PetrolBleachBottle","DisplayCategory","Fuel");
+TweakItem("Base.PetrolPopBottle","DisplayCategory","Fuel");
+TweakItem("Base.WaterBottlePetrol","DisplayCategory","Fuel");
+TweakItem("Base.WhiskeyPetrol","DisplayCategory","Fuel");
+TweakItem("Base.WinePetrol","DisplayCategory","Fuel");
 --JUNK
 TweakItem("Base.Baseball","DisplayCategory","Junk");
 TweakItem("Base.Basketball","DisplayCategory","Junk");
