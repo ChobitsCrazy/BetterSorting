@@ -587,6 +587,19 @@ TweakItem("MoreTraits.AntiqueHammer","DisplayCategory","Tool");
 TweakItem("MoreTraits.AntiqueKatana","DisplayCategory","WepMelee");
 end
 
+--PertsPartyTiles
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2837923608
+if getActivatedMods():contains("PertsPartyTiles") then
+TweakItem("Base.CrazedRamblings","DisplayCategory","Misc");
+TweakItem("Base.CrazedRamblings2","DisplayCategory","Misc");
+TweakItem("Base.CrazedRamblings3","DisplayCategory","Misc");
+TweakItem("Base.CrazedRamblings4","DisplayCategory","Misc");
+TweakItem("Base.OverlookFireAxe","DisplayCategory","WepMelee");
+TweakItem("Base.BatLeth","DisplayCategory","WepMelee");
+TweakItem("Base.MekLeth","DisplayCategory","WepMelee");
+TweakItem("Base.AZZK_pistol","DisplayCategory","WepFire");
+end
+
 --PlayerTraps
 --https://steamcommunity.com/sharedfiles/filedetails/?id=710542108
 if getActivatedMods():contains("PlayerTraps") then
