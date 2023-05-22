@@ -411,7 +411,7 @@ end
 --FuelAPI
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2688538916
 if getActivatedMods():contains("FuelAPI") then
-TweakItem("FuelAPI.LargePetrolCan","DisplayCategory","Fuel");
+TweakItem("FuelAPI.LargePetrolCan","DisplayCategory","Container");
 TweakItem("FuelAPI.LargePetrolCanFull","DisplayCategory","Fuel");
 TweakItem("FuelAPI.LargePetrolCanWater","DisplayCategory","FoodB");
 end
