@@ -207,7 +207,7 @@ TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.V103Tire2","DisplayCategory","Mechanics");
 TweakItem("Base.V103Axle2","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2Trunk2","DisplayCategory","Mechanics");
-TweakItem("Base.M35A2Extra2","DisplayCategory","Mechanics");
+TweakItem("Base.M49A2CTrunk2","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2Muffler1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2EngineDoor2","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2Tarp1_Item","DisplayCategory","Mechanics");
@@ -225,6 +225,8 @@ TweakItem("Base.M35A2Door2","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2WindshieldArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2DoorArmor1_Item","DisplayCategory","Mechanics");
 TweakItem("Base.M35A2Mudflaps1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.M49PumpDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.500_Water_Tank2","DisplayCategory","Mechanics");
 end
 
 --80kz1000
@@ -350,6 +352,7 @@ end
 if getActivatedMods():contains("84merc") then
 TweakItem("Base.W460NormalTire2","DisplayCategory","Mechanics");
 TweakItem("Base.W460WideTire2","DisplayCategory","Mechanics");
+TweakItem("Base.W460ModernTire2","DisplayCategory","Mechanics");
 TweakItem("Base.W460Trunk2","DisplayCategory","Mechanics");
 TweakItem("Base.W4602Trunk2","DisplayCategory","Mechanics");
 TweakItem("Base.W4604Trunk2","DisplayCategory","Mechanics");
@@ -436,6 +439,32 @@ TweakItem("Base.E150LegFur","DisplayCategory","Mechanics");
 TweakItem("Base.E150Divider","DisplayCategory","Mechanics");
 TweakItem("Base.E150MysteryMachineRoofrack2","DisplayCategory","Mechanics");
 TweakItem("Base.E150MysteryMachineSurfboards2","DisplayCategory","Mechanics");
+end
+
+--86oshkoshP19A
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2566953935
+if getActivatedMods():contains("86oshkoshP19A") then
+TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ACarFrontDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ARoofHatch2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ABigTrunk2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ASmallTrunk2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ARoofrack1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19ACarSeat2","DisplayCategory","Mechanics");
+TweakItem("Base.P19AEngineDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ATrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.P19AWindshield2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ASideWindow2","DisplayCategory","Mechanics");
+TweakItem("Base.P19ACarFrontDoorArmor1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19AWindshieldArmor1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19AFenderLeft1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19AFenderLeft2_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19AFenderRight1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19AFenderRight2_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19AFenderRight3_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19ASpareMount1_Item","DisplayCategory","Mechanics");
+TweakItem("Base.P19ASpareMount2_Item","DisplayCategory","Mechanics");
+TweakItem("USMIL.Seat0","DisplayCategory","Mechanics");
 end
 
 --87Cruiser
@@ -851,13 +880,4 @@ TweakItem("Base.99fordCVPIFrontSideWindow1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIRearSideWindow1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIRearWindshield1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPICabBarrier1","DisplayCategory","Mechanics");
-end
-
---Oshkosh86P19A
---https://steamcommunity.com/sharedfiles/filedetails/?id=2566953935
-if getActivatedMods():contains("86oshkoshP19A") then
-TweakItem("Base.V100Tire2","DisplayCategory","Mechanics");
-TweakItem("Base.P19ARoofHatch2","DisplayCategory","Mechanics");
-TweakItem("Base.P19ABigTrunk2","DisplayCategory","Mechanics");
-TweakItem("Base.P19ASmallTrunk2","DisplayCategory","Mechanics");
 end
