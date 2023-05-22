@@ -222,6 +222,7 @@ end
 
 --SnakeClothingMod
 if getActivatedMods():contains("SnakeClothingMod") then
+TweakItem("Base.GoldenKatana","DisplayCategory","WepMelee");
 TweakItem("Base.WorldCup","DisplayCategory","Collect");
 TweakItem("Base.VuvuzelaArg","DisplayCategory","Junk");
 TweakItem("Base.CowToy","DisplayCategory","Junk");
@@ -229,6 +230,9 @@ TweakItem("Base.SafeToy","DisplayCategory","Junk");
 TweakItem("Base.HorseToy","DisplayCategory","Junk");
 TweakItem("Base.Bag_BigSpiffoBackpack","DisplayCategory","ClothB");
 TweakItem("Base.UpholsteryKit","DisplayCategory","CraftTailor");
+TweakItem("Base.DungareesNubAsian","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_NubAsian","DisplayCategory","Cloth");
+TweakItem("Base.SuitcaseNubAsian","DisplayCategory","Container");
 TweakItem("Base.Hat_KakuHelmet","DisplayCategory","Cloth");
 TweakItem("Base.SuitcaseRiddle","DisplayCategory","Container");
 TweakItem("Base.SuitcasePixel","DisplayCategory","Container");
