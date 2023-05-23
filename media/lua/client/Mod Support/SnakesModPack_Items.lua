@@ -169,6 +169,7 @@ if getActivatedMods():contains("BatesMetalicosRevived") then
 TweakItem("BatesMetalicos.Bgrip","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.Bsock","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.MetalBaseballBat","DisplayCategory","WepMelee");
+TweakItem("BatesMetalicos.SteelBaseballBat","DisplayCategory","WepMelee");
 end
 
 --CustomMapBridge
