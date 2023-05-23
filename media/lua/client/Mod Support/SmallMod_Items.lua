@@ -900,6 +900,9 @@ TweakItem("Base.3000_Water_Tank_Tainted1","DisplayCategory","Mechanics");
 TweakItem("Base.3000_Water_Tank_Tainted2","DisplayCategory","Mechanics");
 TweakItem("Base.3000_Water_Tank_Tainted3","DisplayCategory","Mechanics");
 TweakItem("Base.RS_WaterFilter","DisplayCategory","Mechanics");
+TweakItem("Base.FRSideContainer_RS1","DisplayCategory","Mechanics");
+TweakItem("Base.FRSideContainer_RS2","DisplayCategory","Mechanics");
+TweakItem("Base.FRSideContainer_RS3","DisplayCategory","Mechanics");
 end
 
 --TheyKnew
