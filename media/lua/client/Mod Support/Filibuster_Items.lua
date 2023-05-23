@@ -1,3 +1,7 @@
+require("ItemTweaker_Copy_CC")
+--Filibuster Rhymes' Used Cars!
+--https://steamcommunity.com/sharedfiles/filedetails/?id=1510950729
+if getActivatedMods():contains("FRUsedCars") then
 TweakItem("Base.FRSideContainer1","DisplayCategory","Mechanics");
 TweakItem("Base.FRSideContainer2","DisplayCategory","Mechanics");
 TweakItem("Base.FRSideContainer3","DisplayCategory","Mechanics");
@@ -62,3 +66,4 @@ TweakItem("Base.SportCarSeat8","DisplayCategory","Mechanics");
 TweakItem("Base.OldCarMuffler8","DisplayCategory","Mechanics");
 TweakItem("Base.NormalCarMuffler8","DisplayCategory","Mechanics");
 TweakItem("Base.ModernCarMuffler8","DisplayCategory","Mechanics");
+end
