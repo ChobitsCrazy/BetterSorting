@@ -359,6 +359,18 @@ TweakItem("Base.ZMChip8","DisplayCategory","Junk");
 TweakItem("Base.ZMChip9","DisplayCategory","Junk");
 end
 
+--SnakeUtilsPack
+if getActivatedMods():contains("SnakeUtilsPack") then
+-- TweakItem("Base.Key_56","DisplayCategory","Key");
+-- TweakItem("Base.Key_156","DisplayCategory","Key");
+-- TweakItem("Base.Key_256","DisplayCategory","Key");
+-- TweakItem("Base.Key_163","DisplayCategory","Key");
+-- TweakItem("Base.Key_263","DisplayCategory","Key");
+-- TweakItem("Base.Key_251","DisplayCategory","Key");
+-- TweakItem("Base.Key_270","DisplayCategory","Key");
+-- TweakItem("Base.Key_172","DisplayCategory","Key");
+end
+
 --TableSaw
 if getActivatedMods():contains("TableSaw") then
 TweakItem("ColorDyes.DyesMag","DisplayCategory","LitR");
