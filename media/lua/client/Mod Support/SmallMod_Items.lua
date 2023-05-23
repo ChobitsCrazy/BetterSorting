@@ -121,7 +121,7 @@ TweakItem("Antiserum.AntiserumTestTube","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumTestTubePack","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumJournalOfResearch","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumWeak","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumRegular","DisplayCategory","Medical");
+TweakItem("Antiserum.AntiserumStrong","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumCure","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumUsedInjector","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumEmptyInjector","DisplayCategory","Medical");
