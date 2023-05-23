@@ -1442,6 +1442,12 @@ TweakItem("Base.FluffyfootBunny","DisplayCategory","Junk");
 TweakItem("Base.FreddyFox","DisplayCategory","Junk");
 TweakItem("Base.FurbertSquirrel","DisplayCategory","Junk");
 --LITERATURE
+TweakItem("Base.MarchRidgeMap","DisplayCategory","LitC");
+TweakItem("Base.MuldraughMap","DisplayCategory","LitC");
+TweakItem("Base.RiversideMap","DisplayCategory","LitC");
+TweakItem("Base.RosewoodMap","DisplayCategory","LitC");
+TweakItem("Base.WestpointMap","DisplayCategory","LitC");
+TweakItem("Base.Map","DisplayCategory","LitC");
 -- TweakItem("Base.Book","DisplayCategory","LitE");
 -- TweakItem("Base.ComicBook","DisplayCategory","LitE");
 -- TweakItem("Base.HottieZ","DisplayCategory","LitE");
@@ -1553,13 +1559,6 @@ TweakItem("Base.Pencil","DisplayCategory","LitW");
 TweakItem("Base.Pepper","DisplayCategory","Cooking");
 TweakItem("Base.RedPen","DisplayCategory","LitW");
 TweakItem("Base.SheetPaper2","DisplayCategory","LitW");
---MAPS
--- TweakItem("Base.MarchRidgeMap","DisplayCategory","Map");
--- TweakItem("Base.MuldraughMap","DisplayCategory","Map");
--- TweakItem("Base.RiversideMap","DisplayCategory","Map");
--- TweakItem("Base.RosewoodMap","DisplayCategory","Map");
--- TweakItem("Base.WestpointMap","DisplayCategory","Map");
--- TweakItem("Base.Map","DisplayCategory","Map");
 --MECHANICS
 TweakItem("Base.BigCarSeat1","DisplayCategory","Mechanics");
 TweakItem("Base.BigCarSeat2","DisplayCategory","Mechanics");
