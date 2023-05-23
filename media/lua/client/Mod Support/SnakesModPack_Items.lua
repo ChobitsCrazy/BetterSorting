@@ -184,33 +184,33 @@ TweakItem("Base.DuaLipaFrame","DisplayCategory","Junk");
 TweakItem("Base.PMRMTire","DisplayCategory","Furn");
 TweakItem("Base.UnknownTire","DisplayCategory","Furn");
 TweakItem("Base.PMRMTireMachine","DisplayCategory","Furn");
---TweakItem("Base.SmallGKey","DisplayCategory","Key");
---TweakItem("Base.CMBSecretKey1","DisplayCategory","Key");
---TweakItem("Base.CMBSecretKey2","DisplayCategory","Key");
---TweakItem("Base.KeyD","DisplayCategory","Key");
---TweakItem("Base.KeyE","DisplayCategory","Key");
---TweakItem("Base.KeyF","DisplayCategory","Key");
---TweakItem("Base.KeyG","DisplayCategory","Key");
---TweakItem("Base.KeyH","DisplayCategory","Key");
---TweakItem("Base.KeyI","DisplayCategory","Key");
---TweakItem("Base.KeyJ","DisplayCategory","Key");
---TweakItem("Base.KeyK","DisplayCategory","Key");
---TweakItem("Base.KeyL","DisplayCategory","Key");
---TweakItem("Base.KeyM","DisplayCategory","Key");
---TweakItem("Base.KeyN","DisplayCategory","Key");
---TweakItem("Base.KeyO","DisplayCategory","Key");
---TweakItem("Base.KeyP","DisplayCategory","Key");
---TweakItem("Base.KeyQ","DisplayCategory","Key");
---TweakItem("Base.KeyR","DisplayCategory","Key");
---TweakItem("Base.KeyS","DisplayCategory","Key");
---TweakItem("Base.KeyT","DisplayCategory","Key");
---TweakItem("Base.KeyU","DisplayCategory","Key");
+TweakItem("Base.SmallGKey","DisplayCategory","Key");
+TweakItem("Base.CMBSecretKey1","DisplayCategory","Key");
+TweakItem("Base.CMBSecretKey2","DisplayCategory","Key");
+TweakItem("Base.KeyD","DisplayCategory","Key");
+TweakItem("Base.KeyE","DisplayCategory","Key");
+TweakItem("Base.KeyF","DisplayCategory","Key");
+TweakItem("Base.KeyG","DisplayCategory","Key");
+TweakItem("Base.KeyH","DisplayCategory","Key");
+TweakItem("Base.KeyI","DisplayCategory","Key");
+TweakItem("Base.KeyJ","DisplayCategory","Key");
+TweakItem("Base.KeyK","DisplayCategory","Key");
+TweakItem("Base.KeyL","DisplayCategory","Key");
+TweakItem("Base.KeyM","DisplayCategory","Key");
+TweakItem("Base.KeyN","DisplayCategory","Key");
+TweakItem("Base.KeyO","DisplayCategory","Key");
+TweakItem("Base.KeyP","DisplayCategory","Key");
+TweakItem("Base.KeyQ","DisplayCategory","Key");
+TweakItem("Base.KeyR","DisplayCategory","Key");
+TweakItem("Base.KeyS","DisplayCategory","Key");
+TweakItem("Base.KeyT","DisplayCategory","Key");
+TweakItem("Base.KeyU","DisplayCategory","Key");
 TweakItem("Base.GoldenSkull","DisplayCategory","Collect");
 TweakItem("Base.GrapplingHook","DisplayCategory","Tool");
 TweakItem("Base.NewspaperEG","DisplayCategory","LitE");
 TweakItem("Base.Mov_DesktopXFilesComputer","DisplayCategory","Furn");
 TweakItem("Base.XFILE","DisplayCategory","Misc");
---TweakItem("Base.CMBKeyRed","DisplayCategory","Key");
+TweakItem("Base.CMBKeyRed","DisplayCategory","Key");
 TweakItem("Base.Mov_WallDiana","DisplayCategory","Furn");
 TweakItem("Base.Mov_Flag4fun","DisplayCategory","Furn");
 TweakItem("Base.Mov_KakuFlag","DisplayCategory","Furn");
@@ -362,14 +362,14 @@ end
 
 --SnakeUtilsPack
 if getActivatedMods():contains("SnakeUtilsPack") then
--- TweakItem("Base.Key_56","DisplayCategory","Key");
--- TweakItem("Base.Key_156","DisplayCategory","Key");
--- TweakItem("Base.Key_256","DisplayCategory","Key");
--- TweakItem("Base.Key_163","DisplayCategory","Key");
--- TweakItem("Base.Key_263","DisplayCategory","Key");
--- TweakItem("Base.Key_251","DisplayCategory","Key");
--- TweakItem("Base.Key_270","DisplayCategory","Key");
--- TweakItem("Base.Key_172","DisplayCategory","Key");
+TweakItem("Base.Key_56","DisplayCategory","Key");
+TweakItem("Base.Key_156","DisplayCategory","Key");
+TweakItem("Base.Key_256","DisplayCategory","Key");
+TweakItem("Base.Key_163","DisplayCategory","Key");
+TweakItem("Base.Key_263","DisplayCategory","Key");
+TweakItem("Base.Key_251","DisplayCategory","Key");
+TweakItem("Base.Key_270","DisplayCategory","Key");
+TweakItem("Base.Key_172","DisplayCategory","Key");
 end
 
 --TableSaw
