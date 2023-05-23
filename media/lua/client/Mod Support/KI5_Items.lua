@@ -853,13 +853,6 @@ end
 --99fordCVPI
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2971246021
 if getActivatedMods():contains("99fordCVPI") then
-TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
-TweakItem("Base.IsoContainerTankerTrunkDoor2","DisplayCategory","Mechanics");
-end
-
---ISOContainers
---https://steamcommunity.com/sharedfiles/filedetails/?id=2625625421
-if getActivatedMods():contains("isoContainers") then
 TweakItem("Base.fordCVPITire1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPITrunk1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIFrontDoor1","DisplayCategory","Mechanics");
@@ -880,4 +873,13 @@ TweakItem("Base.99fordCVPIFrontSideWindow1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIRearSideWindow1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPIRearWindshield1","DisplayCategory","Mechanics");
 TweakItem("Base.99fordCVPICabBarrier1","DisplayCategory","Mechanics");
+end
+
+--ISOContainers
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2625625421
+if getActivatedMods():contains("isoContainers") then
+TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.IsoContainerDoubleTrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.ISOHalfStorage2","DisplayCategory","Mechanics");
 end
