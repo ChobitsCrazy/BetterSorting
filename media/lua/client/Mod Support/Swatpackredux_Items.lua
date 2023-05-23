@@ -3,11 +3,11 @@ require("ItemTweaker_Copy_CC");
 --SWATPACKREDUX
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2091564445
 if getActivatedMods():contains("Swatpack") then
-TweakItem("Base.SWATPad","DisplayCategory","Cloth");
-TweakItem("Base.SwatNeck","DisplayCategory","Cloth");
-TweakItem("Base.Hat_SwatGasMask","DisplayCategory","Cloth");
-TweakItem("Base.SwatElbowPads","DisplayCategory","Cloth");
-TweakItem("Base.SwatKneePads","DisplayCategory","Cloth");
+TweakItem("Base.Hat_SWATNeck","DisplayCategory","Cloth");
+TweakItem("Base.Hat_SwatGasMask","DisplayCategory","ClothA");
+TweakItem("Base.SwatElbowPads","DisplayCategory","ClothA");
+TweakItem("Base.SwatKneePads","DisplayCategory","ClothA");
+TweakItem("Base.SwatShoulderPads","DisplayCategory","ClothA");
 TweakItem("Base.Trousers_Swat","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_RiotBoots","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_SwatBoots","DisplayCategory","Cloth");
@@ -16,7 +16,7 @@ TweakItem("Base.Gloves_RiotGloves","DisplayCategory","Cloth");
 TweakItem("Base.Hat_SwatHelmet","DisplayCategory","Cloth");
 TweakItem("Base.Vest_BulletSwat","DisplayCategory","Cloth");
 TweakItem("Base.Jacket_Swat","DisplayCategory","Cloth");
-TweakItem("Base.Glasses_SwatGoggles","DisplayCategory","Cloth");
+TweakItem("Base.Glasses_SwatGoggles","DisplayCategory","ClothA");
 TweakItem("Base.Hat_Balaclava_Swat","DisplayCategory","Cloth");
 TweakItem("Base.Hat_PoliceRiotHelmet","DisplayCategory","Cloth");
 TweakItem("Base.Hat_SWATRiotHelmet","DisplayCategory","Cloth");
@@ -35,7 +35,7 @@ TweakItem("Base.RiotShieldPolice","DisplayCategory","WepShield");
 TweakItem("Base.RiotShotgun","DisplayCategory","WepFire");
 TweakItem("Base.Co2ShortRiotShotgun","DisplayCategory","WepFire");
 TweakItem("Base.SwatMP5","DisplayCategory","WepFire");
-TweakItem("Base.9mmMp5Clip","DisplayCategory","Ammo");
+TweakItem("Base.9mmMp5Clip","DisplayCategory","WepMag");
 TweakItem("Base.SwatStunGrenade","DisplayCategory","WepBomb");
 TweakItem("Base.SwatFragGrenade","DisplayCategory","WepBomb");
 TweakItem("Base.SwatSmokeGrenade","DisplayCategory","WepBomb");
