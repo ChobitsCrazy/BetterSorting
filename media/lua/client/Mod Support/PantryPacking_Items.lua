@@ -59,5 +59,14 @@ TweakItem("Base.BoxOfCanCocktail","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfCanPineapple","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfJamFruit","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfJamMarmalade","DisplayCategory","FoodN");
-
+TweakItem("Base.BookBoxTest","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfComicBooks","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfMagazines","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfHottieZ","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfDriedWhiteBeans","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfDriedSplitPeas","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfDriedLentils","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfDriedKidneyBeans","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfDriedChickPeas","DisplayCategory","FoodN");
+TweakItem("Base.BoxOfDriedBlackBeans","DisplayCategory","FoodN");
 end
