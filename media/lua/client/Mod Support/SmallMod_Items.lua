@@ -1,6 +1,14 @@
 require("ItemTweaker_Copy_CC");
 --Mods with 30 or fewer added new items--
 
+--4ColorBicPen
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2753894806
+if getActivatedMods():contains("4ColorBicPen") 
+or getActivatedMods():contains("4ColorBicPenFix") then
+TweakItem("BicPen.BicPen","DisplayCategory","LitW");
+TweakItem("BicPen.ComicBicPen","DisplayCategory","LitW");
+end
+
 --ahzclothing
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2908013174
 if getActivatedMods():contains("ahzclothing") then
@@ -231,14 +239,6 @@ if getActivatedMods():contains("TowingCar") then
 TweakItem("TowingCar.TowBar","DisplayCategory","Tool");
 end
 
---4ColorBicPen
---https://steamcommunity.com/sharedfiles/filedetails/?id=2753894806
-if getActivatedMods():contains("4ColorBicPen") 
-or getActivatedMods():contains("4ColorBicPenFix") then
-TweakItem("BicPen.BicPen","DisplayCategory","LitW");
-TweakItem("BicPen.ComicBicPen","DisplayCategory","LitW");
-end
-
 --BogasPizza
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2675786278
 if getActivatedMods():contains("BogaPizza") then
@@ -284,6 +284,14 @@ TweakItem("DBDA.Doc","DisplayCategory","LitE");
 TweakItem("DBDA.Out","DisplayCategory","LitE");
 TweakItem("DBDA.Who","DisplayCategory","LitE");
 TweakItem("DBDA.It","DisplayCategory","LitE");
+end
+
+--Can Repair Doors
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2905027525
+if getActivatedMods():contains("CanRepairDoors") then
+TweakItem("Base.DoorsRepairKitMetal","DisplayCategory","Tool");
+TweakItem("Base.DoorsRepairKitWood","DisplayCategory","Tool");
+TweakItem("Base.DoorsRepairKitEpoxy","DisplayCategory","Tool");
 end
 
 --CigaretteCartonMod
@@ -385,6 +393,12 @@ TweakItem("Base.BookFitness4","DisplayCategory","LitS");
 TweakItem("Base.BookFitness5","DisplayCategory","LitS");
 end
 
+--Essential Crafting
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2903127760
+if getActivatedMods():contains("EssentialCrafting") then
+TweakItem("Base.LighterEmpty","DisplayCategory","Tool");
+end
+
 --ExamineCorpses
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2523485011
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2692461764
@@ -461,6 +475,13 @@ TweakItem("ISA.ISAMag1","DisplayCategory","LitR");
 -- TweakItem("ISA.Stash_RiversideW1","DisplayCategory","Map");
 -- TweakItem("ISA.Stash_RosewoodE1","DisplayCategory","Map");
 -- TweakItem("ISA.Stash_Louisville1","DisplayCategory","Map");
+end
+
+--Irrigation pipes for farming and water supply [B41+]
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2464581798
+if getActivatedMods():contains("waterPipes") then
+TweakItem("waterPipes.WaterPipe","DisplayCategory","SurFarm");
+TweakItem("waterPipes.WaterPipe2","DisplayCategory","SurFarm");
 end
 
 --KitsuneAmmoCraftBrita
@@ -690,6 +711,15 @@ TweakItem("Base.SlingA","DisplayCategory","ClothA");
 TweakItem("Base.SlingAalt","DisplayCategory","ClothA");
 TweakItem("Base.SlingAalt2","DisplayCategory","ClothA");
 TweakItem("Base.SlingAalt3","DisplayCategory","ClothA");
+end
+
+--Sapphire's Heaters
+--https://steamcommunity.com/workshop/filedetails/?id=2877732496
+if getActivatedMods():contains("SAPPHEATER") then
+TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
 end
 
 --SavottaBackpacks
@@ -950,6 +980,15 @@ if getActivatedMods():contains("VehicleRepairOverhaul") then
 TweakItem("FixAFlat.FixAFlat","DisplayCategory","Tool");
 end
 
+--Viperel's Recycling Center
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2713055926
+if getActivatedMods():contains("VPR_RecyclingCenter") then
+TweakItem("Base.EmptyLighter","DisplayCategory","Tool");
+TweakItem("Base.GlassMold","DisplayCategory","Craft");
+TweakItem("Base.GlassShard","DisplayCategory","Craft");
+TweakItem("Base.GlassPane","DisplayCategory","Craft");
+end
+
 --W900Semi-Truck
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2759339330
 if getActivatedMods():contains("rSemiTruck") then
@@ -974,13 +1013,6 @@ if getActivatedMods():contains("WaterDispenser") then
 TweakItem("WaterDispenser.WaterJugEmpty","DisplayCategory","Container");
 TweakItem("WaterDispenser.WaterJugWaterFull","DisplayCategory","Container");
 TweakItem("WaterDispenser.WaterJugPetrolFull","DisplayCategory","Fuel");
-end
-
---Irrigation pipes for farming and water supply [B41+]
---https://steamcommunity.com/sharedfiles/filedetails/?id=2464581798
-if getActivatedMods():contains("waterPipes") then
-TweakItem("waterPipes.WaterPipe","DisplayCategory","SurFarm");
-TweakItem("waterPipes.WaterPipe2","DisplayCategory","SurFarm");
 end
 
 --WaterTrailer
@@ -1014,61 +1046,4 @@ TweakItem("XNTree.XNSaplingLemon","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingOrange","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPeach","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPineapple","DisplayCategory","SurFarm");
-end
-
---Sapphire's Heaters
---https://steamcommunity.com/workshop/filedetails/?id=2877732496
-if getActivatedMods():contains("SAPPHEATER") then
-TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
-end
-
---Essential Crafting
---https://steamcommunity.com/sharedfiles/filedetails/?id=2903127760
-if getActivatedMods():contains("EssentialCrafting") then
-TweakItem("Base.LighterEmpty","DisplayCategory","Tool");
-end
-
---Can Repair Doors
---https://steamcommunity.com/sharedfiles/filedetails/?id=2905027525
-if getActivatedMods():contains("CanRepairDoors") then
-TweakItem("Base.DoorsRepairKitMetal","DisplayCategory","Tool");
-TweakItem("Base.DoorsRepairKitWood","DisplayCategory","Tool");
-TweakItem("Base.DoorsRepairKitEpoxy","DisplayCategory","Tool");
-end
-
---Tsar's Common Library 2.0
---https://steamcommunity.com/sharedfiles/filedetails/?id=2392709985
-if getActivatedMods():contains("tsarslib") then
-TweakItem("Base.1000Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.1000Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.1000Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.500Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.500Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.500Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.ATA2.ATA2ItemContainer","DisplayCategory","Mechanics");
-TweakItem("Base.ATAProtectionWheelsChain","DisplayCategory","Mechanics");
-TweakItem("Base.ATARoofLightItem","DisplayCategory","Mechanics");
-TweakItem("Base.ATASleepingBag","DisplayCategory","Mechanics");
-TweakItem("Base.TransportSeatBoxWooden","DisplayCategory","Mechanics");
-TweakItem("Base.TransportMicrowave","DisplayCategory","Furniture");
-TweakItem("Base.TransportOven","DisplayCategory","Furniture");
-TweakItem("Base.TransportShelve","DisplayCategory","Furniture");
-TweakItem("Base.TransportCounter","DisplayCategory","Furniture");
-TweakItem("Base.TransportMedicine","DisplayCategory","Furniture");
-TweakItem("Base.TransportDrawer","DisplayCategory","Furniture");
-TweakItem("Base.TransportFreezer","DisplayCategory","Furniture");
-TweakItem("Base.TransportFridge","DisplayCategory","Furniture");
-TweakItem("Base.TransportCupboard","DisplayCategory","Furniture");
-end
-
---Viperel's Recycling Center
---https://steamcommunity.com/sharedfiles/filedetails/?id=2713055926
-if getActivatedMods():contains("VPR_RecyclingCenter") then
-TweakItem("Base.EmptyLighter","DisplayCategory","Tool");
-TweakItem("Base.GlassMold","DisplayCategory","Craft");
-TweakItem("Base.GlassShard","DisplayCategory","Craft");
-TweakItem("Base.GlassPane","DisplayCategory","Craft");
 end
