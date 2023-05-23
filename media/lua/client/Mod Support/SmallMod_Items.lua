@@ -446,29 +446,21 @@ end
 --ImmersiveSolarArrays
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2857548524
 if getActivatedMods():contains("ISA_41") then
-TweakItem("SZ.Barrys_Shotgun","DisplayCategory","WepFire");
-TweakItem("SZ.BCS_Shotgun","DisplayCategory","WepFire");
-TweakItem("SZ.Garrys_44","DisplayCategory","WepFire");
-TweakItem("SZ.BCS_Pistol","DisplayCategory","WepFire");
-TweakItem("SZ.Key_BlueCard","DisplayCategory","Key");
-TweakItem("SZ.Key_RedCard","DisplayCategory","Key");
-TweakItem("SZ.Key_GreenCard","DisplayCategory","Key");
-TweakItem("SZ.Key_YellowCard","DisplayCategory","Key");
-TweakItem("SZ.Key_BlackCard","DisplayCategory","Key");
-TweakItem("SZ.Key_SystemL0","DisplayCategory","Key");
-TweakItem("SZ.Bunker01","DisplayCategory","Map");
-TweakItem("SZ.Bunker02","DisplayCategory","Map");
-TweakItem("SZ.Bunker03","DisplayCategory","Map");
-TweakItem("SZ.Bunker04","DisplayCategory","Map");
-TweakItem("SZ.TopSecret","DisplayCategory","Map");
-TweakItem("SZ.TopSecret2","DisplayCategory","Map");
-TweakItem("SZ.TopSecret3","DisplayCategory","Map");
-TweakItem("SZ.opmap1","DisplayCategory","Map");
-TweakItem("SZ.opmap2","DisplayCategory","Map");
-TweakItem("SZ.opmap3","DisplayCategory","Map");
-TweakItem("SZ.labmap1","DisplayCategory","Map");
-TweakItem("SZ.Mov_Barrier01","DisplayCategory","Furn");
-TweakItem("SZ.Mov_SecurityTerminal","DisplayCategory","Furn");
+TweakItem("ISA.SolarPanel","DisplayCategory","Electronics");
+TweakItem("ISA.ISAInverter","DisplayCategory","Electronics");
+TweakItem("ISA.DeepCycleBattery","DisplayCategory","Electronics");
+TweakItem("ISA.SuperBattery","DisplayCategory","Electronics");
+TweakItem("ISA.WiredCarBattery","DisplayCategory","Electronics");
+TweakItem("ISA.DIYBattery","DisplayCategory","Electronics");
+TweakItem("ISA.PowerBank","DisplayCategory","Electronics");
+TweakItem("ISA.SolarPanelFlat","DisplayCategory","Electronics");
+TweakItem("ISA.SolarPanelWall","DisplayCategory","Electronics");
+TweakItem("ISA.SolarPanelMounted","DisplayCategory","Electronics");
+TweakItem("ISA.SolarFailsafe","DisplayCategory","Electronics");
+TweakItem("ISA.ISAMag1","DisplayCategory","LitR");
+-- TweakItem("ISA.Stash_RiversideW1","DisplayCategory","Map");
+-- TweakItem("ISA.Stash_RosewoodE1","DisplayCategory","Map");
+-- TweakItem("ISA.Stash_Louisville1","DisplayCategory","Map");
 end
 
 --KitsuneAmmoCraftBrita
