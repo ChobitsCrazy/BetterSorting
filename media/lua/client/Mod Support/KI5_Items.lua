@@ -880,6 +880,6 @@ end
 if getActivatedMods():contains("isoContainers") then
 TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
 TweakItem("Base.IsoContainerDoubleTrunkDoor2","DisplayCategory","Mechanics");
-TweakItem("Base.IsoContainerTrunkDoor2","DisplayCategory","Mechanics");
+TweakItem("Base.IsoContainerTankerTrunkDoor2","DisplayCategory","Mechanics");
 TweakItem("Base.ISOHalfStorage2","DisplayCategory","Mechanics");
 end
