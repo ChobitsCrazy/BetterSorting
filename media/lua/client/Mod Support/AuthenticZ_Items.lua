@@ -17,9 +17,9 @@ end
 TweakItem(moduleName..".Chainsaw","DisplayCategory","WepMelee");
 TweakItem(moduleName..".FlareGun","DisplayCategory","WepFire");
 TweakItem(moduleName..".Flare12GaugeShot","DisplayCategory","Ammo");
--- TweakItem(moduleName..".PZAZ_HitList","DisplayCategory","Map");
--- TweakItem(moduleName..".PZAZ_HitList2","DisplayCategory","Map");
--- TweakItem(moduleName..".PZAZ_HitList3","DisplayCategory","Map");
+TweakItem(moduleName..".PZAZ_HitList","DisplayCategory","LitC");
+TweakItem(moduleName..".PZAZ_HitList2","DisplayCategory","LitC");
+TweakItem(moduleName..".PZAZ_HitList3","DisplayCategory","LitC");
 TweakItem(moduleName..".PZAZ_CostumeStoreSign","DisplayCategory","Furn");
 TweakItem(moduleName..".PZAZ_SealedMedkit","DisplayCategory","Medical");
 TweakItem(moduleName..".Rubberducky3","DisplayCategory","Collect");
