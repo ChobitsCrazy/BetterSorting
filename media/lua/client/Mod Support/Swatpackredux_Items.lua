@@ -35,7 +35,7 @@ TweakItem("Base.RiotShieldPolice","DisplayCategory","WepShield");
 TweakItem("Base.RiotShotgun","DisplayCategory","WepFire");
 TweakItem("Base.Co2ShortRiotShotgun","DisplayCategory","WepFire");
 TweakItem("Base.SwatMP5","DisplayCategory","WepFire");
-TweakItem("Base.9mmMp5Clip","DisplayCategory","WepMag");
+TweakItem("Base.9mmMp5Clip","DisplayCategory","WepAmmoMag");
 TweakItem("Base.SwatStunGrenade","DisplayCategory","WepBomb");
 TweakItem("Base.SwatFragGrenade","DisplayCategory","WepBomb");
 TweakItem("Base.SwatSmokeGrenade","DisplayCategory","WepBomb");
