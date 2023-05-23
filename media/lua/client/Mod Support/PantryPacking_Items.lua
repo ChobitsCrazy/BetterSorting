@@ -69,4 +69,14 @@ TweakItem("Base.BoxOfDriedLentils","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfDriedKidneyBeans","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfDriedChickPeas","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfDriedBlackBeans","DisplayCategory","FoodN");
+-- TweakItem("Base.WallMapRiverside","DisplayCategory","Map");
+-- TweakItem("Base.TableMapRiverside","DisplayCategory","Map");
+-- TweakItem("Base.WallMapRosewood","DisplayCategory","Map");
+-- TweakItem("Base.TableMapRosewood","DisplayCategory","Map");
+-- TweakItem("Base.WallMapWestPoint","DisplayCategory","Map");
+-- TweakItem("Base.TableMapWestPoint","DisplayCategory","Map");
+-- TweakItem("Base.WallMapMuldragh","DisplayCategory","Map");
+-- TweakItem("Base.TableMapMuldragh","DisplayCategory","Map");
+-- TweakItem("Base.WallMapMarchRidge","DisplayCategory","Map");
+-- TweakItem("Base.TableMapMarchRidge","DisplayCategory","Map");
 end
