@@ -262,6 +262,7 @@ end
 if getActivatedMods():contains("GearedZombies") then
 TweakItem("Base.MVest_Red","DisplayCategory","ClothA");
 TweakItem("Base.MVest2_Red","DisplayCategory","ClothA");
+TweakItem("Base.SWATPouch_Paramedic","DisplayCategory","ClothB");
 end
 
 --KeyTool
