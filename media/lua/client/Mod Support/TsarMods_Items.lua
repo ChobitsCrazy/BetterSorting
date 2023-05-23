@@ -119,6 +119,18 @@ TweakItem("Autotsar.ATADodgeProtectionWindowSideItem","DisplayCategory","Mechani
 TweakItem("Autotsar.ATADodgeProtectionWindowFrontItem","DisplayCategory","Mechanics");
 end
 
+--ATA-Luton
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2792425535
+if getActivatedMods():contains("ATA_Luton") then
+TweakItem("Autotsar.ATALutonTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATALutonProtectionSideFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionHoodItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
+end
+
 --ATA-Petyarbuilt
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2782258356
 if getActivatedMods():contains("ATA_Petyarbuilt") then
@@ -138,6 +150,23 @@ if getActivatedMods():contains("ATA_Samara") then
 TweakItem("Autotsar.ATATuningChevalierSamara","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATASamaraHood2Item3","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATASamaraHood3Item3","DisplayCategory","Mechanics");
+end
+
+--ATA_VanDeRumba
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2811232708
+if getActivatedMods():contains("ATA_VanDeRumba") then
+TweakItem("Autotsar.ATAVanDeRumbaTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar1Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar2Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar3Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionHoodItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowRearItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaLadderItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaRoofBaseItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbRoofBoxItem","DisplayCategory","Mechanics");
 end
 
 --AutotsarMotorclub
@@ -164,42 +193,12 @@ TweakItem("Autotsar.ATAMotoHarleySeat","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoQuadSeat","DisplayCategory","Mechanics");
 end
 
---ATA-Luton
---https://steamcommunity.com/sharedfiles/filedetails/?id=2792425535
-if getActivatedMods():contains("ATA_Luton") then
-TweakItem("Autotsar.ATALutonTuningMag","DisplayCategory","LitR");
-TweakItem("Autotsar.ATALutonProtectionSideFrontItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonProtectionHoodItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
-end
-
---DeRumba Van
---https://steamcommunity.com/sharedfiles/filedetails/?id=2811232708
-if getActivatedMods():contains("ATA_VanDeRumba") then
-TweakItem("Autotsar.ATAVanDeRumbaTuningMag","DisplayCategory","LitR");
-TweakItem("Autotsar.ATAVanDeRumbaBullbar1Item","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaBullbar2Item","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaBullbar3Item","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionHoodItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowRearItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaLadderItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaRoofBaseItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbRoofBoxItem","DisplayCategory","Mechanics");
-end
-
 --AutotsarTrailers
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2282429356
 if getActivatedMods():contains("autotsartrailers") then
-TweakItem("Base.GunRack","DisplayCategory","Mechanics");
-TweakItem("filcher.SFCarCounter","DisplayCategory","Mechanics");
-TweakItem("filcher.SFCarFridge","DisplayCategory","Mechanics");
-TweakItem("filcher.SFCarOven","DisplayCategory","Mechanics");
+TweakItem("Autotsar.TrailerFirstTrunk","DisplayCategory","Mechanics");
+TweakItem("Autotsar.TrailerSecondTrunk","DisplayCategory","Mechanics");
+TweakItem("Base.TsarEarthing","DisplayCategory","Electronics");
 end
 
 --TrueActionsDancing
