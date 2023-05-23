@@ -62,6 +62,7 @@ TweakItem("Base.BoxOfJamMarmalade","DisplayCategory","FoodN");
 TweakItem("Base.BookBoxTest","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfComicBooks","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfMagazines","DisplayCategory","FoodN");
+TweakItem("Base.NewspaperStack","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfHottieZ","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfDriedWhiteBeans","DisplayCategory","FoodN");
 TweakItem("Base.BoxOfDriedSplitPeas","DisplayCategory","FoodN");
