@@ -11,6 +11,37 @@ TweakItem("Agrotsar.ASeederPlate","DisplayCategory","Mechanics");
 TweakItem("Agrotsar.APlowshare","DisplayCategory","Mechanics");
 end
 
+--AquatsarYachtClub
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2392987599
+if getActivatedMods():contains("AquatsarYachtClub") then
+TweakItem("Aquatsar.DivingMask","DisplayCategory","ClothA");
+TweakItem("Aquatsar.TaintedLiterature","DisplayCategory","Junk");
+TweakItem("Aquatsar.Compass","DisplayCategory","Tool");
+TweakItem("Aquatsar.DeflatedTireTube","DisplayCategory","Tool");
+TweakItem("Aquatsar.Lifebuoy","DisplayCategory","Tool");
+TweakItem("Aquatsar.TireTube","DisplayCategory","Tool");
+TweakItem("Aquatsar.BoatPropeller","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.ManualStarter","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.Sails","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.NotRemovableBoatSeat1","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.NotRemovableBoatSeat2","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.NotRemovableBoatSeat3","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.AirBagNormal1","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.AirBagNormal2","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.AirBagNormal3","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.BoatMag","DisplayCategory","LitR");
+TweakItem("Aquatsar.SwimMag","DisplayCategory","LitR");
+TweakItem("Base.BoatAnchor","DisplayCategory","Mechanics");
+TweakItem("Base.SailingYachtName_Sakharov_Item","DisplayCategory","Mechanics");
+TweakItem("Base.SailingYachtName_La_Brigandine_Item","DisplayCategory","Mechanics");
+TweakItem("Base.SailingYachtName_Default_Item","DisplayCategory","Mechanics");
+TweakItem("Base.BoatMotorName_NP_Item","DisplayCategory","Mechanics");
+TweakItem("Base.BoatMotorName_Orianna_Item","DisplayCategory","Mechanics");
+TweakItem("Base.BoatMotorName_Default_Item","DisplayCategory","Mechanics");
+TweakItem("Base.partBoatSailingYacht","DisplayCategory","Mechanics");
+TweakItem("Base.partBoatMotor","DisplayCategory","Mechanics");
+end
+
 --ATA_BUS
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2592358528
 if getActivatedMods():contains("ATA_Bus") then
