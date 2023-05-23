@@ -602,6 +602,36 @@ TweakItem("MoreTraits.AntiqueHammer","DisplayCategory","Tool");
 TweakItem("MoreTraits.AntiqueKatana","DisplayCategory","WepMelee");
 end
 
+--Onifurniture
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2873290715
+if getActivatedMods():contains("Onifurniture") then
+TweakItem("Onifurniture.MetalBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.LargeMetalBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.BigFridge1/2","DisplayCategory","Furn");
+TweakItem("Onifurniture.BigFridge2/2","DisplayCategory","Furn");
+TweakItem("Onifurniture.Fr1dge","DisplayCategory","Furn");
+TweakItem("Onifurniture.TrashCan","DisplayCategory","Furn");
+TweakItem("Onifurniture.CapacityCornerCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.CapacityCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.SmallContainer","DisplayCategory","Furn");
+TweakItem("Onifurniture.BlackMetalBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.BoardsBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.PalletBoxes","DisplayCategory","Furn");
+TweakItem("Onifurniture.ShippingBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.RedCounterCorner","DisplayCategory","Furn");
+TweakItem("Onifurniture.RedCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.RedWallCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.WallCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.SmallBookcase","DisplayCategory","Furn");
+TweakItem("Onifurniture.ShoeCabinet","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernDrawer","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernDrawer2","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernDrawer3","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernStove","DisplayCategory","Furn");
+TweakItem("Onifurniture.Wardrobe","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernCloset","DisplayCategory","Furn");
+end
+
 --PertsPartyTiles
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2837923608
 if getActivatedMods():contains("PertsPartyTiles") then
