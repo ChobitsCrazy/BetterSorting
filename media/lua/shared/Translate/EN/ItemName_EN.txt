@@ -59,7 +59,7 @@ ItemName_Base.LogStacks2="Log Stack of Two",
 
 
 /************** SKILL BOOKS **************/
-ItemName_Base.BookCarpentry1 = "Carpentry Vol. 1: Beginner",
+/*ItemName_Base.BookCarpentry1 = "Carpentry Vol. 1: Beginner",
 ItemName_Base.BookCarpentry2 = "Carpentry Vol. 2: Intermediate",
 ItemName_Base.BookCarpentry3 = "Carpentry Vol. 3: Advanced",
 ItemName_Base.BookCarpentry4 = "Carpentry Vol. 4: Expert",
@@ -118,9 +118,9 @@ ItemName_Base.BookTrapping1 = "Trapping Vol. 1: Beginner",
 ItemName_Base.BookTrapping2 = "Trapping Vol. 2: Intermediate",
 ItemName_Base.BookTrapping3 = "Trapping Vol. 3: Advanced",
 ItemName_Base.BookTrapping4 = "Trapping Vol. 4: Expert",
-ItemName_Base.BookTrapping5 = "Trapping Vol. 5: Master",
+ItemName_Base.BookTrapping5 = "Trapping Vol. 5: Master",*/
 /************** SKILL BOOKS FROM MODS **************/
-ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol. 1: Beginner",
+/*ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Scavenging Vol. 1: Beginner",
 ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Scavenging Vol. 2: Intermediate",
 ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Scavenging Vol. 3: Advanced",
 ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Scavenging Vol. 4: Expert",
@@ -134,13 +134,13 @@ ItemName_WeaponModifiers.BookTinkering1 = "Tinkering Vol. 1: Beginner",
 ItemName_WeaponModifiers.BookTinkering2 = "Tinkering Vol. 2: Intermediate",
 ItemName_WeaponModifiers.BookTinkering3 = "Tinkering Vol. 3: Advanced",
 ItemName_WeaponModifiers.BookTinkering4 = "Tinkering Vol. 4: Expert",
-ItemName_WeaponModifiers.BookTinkering5 = "Tinkering Vol. 5: Master",
+ItemName_WeaponModifiers.BookTinkering5 = "Tinkering Vol. 5: Master",*/
 /************** REMEMBER TO ADD BOOKTITLE TOOLTIP WHEN ADDING BOOKS HERE **************/
 
 
 
 /************** RECIPE MAGAZINES **************/
-ItemName_Radio.RadioMag1 = "Raidios USA Vol. 1",
+/*ItemName_Radio.RadioMag1 = "Raidios USA Vol. 1",
 ItemName_Radio.RadioMag2 = "Raidios USA Vol. 2",
 ItemName_Radio.RadioMag3 = "Raidios USA Vol. 3",
 ItemName_Base.FishingMag1 = "Angler USA Magazine Vol. 1",
@@ -164,14 +164,14 @@ ItemName_Base.MetalworkMag4 = "Metalwork Magazine Vol. 4",
 ItemName_Base.SmithingMag1 = "Smithing Magazine Vol. 1",
 ItemName_Base.SmithingMag2 = "Smithing Magazine Vol. 2",
 ItemName_Base.SmithingMag3 = "Smithing Magazine Vol. 3",
-ItemName_Base.SmithingMag4 = "Smithing Magazine Vol. 4",
+ItemName_Base.SmithingMag4 = "Smithing Magazine Vol. 4",*/
 ItemName_Base.MechanicMag1 = "Laines Auto Vol. 1: Standard Models",
 ItemName_Base.MechanicMag2 = "Laines Auto Vol. 2: Commercial Models",
 ItemName_Base.MechanicMag3 = "Laines Auto Vol. 3: Performance Models",
-ItemName_Base.HerbalistMag = "Herbalist's Guide",
-ItemName_Base.FarmingMag1 = "Farming Almanac",
+/*ItemName_Base.HerbalistMag = "Herbalist's Guide",
+ItemName_Base.FarmingMag1 = "Farming Almanac",*/
 /************** RECIPE MAGAZINES FROM MODS **************/
-ItemName_SapphCooking.AsianFoodMagazine	= "Foods Around The World Vol. 1",
+/*ItemName_SapphCooking.AsianFoodMagazine	= "Foods Around The World Vol. 1",
 ItemName_SapphCooking.EuropeFoodMagazine = "Foods Around The World Vol. 2",
 ItemName_SapphCooking.PastaDoughMagazine = "Foods Around The World Vol. 3",
 
@@ -275,5 +275,5 @@ ItemName_TAD.BobTA_Side_to_Side_Mag = "Dance Magazine Vol. 41: Side to Side",
 ItemName_TAD.BobTA_Twist_One_Mag = "Dance Magazine Vol. 42: Twist #1",
 ItemName_TAD.BobTA_Twist_Two_Mag = "Dance Magazine Vol. 43: Twist #2",
 ItemName_TAD.BobTA_Uprock_Indian_Step_Mag = "Dance Magazine Vol. 44: Uprock Indian Step",
-ItemName_TAD.BobTA_YMCA_Mag = "Dance Magazine Vol. 45: YMCA",
+ItemName_TAD.BobTA_YMCA_Mag = "Dance Magazine Vol. 45: YMCA",*/
 }
