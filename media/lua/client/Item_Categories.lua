@@ -532,7 +532,6 @@ TweakItem("Base.Bag_FoodSnacks","DisplayCategory","ClothB");
 TweakItem("Base.Bag_MedicalBag","DisplayCategory","ClothB");
 TweakItem("Base.Bag_Military","DisplayCategory","ClothB");
 TweakItem("Base.Bag_ToolBag","DisplayCategory","ClothB");
-TweakItem("Base.Bag_DoctorBag","DisplayCategory","ClothB");
 TweakItem("Base.Bracelet_BangleLeftGold","DisplayCategory","ClothM");
 TweakItem("Base.Bracelet_BangleLeftSilver","DisplayCategory","ClothM");
 TweakItem("Base.Bracelet_BangleRightGold","DisplayCategory","ClothM");
@@ -698,6 +697,7 @@ TweakItem("Base.RifleCase2","DisplayCategory","Container");
 TweakItem("Base.RifleCase3","DisplayCategory","Container");
 TweakItem("Base.ShotgunCase1","DisplayCategory","Container");
 TweakItem("Base.ShotgunCase2","DisplayCategory","Container");
+TweakItem("Base.Bag_DoctorBag","DisplayCategory","Cont");
 --COOKING
 TweakItem("Base.BakingPan","DisplayCategory","Cooking");
 TweakItem("Base.BakingTrayBread","DisplayCategory","Cooking");
