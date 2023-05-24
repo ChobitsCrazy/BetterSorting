@@ -169,6 +169,54 @@ if getActivatedMods():contains("BatesMetalicosRevived") then
 TweakItem("BatesMetalicos.Bgrip","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.Bsock","DisplayCategory","WepPart");
 TweakItem("BatesMetalicos.MetalBaseballBat","DisplayCategory","WepMelee");
+TweakItem("BatesMetalicos.SteelBaseballBat","DisplayCategory","WepMelee");
+end
+
+--CustomMapBridge
+if getActivatedMods():contains("CustomMapBridge") then
+TweakItem("Base.Gift1","DisplayCategory","Junk");
+TweakItem("Base.Gift2","DisplayCategory","Junk");
+TweakItem("Base.Gift3","DisplayCategory","Junk");
+TweakItem("Base.Gift4","DisplayCategory","Junk");
+TweakItem("Base.Gift5","DisplayCategory","Junk");
+TweakItem("Base.ArcadeCoin","DisplayCategory","Junk");
+TweakItem("Base.DuaLipaFrame","DisplayCategory","Junk");
+TweakItem("Base.PMRMTire","DisplayCategory","Furn");
+TweakItem("Base.UnknownTire","DisplayCategory","Furn");
+TweakItem("Base.PMRMTireMachine","DisplayCategory","Furn");
+TweakItem("Base.SmallGKey","DisplayCategory","Key");
+TweakItem("Base.CMBSecretKey1","DisplayCategory","Key");
+TweakItem("Base.CMBSecretKey2","DisplayCategory","Key");
+TweakItem("Base.KeyD","DisplayCategory","Key");
+TweakItem("Base.KeyE","DisplayCategory","Key");
+TweakItem("Base.KeyF","DisplayCategory","Key");
+TweakItem("Base.KeyG","DisplayCategory","Key");
+TweakItem("Base.KeyH","DisplayCategory","Key");
+TweakItem("Base.KeyI","DisplayCategory","Key");
+TweakItem("Base.KeyJ","DisplayCategory","Key");
+TweakItem("Base.KeyK","DisplayCategory","Key");
+TweakItem("Base.KeyL","DisplayCategory","Key");
+TweakItem("Base.KeyM","DisplayCategory","Key");
+TweakItem("Base.KeyN","DisplayCategory","Key");
+TweakItem("Base.KeyO","DisplayCategory","Key");
+TweakItem("Base.KeyP","DisplayCategory","Key");
+TweakItem("Base.KeyQ","DisplayCategory","Key");
+TweakItem("Base.KeyR","DisplayCategory","Key");
+TweakItem("Base.KeyS","DisplayCategory","Key");
+TweakItem("Base.KeyT","DisplayCategory","Key");
+TweakItem("Base.KeyU","DisplayCategory","Key");
+TweakItem("Base.GoldenSkull","DisplayCategory","Collect");
+TweakItem("Base.GrapplingHook","DisplayCategory","Tool");
+TweakItem("Base.NewspaperEG","DisplayCategory","LitE");
+TweakItem("Base.Mov_DesktopXFilesComputer","DisplayCategory","Furn");
+TweakItem("Base.XFILE","DisplayCategory","Misc");
+TweakItem("Base.CMBKeyRed","DisplayCategory","Key");
+TweakItem("Base.Mov_WallDiana","DisplayCategory","Furn");
+TweakItem("Base.Mov_Flag4fun","DisplayCategory","Furn");
+TweakItem("Base.Mov_KakuFlag","DisplayCategory","Furn");
+TweakItem("Base.Mov_FlagPixelDog","DisplayCategory","Furn");
+TweakItem("Base.Mov_FlagPastel","DisplayCategory","Furn");
+TweakItem("Base.Mov_FlagNubAsian","DisplayCategory","Furn");
 end
 
 --FuelTanksMod
@@ -179,11 +227,15 @@ end
 
 --MilitaryComplex
 if getActivatedMods():contains("MilitaryComplex") then
--- TweakItem("Base.MilitaryComplexMap","DisplayCategory","Map");
+TweakItem("Base.MilitaryComplexMap","DisplayCategory","LitC");
+TweakItem("Base.MilitaryComplexMap","DisplayCategory","LitC");
 end
 
 --RiversideGunstore
 if getActivatedMods():contains("Riverside Gunstore") then
+TweakItem("Base.FunMetalBaseballBat","DisplayCategory","WepMelee");
+TweakItem("Base.Chipote","DisplayCategory","WepMelee");
+TweakItem("Base.RiversideGunstoreMap","DisplayCategory","LitC");
 TweakItem("Base.Shoes_BowlingTrainers","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_BowlingTrainersRed","DisplayCategory","Cloth");
 TweakItem("Base.Shoes_BowlingTrainersGreen","DisplayCategory","Cloth");
@@ -222,13 +274,51 @@ end
 
 --SnakeClothingMod
 if getActivatedMods():contains("SnakeClothingMod") then
+TweakItem("Base.GoldenKatana","DisplayCategory","WepMelee");
+TweakItem("Base.WorldCup","DisplayCategory","Collect");
+TweakItem("Base.VuvuzelaArg","DisplayCategory","Junk");
 TweakItem("Base.CowToy","DisplayCategory","Junk");
 TweakItem("Base.SafeToy","DisplayCategory","Junk");
 TweakItem("Base.HorseToy","DisplayCategory","Junk");
 TweakItem("Base.Bag_BigSpiffoBackpack","DisplayCategory","ClothB");
 TweakItem("Base.UpholsteryKit","DisplayCategory","CraftTailor");
-TweakItem("Base.Bracelet_BangleRightBatman","DisplayCategory","ClothM");
-TweakItem("Base.Bracelet_BangleLeftBatman","DisplayCategory","ClothM");
+TweakItem("Base.DungareesNubAsian","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_NubAsian","DisplayCategory","Cloth");
+TweakItem("Base.SuitcaseNubAsian","DisplayCategory","Container");
+TweakItem("Base.Hat_KakuHelmet","DisplayCategory","Cloth");
+TweakItem("Base.SuitcaseRiddle","DisplayCategory","Container");
+TweakItem("Base.SuitcasePixel","DisplayCategory","Container");
+TweakItem("Base.SuitcaseKaku","DisplayCategory","Container");
+TweakItem("Base.SuitcaseSajon","DisplayCategory","Container");
+TweakItem("Base.SuitcaseTurno","DisplayCategory","Container");
+TweakItem("Base.SuitcasePastel","DisplayCategory","Container");
+TweakItem("Base.AlienOutfit","DisplayCategory","Cloth");
+TweakItem("Base.SuitcaseArg","DisplayCategory","Container");
+TweakItem("Base.Hat_Arg","DisplayCategory","Cloth");
+TweakItem("Base.Gloves_RiddleGloves","DisplayCategory","Cloth");
+TweakItem("Base.RiddleTie_Worn","DisplayCategory","ClothA");
+TweakItem("Base.TrousersRiddle_Suit","DisplayCategory","Cloth");
+TweakItem("Base.Riddle_Jacket","DisplayCategory","Cloth");
+TweakItem("Base.Shirt_FormalBlack","DisplayCategory","Cloth");
+TweakItem("Base.Hat_Bombin","DisplayCategory","Cloth");
+TweakItem("Base.Suitcase4Fun","DisplayCategory","Container");
+TweakItem("Base.FunGlasses_Shooting","DisplayCategory","ClothA");
+TweakItem("Base.Shoes_TrainerFun","DisplayCategory","Cloth");
+TweakItem("Base.Hat_4funCap","DisplayCategory","Cloth");
+TweakItem("Base.Hat_4funCap_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_4fun_Leather","DisplayCategory","Cloth");
+TweakItem("Base.AlicePackUnicorn","DisplayCategory","ClothB");
+TweakItem("Base.SuitcaseChapulin","DisplayCategory","Container");
+TweakItem("Base.Shoes_TrainerChapulin","DisplayCategory","Cloth");
+TweakItem("Base.Tie_WornMulder","DisplayCategory","ClothA");
+TweakItem("Base.ChapulinSuit","DisplayCategory","Cloth");
+TweakItem("Base.KigurumiCow","DisplayCategory","Cloth");
+TweakItem("Base.KigurumiUmbrelion","DisplayCategory","Cloth");
+TweakItem("Base.KigurumiOsoanime","DisplayCategory","Cloth");
+TweakItem("Base.KigurumiCharmander","DisplayCategory","Cloth");
+TweakItem("Base.Kigurumi","DisplayCategory","Cloth");
+TweakItem("Base.Bracelet_BangleRightBatman","DisplayCategory","ClothA");
+TweakItem("Base.Bracelet_BangleLeftBatman","DisplayCategory","ClothA");
 TweakItem("Base.Hat_Batman","DisplayCategory","Cloth");
 TweakItem("Base.Boilersuit_Batman","DisplayCategory","Cloth");
 TweakItem("Base.Gloves_Batman","DisplayCategory","Cloth");
@@ -246,6 +336,14 @@ TweakItem("Base.Hat_BarcelonaCap_Reverse","DisplayCategory","Cloth");
 TweakItem("Base.DitoHoodieDOWN_WhiteTINT","DisplayCategory","Cloth");
 TweakItem("Base.DitoHoodieUP_WhiteTINT","DisplayCategory","Cloth");
 TweakItem("Base.AlicePackDito","DisplayCategory","ClothB");
+TweakItem("Base.AlicePackSnake","DisplayCategory","ClothB");
+TweakItem("Base.PastelHoodieDOWN_WhiteTINT","DisplayCategory","Cloth");
+TweakItem("Base.PastelHoodieUP_WhiteTINT","DisplayCategory","Cloth");
+TweakItem("Base.Trousers_Pastel","DisplayCategory","Cloth");
+TweakItem("Base.Shoes_TrainerPastel","DisplayCategory","Cloth");
+TweakItem("Base.AlicePackPastel","DisplayCategory","ClothB");
+TweakItem("Base.PastelAxe","DisplayCategory","WepMelee");
+TweakItem("Base.DitoFlag","DisplayCategory","Furn");
 end
 
 --SnakeMansion
@@ -260,6 +358,18 @@ TweakItem("Base.ZMChip6","DisplayCategory","Junk");
 TweakItem("Base.ZMChip7","DisplayCategory","Junk");
 TweakItem("Base.ZMChip8","DisplayCategory","Junk");
 TweakItem("Base.ZMChip9","DisplayCategory","Junk");
+end
+
+--SnakeUtilsPack
+if getActivatedMods():contains("SnakeUtilsPack") then
+TweakItem("Base.Key_56","DisplayCategory","Key");
+TweakItem("Base.Key_156","DisplayCategory","Key");
+TweakItem("Base.Key_256","DisplayCategory","Key");
+TweakItem("Base.Key_163","DisplayCategory","Key");
+TweakItem("Base.Key_263","DisplayCategory","Key");
+TweakItem("Base.Key_251","DisplayCategory","Key");
+TweakItem("Base.Key_270","DisplayCategory","Key");
+TweakItem("Base.Key_172","DisplayCategory","Key");
 end
 
 --TableSaw

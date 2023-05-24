@@ -257,6 +257,14 @@ TweakItem("Base.MakeUp_GreenCamo","DisplayCategory","ClothM");
 TweakItem("Base.MakeUp_GreenCamo2","DisplayCategory","ClothM");
 end
 
+--GearedZombies
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2379601046
+if getActivatedMods():contains("GearedZombies") then
+TweakItem("Base.MVest_Red","DisplayCategory","ClothA");
+TweakItem("Base.MVest2_Red","DisplayCategory","ClothA");
+TweakItem("Base.SWATPouch_Paramedic","DisplayCategory","ClothB");
+end
+
 --KeyTool
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2266521599
 if getActivatedMods():contains("Keytool") then

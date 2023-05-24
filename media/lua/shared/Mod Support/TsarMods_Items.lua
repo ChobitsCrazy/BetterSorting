@@ -11,6 +11,37 @@ TweakItem("Agrotsar.ASeederPlate","DisplayCategory","Mechanics");
 TweakItem("Agrotsar.APlowshare","DisplayCategory","Mechanics");
 end
 
+--AquatsarYachtClub
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2392987599
+if getActivatedMods():contains("AquatsarYachtClub") then
+TweakItem("Aquatsar.DivingMask","DisplayCategory","ClothA");
+TweakItem("Aquatsar.TaintedLiterature","DisplayCategory","Junk");
+TweakItem("Aquatsar.Compass","DisplayCategory","Tool");
+TweakItem("Aquatsar.DeflatedTireTube","DisplayCategory","Tool");
+TweakItem("Aquatsar.Lifebuoy","DisplayCategory","Tool");
+TweakItem("Aquatsar.TireTube","DisplayCategory","Tool");
+TweakItem("Aquatsar.BoatPropeller","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.ManualStarter","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.Sails","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.NotRemovableBoatSeat1","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.NotRemovableBoatSeat2","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.NotRemovableBoatSeat3","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.AirBagNormal1","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.AirBagNormal2","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.AirBagNormal3","DisplayCategory","Mechanics");
+TweakItem("Aquatsar.BoatMag","DisplayCategory","LitR");
+TweakItem("Aquatsar.SwimMag","DisplayCategory","LitR");
+TweakItem("Base.BoatAnchor","DisplayCategory","Mechanics");
+TweakItem("Base.SailingYachtName_Sakharov_Item","DisplayCategory","Mechanics");
+TweakItem("Base.SailingYachtName_La_Brigandine_Item","DisplayCategory","Mechanics");
+TweakItem("Base.SailingYachtName_Default_Item","DisplayCategory","Mechanics");
+TweakItem("Base.BoatMotorName_NP_Item","DisplayCategory","Mechanics");
+TweakItem("Base.BoatMotorName_Orianna_Item","DisplayCategory","Mechanics");
+TweakItem("Base.BoatMotorName_Default_Item","DisplayCategory","Mechanics");
+TweakItem("Base.partBoatSailingYacht","DisplayCategory","Mechanics");
+TweakItem("Base.partBoatMotor","DisplayCategory","Mechanics");
+end
+
 --ATA_BUS
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2592358528
 if getActivatedMods():contains("ATA_Bus") then
@@ -88,6 +119,18 @@ TweakItem("Autotsar.ATADodgeProtectionWindowSideItem","DisplayCategory","Mechani
 TweakItem("Autotsar.ATADodgeProtectionWindowFrontItem","DisplayCategory","Mechanics");
 end
 
+--ATA-Luton
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2792425535
+if getActivatedMods():contains("ATA_Luton") then
+TweakItem("Autotsar.ATALutonTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATALutonProtectionSideFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionHoodItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
+end
+
 --ATA-Petyarbuilt
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2782258356
 if getActivatedMods():contains("ATA_Petyarbuilt") then
@@ -99,6 +142,31 @@ TweakItem("Autotsar.ATAPetyarbuiltProtectionSideItem","DisplayCategory","Mechani
 TweakItem("Autotsar.ATAPetyarbuiltProtectionSideFrontItem","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAPetyarbuiltProtectionSideTopItem","DisplayCategory","Mechanics");
 TweakItem("Base.ATSMegaTrunk","DisplayCategory","Mechanics");
+end
+
+--ATA_Samara
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2850439818
+if getActivatedMods():contains("ATA_Samara") then
+TweakItem("Autotsar.ATATuningChevalierSamara","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATASamaraHood2Item3","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATASamaraHood3Item3","DisplayCategory","Mechanics");
+end
+
+--ATA_VanDeRumba
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2811232708
+if getActivatedMods():contains("ATA_VanDeRumba") then
+TweakItem("Autotsar.ATAVanDeRumbaTuningMag","DisplayCategory","LitR");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar1Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar2Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaBullbar3Item","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionHoodItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowRearItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaLadderItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbaRoofBaseItem","DisplayCategory","Mechanics");
+TweakItem("Autotsar.ATAVanDeRumbRoofBoxItem","DisplayCategory","Mechanics");
 end
 
 --AutotsarMotorclub
@@ -125,42 +193,12 @@ TweakItem("Autotsar.ATAMotoHarleySeat","DisplayCategory","Mechanics");
 TweakItem("Autotsar.ATAMotoQuadSeat","DisplayCategory","Mechanics");
 end
 
---ATA-Luton
---https://steamcommunity.com/sharedfiles/filedetails/?id=2792425535
-if getActivatedMods():contains("ATA_Luton") then
-TweakItem("Autotsar.ATALutonTuningMag","DisplayCategory","LitR");
-TweakItem("Autotsar.ATALutonProtectionSideFrontItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonProtectionHoodItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonProtectionWindowFrontItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATALutonLadderItem","DisplayCategory","Mechanics");
-end
-
---DeRumba Van
---https://steamcommunity.com/sharedfiles/filedetails/?id=2811232708
-if getActivatedMods():contains("ATA_VanDeRumba") then
-TweakItem("Autotsar.ATAVanDeRumbaTuningMag","DisplayCategory","LitR");
-TweakItem("Autotsar.ATAVanDeRumbaBullbar1Item","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaBullbar2Item","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaBullbar3Item","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionHoodItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowFrontSideItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaProtectionWindowRearItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaInteractiveTrunkRoofRackItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaLadderItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbaRoofBaseItem","DisplayCategory","Mechanics");
-TweakItem("Autotsar.ATAVanDeRumbRoofBoxItem","DisplayCategory","Mechanics");
-end
-
 --AutotsarTrailers
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2282429356
 if getActivatedMods():contains("autotsartrailers") then
-TweakItem("Base.GunRack","DisplayCategory","Mechanics");
-TweakItem("filcher.SFCarCounter","DisplayCategory","Mechanics");
-TweakItem("filcher.SFCarFridge","DisplayCategory","Mechanics");
-TweakItem("filcher.SFCarOven","DisplayCategory","Mechanics");
+TweakItem("Autotsar.TrailerFirstTrunk","DisplayCategory","Mechanics");
+TweakItem("Autotsar.TrailerSecondTrunk","DisplayCategory","Mechanics");
+TweakItem("Base.TsarEarthing","DisplayCategory","Electronics");
 end
 
 --TrueActionsDancing
@@ -248,6 +286,96 @@ end
 if getActivatedMods():contains("truemusic") then
 TweakItem("Tsarcraft.TCBoombox","DisplayCategory","Electronics");
 TweakItem("Tsarcraft.TCVinylplayer","DisplayCategory","Electronics");
+end
+
+--tsarslib
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2392709985
+if getActivatedMods():contains("tsarslib") then
+TweakItem("Base.ATA150Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA200Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA250Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA300Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA400Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA500Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA600Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA700Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA800Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA900Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1000Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1100Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1200Trunk","DisplayCategory","Mechanics");
+TweakItem("Base.ATA150Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA200Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA250Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA300Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA400Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA500Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA600Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA700Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA800Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA900Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1000Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1100Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1200Trunk1","DisplayCategory","Mechanics");
+TweakItem("Base.ATA150Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA200Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA250Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA300Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA400Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA500Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA600Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA700Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA800Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA900Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1000Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1100Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1200Trunk2","DisplayCategory","Mechanics");
+TweakItem("Base.ATA150Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA200Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA250Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA300Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA400Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA500Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA600Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA700Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA800Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA900Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1000Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1100Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATA1200Trunk3","DisplayCategory","Mechanics");
+TweakItem("Base.ATAProtectionWheelsChain","DisplayCategory","Mechanics");
+TweakItem("Base.ATARoofLightItem","DisplayCategory","Mechanics");
+TweakItem("Base.ATASleepingBag","DisplayCategory","Mechanics");
+TweakItem("Base.ATASpoilerFront","DisplayCategory","Mechanics");
+TweakItem("Base.ATAFreestorageTrunk","DisplayCategory","Mechanics");
+TweakItem("Base.500Tank1","DisplayCategory","Mechanics");
+TweakItem("Base.500Tank2","DisplayCategory","Mechanics");
+TweakItem("Base.500Tank3","DisplayCategory","Mechanics");
+TweakItem("Base.1000Tank1","DisplayCategory","Mechanics");
+TweakItem("Base.1000Tank2","DisplayCategory","Mechanics");
+TweakItem("Base.1000Tank3","DisplayCategory","Mechanics");
+TweakItem("Base.TransportCounter","DisplayCategory","Furn");
+TweakItem("Base.TransportCupboard","DisplayCategory","Furn");
+TweakItem("Base.TransportDrawer","DisplayCategory","Furn");
+TweakItem("Base.TransportFreezer","DisplayCategory","Furn");
+TweakItem("Base.TransportFridge","DisplayCategory","Furn");
+TweakItem("Base.TransportMedicine","DisplayCategory","Furn");
+TweakItem("Base.TransportMicrowave","DisplayCategory","Furn");
+TweakItem("Base.TransportOven","DisplayCategory","Furn");
+TweakItem("Base.TransportShelve","DisplayCategory","Furn");
+TweakItem("Base.TransportSeatBoxWooden","DisplayCategory","Furn");
+TweakItem("ATA2.ATA2ItemContainer","DisplayCategory","Container");
+TweakItem("ATA2.ATABullbarPoliceItem1","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATABullbar1Item","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATABullbar2Item","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATAFendersWideItem","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATASkirtsSideItem","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATASpoilerFrontItem","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATASpoilerRear1Item","DisplayCategory","Mechanics");
+TweakItem("ATA2.ATASpoilerRear2Item","DisplayCategory","Mechanics");
+TweakItem("Base.ATARoofLightItem","DisplayCategory","Mechanics");
+TweakItem("Base.ATASleepingBag","DisplayCategory","Mechanics");
+TweakItem("Base.ATASpoilerFront","DisplayCategory","Mechanics");
 end
 
 --ZuperCart

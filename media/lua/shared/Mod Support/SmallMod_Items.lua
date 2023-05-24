@@ -1,6 +1,39 @@
 require("ItemTweaker_Copy_CC");
 --Mods with 30 or fewer added new items--
 
+--4ColorBicPen
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2753894806
+if getActivatedMods():contains("4ColorBicPen") 
+or getActivatedMods():contains("4ColorBicPenFix") then
+TweakItem("BicPen.BicPen","DisplayCategory","LitW");
+TweakItem("BicPen.ComicBicPen","DisplayCategory","LitW");
+end
+
+--ahzclothing
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2908013174
+if getActivatedMods():contains("ahzclothing") then
+TweakItem("Base.ahzfitnesssocks","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnessarms","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnesspants","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnessbra","DisplayCategory","Cloth");
+TweakItem("Base.ahzuwhighwaist_t","DisplayCategory","Cloth");
+TweakItem("Base.ahzuwtightsshort","DisplayCategory","Cloth");
+TweakItem("Base.ahztoplongsleeve","DisplayCategory","Cloth");
+TweakItem("Base.ahztoplongsleevecut","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid1","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid1_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid2","DisplayCategory","Cloth");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid2_close","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt_t","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt_t_plaid1","DisplayCategory","Cloth");
+TweakItem("Base.ahzpleatedminiskirt_t_plaid2","DisplayCategory","Cloth");
+end
+
 --AlecMods
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1537876121
 if getActivatedMods():contains("1537876121") then
@@ -88,7 +121,7 @@ TweakItem("Antiserum.AntiserumTestTube","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumTestTubePack","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumJournalOfResearch","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumWeak","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumRegular","DisplayCategory","Medical");
+TweakItem("Antiserum.AntiserumStrong","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumCure","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumUsedInjector","DisplayCategory","Medical");
 TweakItem("Antiserum.AntiserumEmptyInjector","DisplayCategory","Medical");
@@ -157,7 +190,7 @@ end
 --Bedford Falls
 --https://steamcommunity.com/sharedfiles/filedetails/?id=522891356
 if getActivatedMods():contains("BedfordFalls") then
--- TweakItem("Base.BedfordMap","DisplayCategory","Map");
+TweakItem("Base.BedfordMap","DisplayCategory","LitC");
 end
 
 --Better Flashlights
@@ -206,14 +239,6 @@ if getActivatedMods():contains("TowingCar") then
 TweakItem("TowingCar.TowBar","DisplayCategory","Tool");
 end
 
---4ColorBicPen
---https://steamcommunity.com/sharedfiles/filedetails/?id=2753894806
-if getActivatedMods():contains("4ColorBicPen") 
-or getActivatedMods():contains("4ColorBicPenFix") then
-TweakItem("BicPen.BicPen","DisplayCategory","LitW");
-TweakItem("BicPen.ComicBicPen","DisplayCategory","LitW");
-end
-
 --BogasPizza
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2675786278
 if getActivatedMods():contains("BogaPizza") then
@@ -239,8 +264,8 @@ TweakItem("BogaPizza.RumFull","DisplayCategory","FoodB");
 end
 
 --Books
---???
---if getActivatedMods():contains("???") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2601912220
+if getActivatedMods():contains("DBDA") then
 TweakItem("DBDA.DBDA1","DisplayCategory","LitE");
 TweakItem("DBDA.DBDA2","DisplayCategory","LitE");
 TweakItem("DBDA.DBDA3","DisplayCategory","LitE");
@@ -259,7 +284,15 @@ TweakItem("DBDA.Doc","DisplayCategory","LitE");
 TweakItem("DBDA.Out","DisplayCategory","LitE");
 TweakItem("DBDA.Who","DisplayCategory","LitE");
 TweakItem("DBDA.It","DisplayCategory","LitE");
---end
+end
+
+--Can Repair Doors
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2905027525
+if getActivatedMods():contains("CanRepairDoors") then
+TweakItem("Base.DoorsRepairKitMetal","DisplayCategory","Tool");
+TweakItem("Base.DoorsRepairKitWood","DisplayCategory","Tool");
+TweakItem("Base.DoorsRepairKitEpoxy","DisplayCategory","Tool");
+end
 
 --CigaretteCartonMod
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2207313208
@@ -360,6 +393,12 @@ TweakItem("Base.BookFitness4","DisplayCategory","LitS");
 TweakItem("Base.BookFitness5","DisplayCategory","LitS");
 end
 
+--Essential Crafting
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2903127760
+if getActivatedMods():contains("EssentialCrafting") then
+TweakItem("Base.LighterEmpty","DisplayCategory","Tool");
+end
+
 --ExamineCorpses
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2523485011
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2692461764
@@ -377,11 +416,25 @@ TweakItem("FencingKit.ChainWireRoll","DisplayCategory","CraftMetal");
 end
 
 --ForScience
---???
---if getActivatedMods():contains("???") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2803794394
+if getActivatedMods():contains("ForScience") then
 TweakItem("Base.BookMedicalJournal","DisplayCategory","LitS");
 TweakItem("Base.BookElectricManual","DisplayCategory","LitS");
---end
+end
+
+--FuelAPI
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2688538916
+if getActivatedMods():contains("FuelAPI") then
+TweakItem("FuelAPI.LargePetrolCan","DisplayCategory","Container");
+TweakItem("FuelAPI.LargePetrolCanFull","DisplayCategory","Fuel");
+TweakItem("FuelAPI.LargePetrolCanWater","DisplayCategory","FoodB");
+end
+
+--FunctionalChainsaw
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2921981763
+if getActivatedMods():contains("FunctionalChainsaw") then
+TweakItem("Ftool.Chainsaw","DisplayCategory","Tool");
+end
 
 --Icecream-Maker
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2754525193
@@ -405,22 +458,30 @@ if getActivatedMods():contains("icecreammaker") then
 end
 
 --ImmersiveSolarArrays
---https://steamcommunity.com/sharedfiles/filedetails/?id=2623458493
-if getActivatedMods():contains("ISA") then
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2857548524
+if getActivatedMods():contains("ISA_41") then
 TweakItem("ISA.SolarPanel","DisplayCategory","Electronics");
 TweakItem("ISA.ISAInverter","DisplayCategory","Electronics");
 TweakItem("ISA.DeepCycleBattery","DisplayCategory","Electronics");
 TweakItem("ISA.SuperBattery","DisplayCategory","Electronics");
+TweakItem("ISA.WiredCarBattery","DisplayCategory","Electronics");
 TweakItem("ISA.DIYBattery","DisplayCategory","Electronics");
-TweakItem("ISA.50AhBattery","DisplayCategory","Electronics");
-TweakItem("ISA.75AhBattery","DisplayCategory","Electronics");
-TweakItem("ISA.100AhBattery","DisplayCategory","Electronics");
 TweakItem("ISA.PowerBank","DisplayCategory","Electronics");
 TweakItem("ISA.SolarPanelFlat","DisplayCategory","Electronics");
 TweakItem("ISA.SolarPanelWall","DisplayCategory","Electronics");
 TweakItem("ISA.SolarPanelMounted","DisplayCategory","Electronics");
 TweakItem("ISA.SolarFailsafe","DisplayCategory","Electronics");
 TweakItem("ISA.ISAMag1","DisplayCategory","LitR");
+TweakItem("ISA.Stash_RiversideW1","DisplayCategory","LitC");
+TweakItem("ISA.Stash_RosewoodE1","DisplayCategory","LitC");
+TweakItem("ISA.Stash_Louisville1","DisplayCategory","LitC");
+end
+
+--Irrigation pipes for farming and water supply [B41+]
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2464581798
+if getActivatedMods():contains("waterPipes") then
+TweakItem("waterPipes.WaterPipe","DisplayCategory","SurFarm");
+TweakItem("waterPipes.WaterPipe2","DisplayCategory","SurFarm");
 end
 
 --KitsuneAmmoCraftBrita
@@ -562,6 +623,49 @@ TweakItem("MoreTraits.AntiqueHammer","DisplayCategory","Tool");
 TweakItem("MoreTraits.AntiqueKatana","DisplayCategory","WepMelee");
 end
 
+--Onifurniture
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2873290715
+if getActivatedMods():contains("Onifurniture") then
+TweakItem("Onifurniture.MetalBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.LargeMetalBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.BigFridge1/2","DisplayCategory","Furn");
+TweakItem("Onifurniture.BigFridge2/2","DisplayCategory","Furn");
+TweakItem("Onifurniture.Fr1dge","DisplayCategory","Furn");
+TweakItem("Onifurniture.TrashCan","DisplayCategory","Furn");
+TweakItem("Onifurniture.CapacityCornerCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.CapacityCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.SmallContainer","DisplayCategory","Furn");
+TweakItem("Onifurniture.BlackMetalBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.BoardsBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.PalletBoxes","DisplayCategory","Furn");
+TweakItem("Onifurniture.ShippingBox","DisplayCategory","Furn");
+TweakItem("Onifurniture.RedCounterCorner","DisplayCategory","Furn");
+TweakItem("Onifurniture.RedCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.RedWallCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.WallCounter","DisplayCategory","Furn");
+TweakItem("Onifurniture.SmallBookcase","DisplayCategory","Furn");
+TweakItem("Onifurniture.ShoeCabinet","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernDrawer","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernDrawer2","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernDrawer3","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernStove","DisplayCategory","Furn");
+TweakItem("Onifurniture.Wardrobe","DisplayCategory","Furn");
+TweakItem("Onifurniture.ModernCloset","DisplayCategory","Furn");
+end
+
+--PertsPartyTiles
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2837923608
+if getActivatedMods():contains("PertsPartyTiles") then
+TweakItem("Base.CrazedRamblings","DisplayCategory","Misc");
+TweakItem("Base.CrazedRamblings2","DisplayCategory","Misc");
+TweakItem("Base.CrazedRamblings3","DisplayCategory","Misc");
+TweakItem("Base.CrazedRamblings4","DisplayCategory","Misc");
+TweakItem("Base.OverlookFireAxe","DisplayCategory","WepMelee");
+TweakItem("Base.BatLeth","DisplayCategory","WepMelee");
+TweakItem("Base.MekLeth","DisplayCategory","WepMelee");
+TweakItem("Base.AZZK_pistol","DisplayCategory","WepFire");
+end
+
 --PlayerTraps
 --https://steamcommunity.com/sharedfiles/filedetails/?id=710542108
 if getActivatedMods():contains("PlayerTraps") then
@@ -609,6 +713,22 @@ TweakItem("Base.SlingAalt2","DisplayCategory","ClothA");
 TweakItem("Base.SlingAalt3","DisplayCategory","ClothA");
 end
 
+--Sapphire's Heaters
+--https://steamcommunity.com/workshop/filedetails/?id=2877732496
+if getActivatedMods():contains("SAPPHEATER") then
+TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
+end
+
+--SavottaBackpacks
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2940277485
+if getActivatedMods():contains("SavottaBackpacks") then
+TweakItem("Base.Jaakari_L_Backpack","DisplayCategory","ClothB");
+TweakItem("Base.Jaakari_XL_Backpack","DisplayCategory","ClothB");
+end
+
 --Scavenger Skill
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2721290568
 if getActivatedMods():contains("ScavengingSkill") then
@@ -617,6 +737,36 @@ TweakItem("ScavengerSkill.ScavengerSkill_BookScavenging2","DisplayCategory","Lit
 TweakItem("ScavengerSkill.ScavengerSkill_BookScavenging3","DisplayCategory","LitS");
 TweakItem("ScavengerSkill.ScavengerSkill_BookScavenging4","DisplayCategory","LitS");
 TweakItem("ScavengerSkill.ScavengerSkill_BookScavenging5","DisplayCategory","LitS");
+end
+
+--SecretZ
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2864652763
+if getActivatedMods():contains("SecretZ_v3")
+or getActivatedMods():contains("SecretZ_v2")
+or getActivatedMods():contains("SecretZ") then
+TweakItem("SZ.Barrys_Shotgun","DisplayCategory","WepFire");
+TweakItem("SZ.BCS_Shotgun","DisplayCategory","WepFire");
+TweakItem("SZ.Garrys_44","DisplayCategory","WepFire");
+TweakItem("SZ.BCS_Pistol","DisplayCategory","WepFire");
+TweakItem("SZ.Key_BlueCard","DisplayCategory","Key");
+TweakItem("SZ.Key_RedCard","DisplayCategory","Key");
+TweakItem("SZ.Key_GreenCard","DisplayCategory","Key");
+TweakItem("SZ.Key_YellowCard","DisplayCategory","Key");
+TweakItem("SZ.Key_BlackCard","DisplayCategory","Key");
+TweakItem("SZ.Key_SystemL0","DisplayCategory","Key");
+TweakItem("SZ.Bunker01","DisplayCategory","LitC");
+TweakItem("SZ.Bunker02","DisplayCategory","LitC");
+TweakItem("SZ.Bunker03","DisplayCategory","LitC");
+TweakItem("SZ.Bunker04","DisplayCategory","LitC");
+TweakItem("SZ.TopSecret","DisplayCategory","LitC");
+TweakItem("SZ.TopSecret2","DisplayCategory","LitC");
+TweakItem("SZ.TopSecret3","DisplayCategory","LitC");
+TweakItem("SZ.opmap1","DisplayCategory","LitC");
+TweakItem("SZ.opmap2","DisplayCategory","LitC");
+TweakItem("SZ.opmap3","DisplayCategory","LitC");
+TweakItem("SZ.labmap1","DisplayCategory","LitC");
+TweakItem("SZ.Mov_Barrier01","DisplayCategory","Furn");
+TweakItem("SZ.Mov_SecurityTerminal","DisplayCategory","Furn");
 end
 
 --Silencer/Suppressor
@@ -683,6 +833,33 @@ TweakItem("Base.PlasticLighter_Red","DisplayCategory","Tool");
 TweakItem("Base.PlasticLighter_Yellow","DisplayCategory","Tool");
 end
 
+--SpecialEmergencyVehiclesFRsm
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2849455153
+if getActivatedMods():contains("SpecialEmergencyVehiclesFRsm") then
+TweakItem("Base.Hat_BaseballCapDEA","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapDEA_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapATF","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapATF_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapFBILG","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapFBILG_Reverse","DisplayCategory","Cloth");
+TweakItem("Base.Hat_blackRiotHelmetfbilg","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlg","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlgblack","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlgconidfbi","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_FBIlgblackconidFBI","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_RIOTlgblack","DisplayCategory","Cloth");
+TweakItem("Base.Vest_Bulletfbi","DisplayCategory","Cloth");
+TweakItem("Base.Vest_Bulletfbigreen","DisplayCategory","Cloth");
+TweakItem("Base.Vest_BulletfbiRIOTLg","DisplayCategory","Cloth");
+TweakItem("Base.Vest_BulletRiotLG","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_ATFclosed","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_USMSHclosed","DisplayCategory","Cloth");
+TweakItem("Base.Jacket_DEAclosed","DisplayCategory","Cloth");
+TweakItem("Base.Vest_BulletRIOTlggeneric","DisplayCategory","Cloth");
+TweakItem("Base.Trousers_PoliceRiotfbilg","DisplayCategory","Cloth");
+TweakItem("Base.Shirt_FormalWhiteFBIIDLG","DisplayCategory","Cloth");
+end
+
 --SprayPaint
 --https://steamcommunity.com/sharedfiles/filedetails/?id=499153179
 if getActivatedMods():contains("spraypaintEDIT") then
@@ -705,28 +882,6 @@ TweakItem("spraypaint.ChalkViolet","DisplayCategory","Tool");
 TweakItem("spraypaint.ChalkCyan","DisplayCategory","Tool");
 end
 
---SpongiesClothing
---https://steamcommunity.com/sharedfiles/filedetails/?id=2684285534
-if getActivatedMods():contains("SpnCloth") or getActivatedMods():contains("SpnClothVanilla") then
-TweakItem("Spongie.Gloves_StripedLong","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_SheepWool","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_SheepWoolOPEN","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_PoliceArmor","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_Flight","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_FlightOPEN","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_FlightVest","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_FlightVestOPEN","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_Cardigan","DisplayCategory","Cloth");
-TweakItem("Spongie.Jacket_CardiganDOWN","DisplayCategory","Cloth");
-TweakItem("Spongie.TShirt_Compression","DisplayCategory","Cloth");
-TweakItem("Spongie.TShirt_CompressionLong","DisplayCategory","Cloth");
-TweakItem("Spongie.Jumper_TurtleVest","DisplayCategory","Cloth");
-TweakItem("Spongie.Vest_Waterproof","DisplayCategory","Cloth");
-TweakItem("Spongie.Jumper_Military","DisplayCategory","Cloth");
-TweakItem("Spongie.Shorts_Spandex","DisplayCategory","Cloth");
-TweakItem("Spongie.Shorts_SpandexLong","DisplayCategory","Cloth");
-end
-
 --Treads Water Tank Trucks
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2719592131
 if getActivatedMods():contains("RS_WaterCistern") 
@@ -745,6 +900,9 @@ TweakItem("Base.3000_Water_Tank_Tainted1","DisplayCategory","Mechanics");
 TweakItem("Base.3000_Water_Tank_Tainted2","DisplayCategory","Mechanics");
 TweakItem("Base.3000_Water_Tank_Tainted3","DisplayCategory","Mechanics");
 TweakItem("Base.RS_WaterFilter","DisplayCategory","Mechanics");
+TweakItem("Base.FRSideContainer_RS1","DisplayCategory","Mechanics");
+TweakItem("Base.FRSideContainer_RS2","DisplayCategory","Mechanics");
+TweakItem("Base.FRSideContainer_RS3","DisplayCategory","Mechanics");
 end
 
 --TheyKnew
@@ -825,6 +983,15 @@ if getActivatedMods():contains("VehicleRepairOverhaul") then
 TweakItem("FixAFlat.FixAFlat","DisplayCategory","Tool");
 end
 
+--Viperel's Recycling Center
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2713055926
+if getActivatedMods():contains("VPR_RecyclingCenter") then
+TweakItem("Base.EmptyLighter","DisplayCategory","Tool");
+TweakItem("Base.GlassMold","DisplayCategory","Craft");
+TweakItem("Base.GlassShard","DisplayCategory","Craft");
+TweakItem("Base.GlassPane","DisplayCategory","Craft");
+end
+
 --W900Semi-Truck
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2759339330
 if getActivatedMods():contains("rSemiTruck") then
@@ -849,13 +1016,6 @@ if getActivatedMods():contains("WaterDispenser") then
 TweakItem("WaterDispenser.WaterJugEmpty","DisplayCategory","Container");
 TweakItem("WaterDispenser.WaterJugWaterFull","DisplayCategory","Container");
 TweakItem("WaterDispenser.WaterJugPetrolFull","DisplayCategory","Fuel");
-end
-
---Irrigation pipes for farming and water supply [B41+]
---https://steamcommunity.com/sharedfiles/filedetails/?id=2464581798
-if getActivatedMods():contains("waterPipes") then
-TweakItem("waterPipes.WaterPipe","DisplayCategory","SurFarm");
-TweakItem("waterPipes.WaterPipe2","DisplayCategory","SurFarm");
 end
 
 --WaterTrailer
@@ -889,52 +1049,4 @@ TweakItem("XNTree.XNSaplingLemon","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingOrange","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPeach","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPineapple","DisplayCategory","SurFarm");
-end
-
---Sapphire's Heaters
---https://steamcommunity.com/workshop/filedetails/?id=2877732496
-if getActivatedMods():contains("SAPPHEATER") then
-TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
-end
-
---Essential Crafting
---https://steamcommunity.com/sharedfiles/filedetails/?id=2903127760
-if getActivatedMods():contains("EssentialCrafting") then
-TweakItem("Base.LighterEmpty","DisplayCategory","Tool");
-end
-
---Can Repair Doors
---https://steamcommunity.com/sharedfiles/filedetails/?id=2905027525
-if getActivatedMods():contains("CanRepairDoors") then
-TweakItem("Base.DoorsRepairKitMetal","DisplayCategory","Tool");
-TweakItem("Base.DoorsRepairKitWood","DisplayCategory","Tool");
-TweakItem("Base.DoorsRepairKitEpoxy","DisplayCategory","Tool");
-end
-
---Tsar's Common Library 2.0
---https://steamcommunity.com/sharedfiles/filedetails/?id=2392709985
-if getActivatedMods():contains("tsarslib") then
-TweakItem("Base.1000Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.1000Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.1000Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.500Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.500Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.500Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.ATA2.ATA2ItemContainer","DisplayCategory","Mechanics");
-TweakItem("Base.ATAProtectionWheelsChain","DisplayCategory","Mechanics");
-TweakItem("Base.ATARoofLightItem","DisplayCategory","Mechanics");
-TweakItem("Base.ATASleepingBag","DisplayCategory","Mechanics");
-TweakItem("Base.TransportSeatBoxWooden","DisplayCategory","Mechanics");
-TweakItem("Base.TransportMicrowave","DisplayCategory","Furniture");
-TweakItem("Base.TransportOven","DisplayCategory","Furniture");
-TweakItem("Base.TransportShelve","DisplayCategory","Furniture");
-TweakItem("Base.TransportCounter","DisplayCategory","Furniture");
-TweakItem("Base.TransportMedicine","DisplayCategory","Furniture");
-TweakItem("Base.TransportDrawer","DisplayCategory","Furniture");
-TweakItem("Base.TransportFreezer","DisplayCategory","Furniture");
-TweakItem("Base.TransportFridge","DisplayCategory","Furniture");
-TweakItem("Base.TransportCupboard","DisplayCategory","Furniture");
 end
