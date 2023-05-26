@@ -796,7 +796,7 @@ TweakItem(moduleName..".Trousers_SuitGMan","DisplayCategory","ClothLeg");
 TweakItem(moduleName..".Trousers_SuitNick","DisplayCategory","ClothLeg");
 TweakItem(moduleName..".Trousers_Tagilla","DisplayCategory","ClothLeg");
 TweakItem(moduleName..".Trousers_UncleSam","DisplayCategory","ClothLeg");
-TweakItem(moduleName..".Corset_Jill","DisplayCategory","ClothBody");
+TweakItem(moduleName..".Corset_Jill","DisplayCategory","ClothUnder");
 TweakItem(moduleName..".Shirt_Bill_Murray","DisplayCategory","ClothBody");
 TweakItem(moduleName..".Shirt_Bub","DisplayCategory","ClothBody");
 TweakItem(moduleName..".Shirt_Buzzers","DisplayCategory","ClothBody");
