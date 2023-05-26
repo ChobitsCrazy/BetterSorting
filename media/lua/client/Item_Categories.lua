@@ -56,12 +56,6 @@ TweakItem("Base.Soap","DisplayCategory","Clean");
 TweakItem("Base.Soap2","DisplayCategory","Clean");
 --CLOTHING
 --Accessory
-TweakItem("Base.Gloves_FingerlessGloves","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_LeatherGloves","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_LeatherGlovesBlack","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_LongWomenGloves","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_Surgical","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_WhiteTINT","DisplayCategory","ClothAcc");
 TweakItem("Base.Scarf_StripeBlackWhite","DisplayCategory","ClothAcc");
 TweakItem("Base.Scarf_StripeBlueWhite","DisplayCategory","ClothAcc");
 TweakItem("Base.Scarf_StripeRedWhite","DisplayCategory","ClothAcc");
@@ -74,8 +68,6 @@ TweakItem("Base.Tie_Full_Spiffo","DisplayCategory","ClothAcc");
 TweakItem("Base.Tie_Worn","DisplayCategory","ClothAcc");
 TweakItem("Base.Tie_Worn_Spiffo","DisplayCategory","ClothAcc");
 TweakItem("Base.BunnyTail","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_BoxingBlue","DisplayCategory","ClothAcc");
-TweakItem("Base.Gloves_BoxingRed","DisplayCategory","ClothAcc");
 TweakItem("Base.Bracelet_LeftFriendshipTINT","DisplayCategory","ClothAcc");
 TweakItem("Base.Bracelet_RightFriendshipTINT","DisplayCategory","ClothAcc");
 TweakItem("Base.Necklace_Choker","DisplayCategory","ClothAcc");
@@ -94,6 +86,15 @@ TweakItem("Base.HolsterDouble","DisplayCategory","ClothAcc");
 TweakItem("Base.HolsterSimple","DisplayCategory","ClothAcc");
 TweakItem("Base.Belt","DisplayCategory","ClothAcc");
 TweakItem("Base.Belt2","DisplayCategory","ClothAcc");
+--Arms/Hands
+TweakItem("Base.Gloves_FingerlessGloves","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_LeatherGloves","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_LeatherGlovesBlack","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_LongWomenGloves","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_Surgical","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_WhiteTINT","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_BoxingBlue","DisplayCategory","ClothArm");
+TweakItem("Base.Gloves_BoxingRed","DisplayCategory","ClothArm");
 --Backpack
 TweakItem("Base.Bag_GolfBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_Schoolbag","DisplayCategory","ClothBack");
