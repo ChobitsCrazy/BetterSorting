@@ -2,6 +2,7 @@ IGUI_EN = {
 	IGUI_ItemCat_Appear = "Appearance",
 	IGUI_ItemCat_Clean = "Cleaning",
 	IGUI_ItemCat_ClothAcc = "Clothing - Accessory",
+	IGUI_ItemCat_ClothArm = "Clothing - Arms/Hands",
 	IGUI_ItemCat_ClothBack = "Clothing - Backpack",
 	IGUI_ItemCat_ClothBag = "Clothing - Bag",
 	IGUI_ItemCat_ClothBody = "Clothing - Body",
