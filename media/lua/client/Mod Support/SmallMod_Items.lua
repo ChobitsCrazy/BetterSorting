@@ -6,32 +6,32 @@ require("ItemTweaker_Copy_CC");
 if getActivatedMods():contains("4ColorBicPen") 
 or getActivatedMods():contains("4ColorBicPenFix") then
 TweakItem("BicPen.BicPen","DisplayCategory","LitW");
-TweakItem("BicPen.ComicBicPen","DisplayCategory","LitW");
+TweakItem("BicPen.ComicBicPen","DisplayCategory","WepMelee");
 end
 
 --ahzclothing
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2908013174
 if getActivatedMods():contains("ahzclothing") then
-TweakItem("Base.ahzfitnesssocks","DisplayCategory","Cloth");
-TweakItem("Base.ahzfitnessarms","DisplayCategory","Cloth");
-TweakItem("Base.ahzfitnesspants","DisplayCategory","Cloth");
-TweakItem("Base.ahzfitnessbra","DisplayCategory","Cloth");
-TweakItem("Base.ahzuwhighwaist_t","DisplayCategory","Cloth");
-TweakItem("Base.ahzuwtightsshort","DisplayCategory","Cloth");
-TweakItem("Base.ahztoplongsleeve","DisplayCategory","Cloth");
-TweakItem("Base.ahztoplongsleevecut","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_close","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_t","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_t_close","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_t_plaid1","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_t_plaid1_close","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_t_plaid2","DisplayCategory","Cloth");
-TweakItem("Base.ahzshortpleatedskirt_t_plaid2_close","DisplayCategory","Cloth");
-TweakItem("Base.ahzpleatedminiskirt","DisplayCategory","Cloth");
-TweakItem("Base.ahzpleatedminiskirt_t","DisplayCategory","Cloth");
-TweakItem("Base.ahzpleatedminiskirt_t_plaid1","DisplayCategory","Cloth");
-TweakItem("Base.ahzpleatedminiskirt_t_plaid2","DisplayCategory","Cloth");
+TweakItem("Base.ahzfitnesssocks","DisplayCategory","ClothFeet");
+TweakItem("Base.ahzfitnessarms","DisplayCategory","ClothArm");
+TweakItem("Base.ahzfitnesspants","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzfitnessbra","DisplayCategory","ClothUnder");
+TweakItem("Base.ahzuwhighwaist_t","DisplayCategory","ClothUnder");
+TweakItem("Base.ahzuwtightsshort","DisplayCategory","ClothUnder");
+TweakItem("Base.ahztoplongsleeve","DisplayCategory","ClothBody");
+TweakItem("Base.ahztoplongsleevecut","DisplayCategory","ClothBody");
+TweakItem("Base.ahzshortpleatedskirt","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_close","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_t","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_t_close","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid1","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid1_close","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid2","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzshortpleatedskirt_t_plaid2_close","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzpleatedminiskirt","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzpleatedminiskirt_t","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzpleatedminiskirt_t_plaid1","DisplayCategory","ClothLeg");
+TweakItem("Base.ahzpleatedminiskirt_t_plaid2","DisplayCategory","ClothLeg");
 end
 
 --AlecMods
@@ -92,20 +92,20 @@ end
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2688622178
 if getActivatedMods():contains("AnaLGiNs_RenewableFoodResources") then
 TweakItem("ANL.SmallSaltRock","DisplayCategory","Craft");
-TweakItem("ANL.WildYeastBase","DisplayCategory","Cooking");
-TweakItem("ANL.JarOfYeast","DisplayCategory","Cooking");
-TweakItem("ANL.DryJarOfYeast","DisplayCategory","Cooking");
+TweakItem("ANL.WildYeastBase","DisplayCategory","Cook");
+TweakItem("ANL.JarOfYeast","DisplayCategory","Cook");
+TweakItem("ANL.DryJarOfYeast","DisplayCategory","Cook");
 TweakItem("ANL.AnlRenewMag1","DisplayCategory","LitR");
 -- TweakItem("ANL.SugarBeet","DisplayCategory","FoodP");
 TweakItem("ANL.SugarBeetSeed","DisplayCategory","SurFarm");
 TweakItem("ANL.SugarBeetBagSeed","DisplayCategory","SurFarm");
 -- TweakItem("ANL.SlicedSugarBeets","DisplayCategory","FoodP");
-TweakItem("ANL.DriedSugarBeets","DisplayCategory","Cooking");
+TweakItem("ANL.DriedSugarBeets","DisplayCategory","Cook");
 TweakItem("ANL.AnlRenewMag2","DisplayCategory","LitR");
 -- TweakItem("ANL.GratedBerries","DisplayCategory","FoodP");
-TweakItem("ANL.JarOfCrushedBerries","DisplayCategory","Cooking");
+TweakItem("ANL.JarOfCrushedBerries","DisplayCategory","Cook");
 TweakItem("ANL.WildBerryWine","DisplayCategory","FoodB");
-TweakItem("ANL.JarOfVinegarBase","DisplayCategory","Cooking");
+TweakItem("ANL.JarOfVinegarBase","DisplayCategory","Cook");
 end
 
 --Anitserum
@@ -114,46 +114,46 @@ end
 if getActivatedMods():contains("antiserum") 
 or getActivatedMods():contains("antiserum_beta") 
 or getActivatedMods():contains("AntiserumHC") then
-TweakItem("Antiserum.AntiserumChemicals","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumChemicalWorkstation","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumSample","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumTestTube","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumTestTubePack","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumJournalOfResearch","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumWeak","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumStrong","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumCure","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumUsedInjector","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumEmptyInjector","DisplayCategory","Medical");
-TweakItem("Antiserum.AntiserumEmptyInjectorPack","DisplayCategory","Medical");
+TweakItem("Antiserum.AntiserumChemicals","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumChemicalWorkstation","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumSample","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumTestTube","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumTestTubePack","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumJournalOfResearch","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumWeak","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumStrong","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumCure","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumUsedInjector","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumEmptyInjector","DisplayCategory","Med");
+TweakItem("Antiserum.AntiserumEmptyInjectorPack","DisplayCategory","Med");
 end
 
 --AntiserumSelfTestKit
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2727546169
 if getActivatedMods():contains("AntiserumHCSelfTestKit") then
-TweakItem("AntiserumTestKit.AntiserumTestKit","DisplayCategory","Medical");
+TweakItem("AntiserumTestKit.AntiserumTestKit","DisplayCategory","Med");
 end
 
 --ArmoredVests
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1962761540
 if getActivatedMods():contains("ArmoredVests") then
-TweakItem("Armor.Vest_BulletArmy","DisplayCategory","Cloth");
-TweakItem("Armor.Vest_BulletPolice","DisplayCategory","Cloth");
-TweakItem("Armor.Vest_BulletCivilian","DisplayCategory","Cloth");
-TweakItem("Armor.Boilersuit_Flying","DisplayCategory","Cloth");
-TweakItem("Armor.HazmatSuit","DisplayCategory","Cloth");
-TweakItem("Armor.Hat_NBCmask","DisplayCategory","Cloth");
-TweakItem("Armor.Hat_SPHhelmet","DisplayCategory","Cloth");
-TweakItem("Armor.Hat_GasMask","DisplayCategory","Cloth");
-TweakItem("Armor.Hat_BalaclavaFace","DisplayCategory","Cloth");
-TweakItem("Armor.Hat_BalaclavaFull","DisplayCategory","Cloth");
+TweakItem("Armor.Vest_BulletArmy","DisplayCategory","ClothBody");
+TweakItem("Armor.Vest_BulletPolice","DisplayCategory","ClothBody");
+TweakItem("Armor.Vest_BulletCivilian","DisplayCategory","ClothBody");
+TweakItem("Armor.Boilersuit_Flying","DisplayCategory","ClothBody");
+TweakItem("Armor.HazmatSuit","DisplayCategory","ClothBody");
+TweakItem("Armor.Hat_NBCmask","DisplayCategory","ClothHead");
+TweakItem("Armor.Hat_SPHhelmet","DisplayCategory","ClothHead");
+TweakItem("Armor.Hat_GasMask","DisplayCategory","ClothHead");
+TweakItem("Armor.Hat_BalaclavaFace","DisplayCategory","ClothHead");
+TweakItem("Armor.Hat_BalaclavaFull","DisplayCategory","ClothHead");
 end
 
 --AutoGate
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2735447453
 if getActivatedMods():contains("AutoGate") then
 TweakItem("AutoGate.AutoGateMag","DisplayCategory","LitR");
-TweakItem("AutoGate.GateController","DisplayCategory","Electronics");
+TweakItem("AutoGate.GateController","DisplayCategory","Elec");
 TweakItem("AutoGate.GateComponents","DisplayCategory","CraftElec");
 end
 
@@ -197,7 +197,7 @@ end
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2766033079
 if getActivatedMods():contains("BetterFlashlights") then
 TweakItem("Base.BF_HeadLight","DisplayCategory","Tool");
-TweakItem("Base.Hat_HardHat_Miner_With_Light","DisplayCategory","Cloth");
+TweakItem("Base.Hat_HardHat_Miner_With_Light","DisplayCategory","ClothHead");
 TweakItem("Base.HandTorch_CK_LED","DisplayCategory","Tool");
 TweakItem("Base.HandTorch_ManLite","DisplayCategory","Tool");
 TweakItem("Base.HandTorch_Army1","DisplayCategory","Tool");
@@ -320,26 +320,26 @@ end
 --CorpseStudy
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2695355759
 if getActivatedMods():contains("ttr-CorpseStudy") then
-TweakItem("CorpseStudyMod.MedicalJournal","DisplayCategory","Medical");
+TweakItem("CorpseStudyMod.MedicalJournal","DisplayCategory","Med");
 end
 
 --CrashedCarsMod
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1539281445
 if getActivatedMods():contains("CrashedCarsMod") then
-TweakItem("Base.SmallTrunk0","DisplayCategory","Mechanics");
-TweakItem("Base.NormalTrunk0","DisplayCategory","Mechanics");
-TweakItem("Base.BigTrunk0","DisplayCategory","Mechanics");
-TweakItem("Base.FrontCarDoor0","DisplayCategory","Mechanics");
-TweakItem("Base.TrunkDoor0","DisplayCategory","Mechanics");
-TweakItem("Base.GloveBox0","DisplayCategory","Mechanics");
+TweakItem("Base.SmallTrunk0","DisplayCategory","Mech");
+TweakItem("Base.NormalTrunk0","DisplayCategory","Mech");
+TweakItem("Base.BigTrunk0","DisplayCategory","Mech");
+TweakItem("Base.FrontCarDoor0","DisplayCategory","Mech");
+TweakItem("Base.TrunkDoor0","DisplayCategory","Mech");
+TweakItem("Base.GloveBox0","DisplayCategory","Mech");
 end
 
 --Defecation
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1436878551
 if getActivatedMods():contains("Defecation") then
 TweakItem("Defecation.HumanFeces","DisplayCategory","SurFarm");
-TweakItem("Defecation.AntiDiarrhealPillBox","DisplayCategory","Medical");
-TweakItem("Defecation.AntiDiarrhealPill","DisplayCategory","Medical");
+TweakItem("Defecation.AntiDiarrhealPillBox","DisplayCategory","Med");
+TweakItem("Defecation.AntiDiarrhealPill","DisplayCategory","Med");
 end
 
 --Driving Skill
@@ -355,12 +355,10 @@ end
 --EggonsFannyPackBalancing
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2276669022
 if getActivatedMods():contains("eggonsFannyPackBalancing") then
-TweakItem("Base.Bag_FannyPackFront","DisplayCategory","ClothB");
-TweakItem("Base.Bag_FannyPackBack","DisplayCategory","ClothB");
-TweakItem("Base.SportsFannyPack","DisplayCategory","ClothB");
-TweakItem("Base.SportsFannyPackBack","DisplayCategory","ClothB");
-TweakItem("Base.FannyPackXL","DisplayCategory","ClothB");
-TweakItem("Base.FannyPackXLBack","DisplayCategory","ClothB");
+TweakItem("Base.SportsFannyPack","DisplayCategory","ClothBag");
+TweakItem("Base.SportsFannyPackBack","DisplayCategory","ClothBag");
+TweakItem("Base.FannyPackXL","DisplayCategory","ClothBag");
+TweakItem("Base.FannyPackXLBack","DisplayCategory","ClothBag");
 end
 
 --EggonsSharpenYourBlades
@@ -405,7 +403,7 @@ end
 if getActivatedMods():contains("ExamineCorpses") or getActivatedMods():contains("ExamineCorpsesPLUS") then
 TweakItem("ExamineCorpse.nmMedicalMagazine1","DisplayCategory","LitR");
 TweakItem("ExamineCorpse.nmMedicalMagazine2","DisplayCategory","LitR");
-TweakItem("ExamineCorpse.nmMedicalStudiesJournal","DisplayCategory","Medical");
+TweakItem("ExamineCorpse.nmMedicalStudiesJournal","DisplayCategory","Med");
 end
 
 --Fencing Kits
@@ -425,7 +423,7 @@ end
 --FuelAPI
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2688538916
 if getActivatedMods():contains("FuelAPI") then
-TweakItem("FuelAPI.LargePetrolCan","DisplayCategory","Container");
+TweakItem("FuelAPI.LargePetrolCan","DisplayCategory","Cont");
 TweakItem("FuelAPI.LargePetrolCanFull","DisplayCategory","Fuel");
 TweakItem("FuelAPI.LargePetrolCanWater","DisplayCategory","FoodB");
 end
@@ -460,17 +458,17 @@ end
 --ImmersiveSolarArrays
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2857548524
 if getActivatedMods():contains("ISA_41") then
-TweakItem("ISA.SolarPanel","DisplayCategory","Electronics");
-TweakItem("ISA.ISAInverter","DisplayCategory","Electronics");
-TweakItem("ISA.DeepCycleBattery","DisplayCategory","Electronics");
-TweakItem("ISA.SuperBattery","DisplayCategory","Electronics");
-TweakItem("ISA.WiredCarBattery","DisplayCategory","Electronics");
-TweakItem("ISA.DIYBattery","DisplayCategory","Electronics");
-TweakItem("ISA.PowerBank","DisplayCategory","Electronics");
-TweakItem("ISA.SolarPanelFlat","DisplayCategory","Electronics");
-TweakItem("ISA.SolarPanelWall","DisplayCategory","Electronics");
-TweakItem("ISA.SolarPanelMounted","DisplayCategory","Electronics");
-TweakItem("ISA.SolarFailsafe","DisplayCategory","Electronics");
+TweakItem("ISA.SolarPanel","DisplayCategory","Elec");
+TweakItem("ISA.ISAInverter","DisplayCategory","Elec");
+TweakItem("ISA.DeepCycleBattery","DisplayCategory","Elec");
+TweakItem("ISA.SuperBattery","DisplayCategory","Elec");
+TweakItem("ISA.WiredCarBattery","DisplayCategory","Elec");
+TweakItem("ISA.DIYBattery","DisplayCategory","Elec");
+TweakItem("ISA.PowerBank","DisplayCategory","Elec");
+TweakItem("ISA.SolarPanelFlat","DisplayCategory","Elec");
+TweakItem("ISA.SolarPanelWall","DisplayCategory","Elec");
+TweakItem("ISA.SolarPanelMounted","DisplayCategory","Elec");
+TweakItem("ISA.SolarFailsafe","DisplayCategory","Elec");
 TweakItem("ISA.ISAMag1","DisplayCategory","LitR");
 TweakItem("ISA.Stash_RiversideW1","DisplayCategory","LitC");
 TweakItem("ISA.Stash_RosewoodE1","DisplayCategory","LitC");
@@ -513,7 +511,7 @@ end
 if getActivatedMods():contains("LactoseCrossbow") 
 or getActivatedMods():contains("KCMcrossbowCompatibility") 
 or getActivatedMods():contains("Remastered Kitsune's Crossbow Mod Compatibility") then
-TweakItem("LactoseCrossbow.LCQuiver","DisplayCategory","Container");
+TweakItem("LactoseCrossbow.LCQuiver","DisplayCategory","Cont");
 TweakItem("LactoseCrossbow.LCTestAttachment","DisplayCategory","Misc");
 TweakItem("LactoseCrossbow.CrossbowBolt","DisplayCategory","Ammo");
 TweakItem("LactoseCrossbow.CrossbowBolts","DisplayCategory","Ammo");
@@ -536,36 +534,36 @@ end
 --Ladders
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2737665235
 if getActivatedMods():contains("Ladders") then
-TweakItem("Ladders.SteelLadder","DisplayCategory","Misc");
-TweakItem("Ladders.WoodenLadder","DisplayCategory","Misc");
+TweakItem("Ladders.SteelLadder","DisplayCategory","Furn");
+TweakItem("Ladders.WoodenLadder","DisplayCategory","Furn");
 end
 
 --ManyBags
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2303814168
 if getActivatedMods():contains("MANYBAGS") then
-TweakItem("Base.AliceBackPack","DisplayCategory","ClothB");
-TweakItem("Base.AliceBackPackExtraPocket","DisplayCategory","ClothB");
-TweakItem("Base.AliceBackPackExtraPocket2","DisplayCategory","ClothB");
-TweakItem("Base.MilitaryAliceBackPack","DisplayCategory","ClothB");
-TweakItem("Base.MilitaryAliceBackPackExtraPocket","DisplayCategory","ClothB");
+TweakItem("Base.AliceBackPack","DisplayCategory","ClothBack");
+TweakItem("Base.AliceBackPackExtraPocket","DisplayCategory","ClothBack");
+TweakItem("Base.AliceBackPackExtraPocket2","DisplayCategory","ClothBack");
+TweakItem("Base.MilitaryAliceBackPack","DisplayCategory","ClothBack");
+TweakItem("Base.MilitaryAliceBackPackExtraPocket","DisplayCategory","ClothBack");
 TweakItem("Base.ExtraPocket","DisplayCategory","CraftTailor");
 end
 
 --MilitaryPonchos
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2629286881
 if getActivatedMods():contains("MilPoncho") then
-TweakItem("Base.MPonchoGreenUP","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoGreenDOWN","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoYellowUP","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoYellowDOWN","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoShoulder","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoShoulderDOWN","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoShoulderYEL","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoShoulderYELdown","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoBlackUP","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoBlackDOWN","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoShoulderBLA","DisplayCategory","Cloth");
-TweakItem("Base.MPonchoShoulderBLAdown","DisplayCategory","Cloth");
+TweakItem("Base.MPonchoGreenUP","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoGreenDOWN","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoYellowUP","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoYellowDOWN","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoShoulder","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoShoulderDOWN","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoShoulderYEL","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoShoulderYELdown","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoBlackUP","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoBlackDOWN","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoShoulderBLA","DisplayCategory","ClothBody");
+TweakItem("Base.MPonchoShoulderBLAdown","DisplayCategory","ClothBody");
 end
 
 --MoCropsMod
@@ -596,13 +594,13 @@ end
 if getActivatedMods():contains("ToadTraits") 
 or getActivatedMods():contains("ToadTraitsDisablePrepared") 
 or getActivatedMods():contains("ToadTraitsDisableSpec") then
-TweakItem("MoreTraits.PackerBag","DisplayCategory","ClothB");
+TweakItem("MoreTraits.PackerBag","DisplayCategory","ClothBack");
 TweakItem("MoreTraits.AntiqueAxe","DisplayCategory","WepMelee");
 TweakItem("MoreTraits.Thumper","DisplayCategory","Tool");
 TweakItem("MoreTraits.ObsidianBlade","DisplayCategory","WepMelee");
 TweakItem("MoreTraits.BloodyCrowbar","DisplayCategory","Tool");
 TweakItem("MoreTraits.Slugger","DisplayCategory","WepMelee");
-TweakItem("MoreTraits.ZombificationCure","DisplayCategory","Medical");
+TweakItem("MoreTraits.ZombificationCure","DisplayCategory","Med");
 TweakItem("MoreTraits.MedicalMag1","DisplayCategory","LitR");
 TweakItem("MoreTraits.MedicalMag2","DisplayCategory","LitR");
 TweakItem("MoreTraits.MedicalMag3","DisplayCategory","LitR");
@@ -614,10 +612,10 @@ TweakItem("MoreTraits.PapierMache","DisplayCategory","Misc");
 TweakItem("MoreTraits.PapierMacheSword","DisplayCategory","WepMelee");
 -- TweakItem("MoreTraits.ZombPatty","DisplayCategory","FoodP");
 TweakItem("MoreTraits.BloodBox","DisplayCategory","FoodB");
-TweakItem("MoreTraits.AntiqueJacket","DisplayCategory","Cloth");
-TweakItem("MoreTraits.AntiqueVest","DisplayCategory","Cloth");
-TweakItem("MoreTraits.AntiqueBoots","DisplayCategory","Cloth");
-TweakItem("MoreTraits.Bag_SmallHikingBag","DisplayCategory","ClothB");
+TweakItem("MoreTraits.AntiqueJacket","DisplayCategory","ClothBody");
+TweakItem("MoreTraits.AntiqueVest","DisplayCategory","ClothBody");
+TweakItem("MoreTraits.AntiqueBoots","DisplayCategory","ClothFeet");
+TweakItem("MoreTraits.Bag_SmallHikingBag","DisplayCategory","ClothBack");
 TweakItem("MoreTraits.AntiqueSpear","DisplayCategory","WepMelee");
 TweakItem("MoreTraits.AntiqueHammer","DisplayCategory","Tool");
 TweakItem("MoreTraits.AntiqueKatana","DisplayCategory","WepMelee");
@@ -679,8 +677,8 @@ end
 --PrimitiveSurvival
 --https://steamcommunity.com/sharedfiles/filedetails/?id=1969674962
 if getActivatedMods():contains("PSurvival") then
-TweakItem("PrimitiveSurvival.PS_SheetBag","DisplayCategory","ClothB");
-TweakItem("PrimitiveSurvival.PS_PrimitiveBag","DisplayCategory","ClothB");
+TweakItem("PrimitiveSurvival.PS_SheetBag","DisplayCategory","ClothBack");
+TweakItem("PrimitiveSurvival.PS_PrimitiveBag","DisplayCategory","ClothBack");
 TweakItem("PrimitiveSurvival.PS_BarkStrip","DisplayCategory","Craft");
 TweakItem("PrimitiveSurvival.PS_SmallRope","DisplayCategory","Craft");
 TweakItem("PrimitiveSurvival.PS_BranchesBundle","DisplayCategory","Craft");
@@ -690,43 +688,43 @@ end
 --RaidioToGrid
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2001719506
 if getActivatedMods():contains("RadioToGrid") then
-TweakItem("rat.WalkieTalkie1Grid","DisplayCategory","Electronics");
-TweakItem("rat.WalkieTalkie2Grid","DisplayCategory","Electronics");
-TweakItem("rat.WalkieTalkie3Grid","DisplayCategory","Electronics");
-TweakItem("rat.WalkieTalkie4Grid","DisplayCategory","Electronics");
-TweakItem("rat.WalkieTalkie5Grid","DisplayCategory","Electronics");
-TweakItem("rat.WalkieTalkieMakeShiftGrid","DisplayCategory","Electronics");
-TweakItem("rat.HamRadio1Grid","DisplayCategory","Electronics");
-TweakItem("rat.HamRadio2Grid","DisplayCategory","Electronics");
-TweakItem("rat.HamRadioMakeShiftGrid","DisplayCategory","Electronics");
-TweakItem("rat.RadioRedGrid","DisplayCategory","Electronics");
-TweakItem("rat.RadioBlackGrid","DisplayCategory","Electronics");
-TweakItem("rat.RadioMakeShiftGrid","DisplayCategory","Electronics");
+TweakItem("rat.WalkieTalkie1Grid","DisplayCategory","Elec");
+TweakItem("rat.WalkieTalkie2Grid","DisplayCategory","Elec");
+TweakItem("rat.WalkieTalkie3Grid","DisplayCategory","Elec");
+TweakItem("rat.WalkieTalkie4Grid","DisplayCategory","Elec");
+TweakItem("rat.WalkieTalkie5Grid","DisplayCategory","Elec");
+TweakItem("rat.WalkieTalkieMakeShiftGrid","DisplayCategory","Elec");
+TweakItem("rat.HamRadio1Grid","DisplayCategory","Elec");
+TweakItem("rat.HamRadio2Grid","DisplayCategory","Elec");
+TweakItem("rat.HamRadioMakeShiftGrid","DisplayCategory","Elec");
+TweakItem("rat.RadioRedGrid","DisplayCategory","Elec");
+TweakItem("rat.RadioBlackGrid","DisplayCategory","Elec");
+TweakItem("rat.RadioMakeShiftGrid","DisplayCategory","Elec");
 end
 
 --RifleSlings
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2644986930
 if getActivatedMods():contains("SlingMod") then
-TweakItem("Base.SlingA","DisplayCategory","ClothA");
-TweakItem("Base.SlingAalt","DisplayCategory","ClothA");
-TweakItem("Base.SlingAalt2","DisplayCategory","ClothA");
-TweakItem("Base.SlingAalt3","DisplayCategory","ClothA");
+TweakItem("Base.SlingA","DisplayCategory","ClothAcc");
+TweakItem("Base.SlingAalt","DisplayCategory","ClothAcc");
+TweakItem("Base.SlingAalt2","DisplayCategory","ClothAcc");
+TweakItem("Base.SlingAalt3","DisplayCategory","ClothAcc");
 end
 
 --Sapphire's Heaters
 --https://steamcommunity.com/workshop/filedetails/?id=2877732496
 if getActivatedMods():contains("SAPPHEATER") then
-TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Electronics");
-TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Electronics");
+TweakItem("SAPPHEATER.SmallHeater","DisplayCategory","Elec");
+TweakItem("SAPPHEATER.OutdoorHeater","DisplayCategory","Elec");
+TweakItem("SAPPHEATER.ElectricHeater","DisplayCategory","Elec");
+TweakItem("SAPPHEATER.HeaterCircuit","DisplayCategory","Elec");
 end
 
 --SavottaBackpacks
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2940277485
 if getActivatedMods():contains("SavottaBackpacks") then
-TweakItem("Base.Jaakari_L_Backpack","DisplayCategory","ClothB");
-TweakItem("Base.Jaakari_XL_Backpack","DisplayCategory","ClothB");
+TweakItem("Base.Jaakari_L_Backpack","DisplayCategory","ClothBack");
+TweakItem("Base.Jaakari_XL_Backpack","DisplayCategory","ClothBack");
 end
 
 --Scavenger Skill
@@ -810,10 +808,10 @@ end
 --SlingModFix
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2684045242
 if getActivatedMods():contains("SlingModFix") then
-TweakItem("Base.SlingA","DisplayCategory","ClothA");
-TweakItem("Base.SlingAalt","DisplayCategory","ClothA");
-TweakItem("Base.SlingAalt2","DisplayCategory","ClothA");
-TweakItem("Base.SlingAalt3","DisplayCategory","ClothA");
+TweakItem("Base.SlingA","DisplayCategory","ClothAcc");
+TweakItem("Base.SlingAalt","DisplayCategory","ClothAcc");
+TweakItem("Base.SlingAalt2","DisplayCategory","ClothAcc");
+TweakItem("Base.SlingAalt3","DisplayCategory","ClothAcc");
 end
 
 --SmokinJoesSmokes
@@ -836,28 +834,28 @@ end
 --SpecialEmergencyVehiclesFRsm
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2849455153
 if getActivatedMods():contains("SpecialEmergencyVehiclesFRsm") then
-TweakItem("Base.Hat_BaseballCapDEA","DisplayCategory","Cloth");
-TweakItem("Base.Hat_BaseballCapDEA_Reverse","DisplayCategory","Cloth");
-TweakItem("Base.Hat_BaseballCapATF","DisplayCategory","Cloth");
-TweakItem("Base.Hat_BaseballCapATF_Reverse","DisplayCategory","Cloth");
-TweakItem("Base.Hat_BaseballCapFBILG","DisplayCategory","Cloth");
-TweakItem("Base.Hat_BaseballCapFBILG_Reverse","DisplayCategory","Cloth");
-TweakItem("Base.Hat_blackRiotHelmetfbilg","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_FBIlg","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_FBIlgblack","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_FBIlgconidfbi","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_FBIlgblackconidFBI","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_RIOTlgblack","DisplayCategory","Cloth");
-TweakItem("Base.Vest_Bulletfbi","DisplayCategory","Cloth");
-TweakItem("Base.Vest_Bulletfbigreen","DisplayCategory","Cloth");
-TweakItem("Base.Vest_BulletfbiRIOTLg","DisplayCategory","Cloth");
-TweakItem("Base.Vest_BulletRiotLG","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_ATFclosed","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_USMSHclosed","DisplayCategory","Cloth");
-TweakItem("Base.Jacket_DEAclosed","DisplayCategory","Cloth");
-TweakItem("Base.Vest_BulletRIOTlggeneric","DisplayCategory","Cloth");
-TweakItem("Base.Trousers_PoliceRiotfbilg","DisplayCategory","Cloth");
-TweakItem("Base.Shirt_FormalWhiteFBIIDLG","DisplayCategory","Cloth");
+TweakItem("Base.Hat_BaseballCapDEA","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_BaseballCapDEA_Reverse","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_BaseballCapATF","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_BaseballCapATF_Reverse","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_BaseballCapFBILG","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_BaseballCapFBILG_Reverse","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_blackRiotHelmetfbilg","DisplayCategory","ClothHead");
+TweakItem("Base.Jacket_FBIlg","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_FBIlgblack","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_FBIlgconidfbi","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_FBIlgblackconidFBI","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_RIOTlgblack","DisplayCategory","ClothBody");
+TweakItem("Base.Vest_Bulletfbi","DisplayCategory","ClothBody");
+TweakItem("Base.Vest_Bulletfbigreen","DisplayCategory","ClothBody");
+TweakItem("Base.Vest_BulletfbiRIOTLg","DisplayCategory","ClothBody");
+TweakItem("Base.Vest_BulletRiotLG","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_ATFclosed","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_USMSHclosed","DisplayCategory","ClothBody");
+TweakItem("Base.Jacket_DEAclosed","DisplayCategory","ClothBody");
+TweakItem("Base.Vest_BulletRIOTlggeneric","DisplayCategory","ClothBody");
+TweakItem("Base.Trousers_PoliceRiotfbilg","DisplayCategory","ClothLeg");
+TweakItem("Base.Shirt_FormalWhiteFBIIDLG","DisplayCategory","ClothBody");
 end
 
 --SprayPaint
@@ -887,94 +885,49 @@ end
 if getActivatedMods():contains("RS_WaterCistern") 
 or getActivatedMods():contains("RS_WaterCistern_FR_Overwrite") 
 or getActivatedMods():contains("RS_WaterCistern_KI5_Addon") then
-TweakItem("Base.1500_Water_Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.1500_Water_Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.1500_Water_Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.3000_Water_Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.3000_Water_Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.3000_Water_Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.10000_Water_Tank1","DisplayCategory","Mechanics");
-TweakItem("Base.10000_Water_Tank2","DisplayCategory","Mechanics");
-TweakItem("Base.10000_Water_Tank3","DisplayCategory","Mechanics");
-TweakItem("Base.3000_Water_Tank_Tainted1","DisplayCategory","Mechanics");
-TweakItem("Base.3000_Water_Tank_Tainted2","DisplayCategory","Mechanics");
-TweakItem("Base.3000_Water_Tank_Tainted3","DisplayCategory","Mechanics");
-TweakItem("Base.RS_WaterFilter","DisplayCategory","Mechanics");
-TweakItem("Base.FRSideContainer_RS1","DisplayCategory","Mechanics");
-TweakItem("Base.FRSideContainer_RS2","DisplayCategory","Mechanics");
-TweakItem("Base.FRSideContainer_RS3","DisplayCategory","Mechanics");
+TweakItem("Base.1500_Water_Tank1","DisplayCategory","Mech");
+TweakItem("Base.1500_Water_Tank2","DisplayCategory","Mech");
+TweakItem("Base.1500_Water_Tank3","DisplayCategory","Mech");
+TweakItem("Base.3000_Water_Tank1","DisplayCategory","Mech");
+TweakItem("Base.3000_Water_Tank2","DisplayCategory","Mech");
+TweakItem("Base.3000_Water_Tank3","DisplayCategory","Mech");
+TweakItem("Base.10000_Water_Tank1","DisplayCategory","Mech");
+TweakItem("Base.10000_Water_Tank2","DisplayCategory","Mech");
+TweakItem("Base.10000_Water_Tank3","DisplayCategory","Mech");
+TweakItem("Base.3000_Water_Tank_Tainted1","DisplayCategory","Mech");
+TweakItem("Base.3000_Water_Tank_Tainted2","DisplayCategory","Mech");
+TweakItem("Base.3000_Water_Tank_Tainted3","DisplayCategory","Mech");
+TweakItem("Base.RS_WaterFilter","DisplayCategory","Mech");
+TweakItem("Base.FRSideContainer_RS1","DisplayCategory","Mech");
+TweakItem("Base.FRSideContainer_RS2","DisplayCategory","Mech");
+TweakItem("Base.FRSideContainer_RS3","DisplayCategory","Mech");
 end
 
 --TheyKnew
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2725378876
 if getActivatedMods():contains("TheyKnew") then
-TweakItem("TheyKnew.Zomboxycycline","DisplayCategory","Medical");
-TweakItem("TheyKnew.Zomboxivir","DisplayCategory","Medical");
-TweakItem("TheyKnew.MysteriousHazmat","DisplayCategory","Cloth");
-TweakItem("TheyKnew.MysteriousSatchel","DisplayCategory","ClothB");
-end
-
---UndeadSurvivor
---https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292
-if getActivatedMods():contains("UndeadSuvivor") then
-TweakItem("UndeadSurvivor.PrepperFlashlight","DisplayCategory","Tool");
-TweakItem("UndeadSurvivor.PrepperMask","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.PrepperHelmet","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.PrepperVest","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.PrepperVestPacked","DisplayCategory","ClothA");
-TweakItem("UndeadSurvivor.PrepperBags","DisplayCategory","Container");
-TweakItem("UndeadSurvivor.PrepperJacket","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.PrepperTrousers","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.PrepperTrousersTucked","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.PrepperKnifeSwing","DisplayCategory","WepMelee");
-TweakItem("UndeadSurvivor.PrepperKnifeStab","DisplayCategory","WepMelee");
-TweakItem("UndeadSurvivor.StalkerKnife","DisplayCategory","WepMelee");
-TweakItem("UndeadSurvivor.StalkerCloak","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerCloakDOWN","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerMask","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerJacket","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerTrousers","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerTrousersTucked","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerBoots","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.StalkerGloves","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.NomadParka","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.NomadParkaDOWN","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.OminousNomadParka","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.OminousNomadParkaDOWN","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.NomadBackpack","DisplayCategory","ClothB");
-TweakItem("UndeadSurvivor.NomadMask","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.OminousNomadMask","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.NomadBoots","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.NomadTrousers","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.NomadTrousersTucked","DisplayCategory","Cloth");
-TweakItem("UndeadSurvivor.BountyPhoto01","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto02","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto03","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto04","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto05","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto06","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto07","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto08","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto09","DisplayCategory","LitW");
-TweakItem("UndeadSurvivor.BountyPhoto10","DisplayCategory","LitW");
+TweakItem("TheyKnew.Zomboxycycline","DisplayCategory","Med");
+TweakItem("TheyKnew.Zomboxivir","DisplayCategory","Med");
+TweakItem("TheyKnew.MysteriousHazmat","DisplayCategory","ClothBody");
+TweakItem("TheyKnew.MysteriousSatchel","DisplayCategory","ClothBack");
 end
 
 --USMCArmory
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2611652130
 if getActivatedMods():contains("DRK_1") then
-TweakItem("Base.Interceptor_Armor","DisplayCategory","Cloth");
-TweakItem("Base.Interceptor_Armor_s","DisplayCategory","Cloth");
-TweakItem("Base.Interceptor_Armor_v","DisplayCategory","Cloth");
-TweakItem("Base.Marpat_Jacket_w","DisplayCategory","Cloth");
-TweakItem("Base.Marpat_Jacket_d","DisplayCategory","Cloth");
-TweakItem("Base.Marpat_Pants_w","DisplayCategory","Cloth");
-TweakItem("Base.Marpat_Pants_d","DisplayCategory","Cloth");
-TweakItem("Base.Hat_USMC_Cap_w","DisplayCategory","Cloth");
-TweakItem("Base.Hat_USMC_Cap_d","DisplayCategory","Cloth");
-TweakItem("Base.Hat_PASGT_Helmet","DisplayCategory","Cloth");
-TweakItem("Base.Hat_TPASGT_Helmet","DisplayCategory","Cloth");
-TweakItem("Base.Interceptor_Pouches","DisplayCategory","Container");
-TweakItem("Base.Interceptor_Pouches_Straps","DisplayCategory","Container");
+TweakItem("Base.Interceptor_Armor","DisplayCategory","ClothBody");
+TweakItem("Base.Interceptor_Armor_s","DisplayCategory","ClothBody");
+TweakItem("Base.Interceptor_Armor_v","DisplayCategory","ClothBody");
+TweakItem("Base.Marpat_Jacket_w","DisplayCategory","ClothBody");
+TweakItem("Base.Marpat_Jacket_d","DisplayCategory","ClothBody");
+TweakItem("Base.Marpat_Pants_w","DisplayCategory","ClothLeg");
+TweakItem("Base.Marpat_Pants_d","DisplayCategory","ClothLeg");
+TweakItem("Base.Hat_USMC_Cap_w","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_USMC_Cap_d","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_PASGT_Helmet","DisplayCategory","ClothHead");
+TweakItem("Base.Hat_TPASGT_Helmet","DisplayCategory","ClothHead");
+TweakItem("Base.Interceptor_Pouches","DisplayCategory","ClothBag");
+TweakItem("Base.Interceptor_Pouches_Straps","DisplayCategory","ClothBag");
 end
 
 --Vehicle Repair Overhaul
@@ -995,38 +948,38 @@ end
 --W900Semi-Truck
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2759339330
 if getActivatedMods():contains("rSemiTruck") then
-TweakItem("RotatorsClothing.Hat_BaseballCapRotators","DisplayCategory","Cloth");
-TweakItem("RotatorsClothing.Hat_BaseballCapRotators_Reverse","DisplayCategory","Cloth");
-TweakItem("Rotators.750Tank2","DisplayCategory","Mechanics");
-TweakItem("Rotators.DoubleOldTire2","DisplayCategory","Mechanics");
-TweakItem("Rotators.DoubleNormalTire2","DisplayCategory","Mechanics");
-TweakItem("Rotators.DoubleModernTire2","DisplayCategory","Mechanics");
-TweakItem("Rotators.AxleOldTire2","DisplayCategory","Mechanics");
-TweakItem("Rotators.AxleNormalTire2","DisplayCategory","Mechanics");
-TweakItem("Rotators.AxleModernTire2","DisplayCategory","Mechanics");
-TweakItem("Rotators.SemiTruckBullbar_Item2","DisplayCategory","Mechanics");
-TweakItem("Rotators.SemiTruckArmorDoor_Item2","DisplayCategory","Mechanics");
-TweakItem("Rotators.SemiTruckArmorFront_Item2","DisplayCategory","Mechanics");
-TweakItem("Rotators.SemiTruckArmorRear_Item2","DisplayCategory","Mechanics");
+TweakItem("RotatorsClothing.Hat_BaseballCapRotators","DisplayCategory","ClothHead");
+TweakItem("RotatorsClothing.Hat_BaseballCapRotators_Reverse","DisplayCategory","ClothHead");
+TweakItem("Rotators.750Tank2","DisplayCategory","Mech");
+TweakItem("Rotators.DoubleOldTire2","DisplayCategory","Mech");
+TweakItem("Rotators.DoubleNormalTire2","DisplayCategory","Mech");
+TweakItem("Rotators.DoubleModernTire2","DisplayCategory","Mech");
+TweakItem("Rotators.AxleOldTire2","DisplayCategory","Mech");
+TweakItem("Rotators.AxleNormalTire2","DisplayCategory","Mech");
+TweakItem("Rotators.AxleModernTire2","DisplayCategory","Mech");
+TweakItem("Rotators.SemiTruckBullbar_Item2","DisplayCategory","Mech");
+TweakItem("Rotators.SemiTruckArmorDoor_Item2","DisplayCategory","Mech");
+TweakItem("Rotators.SemiTruckArmorFront_Item2","DisplayCategory","Mech");
+TweakItem("Rotators.SemiTruckArmorRear_Item2","DisplayCategory","Mech");
 end
 
 --WaterDispenser
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2687798127
 if getActivatedMods():contains("WaterDispenser") then
-TweakItem("WaterDispenser.WaterJugEmpty","DisplayCategory","Container");
-TweakItem("WaterDispenser.WaterJugWaterFull","DisplayCategory","Container");
+TweakItem("WaterDispenser.WaterJugEmpty","DisplayCategory","Cont");
+TweakItem("WaterDispenser.WaterJugWaterFull","DisplayCategory","Cont");
 TweakItem("WaterDispenser.WaterJugPetrolFull","DisplayCategory","Fuel");
 end
 
 --WaterTrailer
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2732639855
 if getActivatedMods():contains("rWaterTrailer") or getActivatedMods():contains("rWaterTrailerSemi") then
-TweakItem("RotatorsClothing.TShirt_RotatorsBlack","DisplayCategory","Cloth");
-TweakItem("Rotators.WaterTrailerTankLid1","DisplayCategory","Mechanics");
-TweakItem("Rotators.WaterTrailerTankLid2","DisplayCategory","Mechanics");
-TweakItem("Rotators.WaterTrailerTankPump1","DisplayCategory","Mechanics");
-TweakItem("Rotators.WaterTrailerTankPump2","DisplayCategory","Mechanics");
-TweakItem("Rotators.WaterTrailerTankFilter2","DisplayCategory","Mechanics");
+TweakItem("RotatorsClothing.TShirt_RotatorsBlack","DisplayCategory","ClothBody");
+TweakItem("Rotators.WaterTrailerTankLid1","DisplayCategory","Mech");
+TweakItem("Rotators.WaterTrailerTankLid2","DisplayCategory","Mech");
+TweakItem("Rotators.WaterTrailerTankPump1","DisplayCategory","Mech");
+TweakItem("Rotators.WaterTrailerTankPump2","DisplayCategory","Mech");
+TweakItem("Rotators.WaterTrailerTankFilter2","DisplayCategory","Mech");
 end
 
 --WildFruits
