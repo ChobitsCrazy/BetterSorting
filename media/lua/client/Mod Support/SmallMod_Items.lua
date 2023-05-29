@@ -911,6 +911,15 @@ TweakItem("spraypaint.ChalkViolet","DisplayCategory","Tool");
 TweakItem("spraypaint.ChalkCyan","DisplayCategory","Tool");
 end
 
+--Tactical Organisation Solutions
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2969497586
+if getActivatedMods():contains("tactorgsol") 
+TweakItem("tactorgsol.tactorgsol_admin","DisplayCategory","Cont");
+TweakItem("tactorgsol.tactorgsol_large","DisplayCategory","Cont");
+TweakItem("tactorgsol.tactorgsol_medium","DisplayCategory","Cont");
+TweakItem("tactorgsol.tactorgsol_small","DisplayCategory","Cont");
+end
+
 --Treads Water Tank Trucks
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2719592131
 if getActivatedMods():contains("RS_WaterCistern") 
