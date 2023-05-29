@@ -765,9 +765,9 @@ if getActivatedMods():contains("Riverside Gunstore") then
 TweakItem("Base.FunMetalBaseballBat","DisplayCategory","WepMelee");
 TweakItem("Base.Chipote","DisplayCategory","WepMelee");
 TweakItem("Base.RiversideGunstoreMap","DisplayCategory","LitC");
-TweakItem("Base.Shoes_BowlingTrainers","DisplayCategory","Cloth");
-TweakItem("Base.Shoes_BowlingTrainersRed","DisplayCategory","Cloth");
-TweakItem("Base.Shoes_BowlingTrainersGreen","DisplayCategory","Cloth");
+TweakItem("Base.Shoes_BowlingTrainers","DisplayCategory","ClothFeet");
+TweakItem("Base.Shoes_BowlingTrainersRed","DisplayCategory","ClothFeet");
+TweakItem("Base.Shoes_BowlingTrainersGreen","DisplayCategory","ClothFeet");
 TweakItem("Base.Bowlingball","DisplayCategory","WepMelee");
 TweakItem("Base.BowlingPin","DisplayCategory","WepMelee");
 end
