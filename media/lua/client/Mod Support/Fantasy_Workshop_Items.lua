@@ -13,7 +13,7 @@ TweakItem("Base.Bag_cat_6","DisplayCategory","ClothBack");
 TweakItem("Base.bbao1","DisplayCategory","ClothBag");
 TweakItem("Base.bbbao1","DisplayCategory","ClothBag");
 TweakItem("Base.beike_cat1","DisplayCategory","ClothBody");
-TweakItem("Base.beike_cat2","DisplayCategory","ClothLegs");
+TweakItem("Base.beike_cat2","DisplayCategory","ClothLeg");
 TweakItem("Base.belt_cat1","DisplayCategory","ClothAcc");
 TweakItem("Base.belt_cat19","DisplayCategory","ClothAcc");
 TweakItem("Base.belt_cat24","DisplayCategory","ClothAcc");
