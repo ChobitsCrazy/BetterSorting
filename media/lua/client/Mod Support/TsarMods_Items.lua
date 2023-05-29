@@ -365,7 +365,7 @@ TweakItem("Base.TransportMicrowave","DisplayCategory","Furn");
 TweakItem("Base.TransportOven","DisplayCategory","Furn");
 TweakItem("Base.TransportShelve","DisplayCategory","Furn");
 TweakItem("Base.TransportSeatBoxWooden","DisplayCategory","Furn");
-TweakItem("ATA2.ATA2ItemContainer","DisplayCategory","Container");
+TweakItem("ATA2.ATA2ItemContainer","DisplayCategory","Cont");
 TweakItem("ATA2.ATABullbarPoliceItem1","DisplayCategory","Mech");
 TweakItem("ATA2.ATABullbar1Item","DisplayCategory","Mech");
 TweakItem("ATA2.ATABullbar2Item","DisplayCategory","Mech");
