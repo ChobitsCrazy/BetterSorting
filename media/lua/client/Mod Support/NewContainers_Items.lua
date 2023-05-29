@@ -4,11 +4,11 @@ if getActivatedMods():contains("newcontainers") then
 TweakItem("newcontainers.ammocan30","DisplayCategory","Cont");
 TweakItem("newcontainers.ammocan50","DisplayCategory","Cont");
 TweakItem("newcontainers.basket","DisplayCategory","Cont");
-TweakItem("newcontainers.basket_forage","DisplayCategory","ClothB");
+TweakItem("newcontainers.basket_forage","DisplayCategory","ClothBack");
 TweakItem("newcontainers.canvastote","DisplayCategory","Cont");
 TweakItem("newcontainers.cutleryroll","DisplayCategory","Cont");
-TweakItem("newcontainers.foragepouch_front","DisplayCategory","ClothB");
-TweakItem("newcontainers.foragepouch_back","DisplayCategory","ClothB");
+TweakItem("newcontainers.foragepouch_front","DisplayCategory","ClothBag");
+TweakItem("newcontainers.foragepouch_back","DisplayCategory","ClothBag");
 TweakItem("newcontainers.jugempty","DisplayCategory","Cont");
 TweakItem("newcontainers.roadsidekit","DisplayCategory","Cont");
 TweakItem("newcontainers.shoppingbasket","DisplayCategory","Cont");
