@@ -706,6 +706,14 @@ TweakItem("Base.ShotgunCase1","DisplayCategory","Cont");
 TweakItem("Base.ShotgunCase2","DisplayCategory","Cont");
 TweakItem("Base.Bag_DoctorBag","DisplayCategory","Cont");
 TweakItem("Base.KeyRing","DisplayCategory","Cont");
+TweakItem("Base.Lunchbag","DisplayCategory","Cont");
+TweakItem("Base.PlasticCup","DisplayCategory","Cont");
+TweakItem("Base.SackPotatoes","DisplayCategory","Cont");
+TweakItem("Base.SackCabbages","DisplayCategory","Cont");
+TweakItem("Base.SackOnions","DisplayCategory","Cont");
+TweakItem("Base.SackCarrots","DisplayCategory","Cont");
+TweakItem("Base.GlassTumbler","DisplayCategory","Cont");
+TweakItem("Base.GlassWine","DisplayCategory","Cont");
 --COOKING
 TweakItem("Base.BakingPan","DisplayCategory","Cook");
 TweakItem("Base.BakingTrayBread","DisplayCategory","Cook");
