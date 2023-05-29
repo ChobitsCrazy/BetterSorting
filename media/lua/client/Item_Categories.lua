@@ -766,6 +766,7 @@ TweakItem("Base.RiceVinegar","DisplayCategory","Cook");
 TweakItem("Base.Soysauce","DisplayCategory","Cook");
 TweakItem("Base.SugarBrown","DisplayCategory","Cook");
 TweakItem("Base.Pepper","DisplayCategory","Cook");
+TweakItem("Base.GravyMix","DisplayCategory","Cook");
 --CRAFTING
 TweakItem("Base.BucketPlasterFull","DisplayCategory","Craft");
 TweakItem("Base.Doorknob","DisplayCategory","Craft");
@@ -1000,7 +1001,6 @@ TweakItem("Base.WaterTeacup","DisplayCategory","FoodB");
 -- TweakItem("Base.Crackers","DisplayCategory","FoodN");
 -- TweakItem("Base.GrahamCrackers","DisplayCategory","FoodN");
 -- TweakItem("Base.Gravy","DisplayCategory","FoodN");
--- TweakItem("Base.GravyMix","DisplayCategory","FoodN");
 -- TweakItem("Base.Gum","DisplayCategory","FoodN");
 -- TweakItem("Base.JamFruit","DisplayCategory","FoodN");
 -- TweakItem("Base.JamMarmalade","DisplayCategory","FoodN");
