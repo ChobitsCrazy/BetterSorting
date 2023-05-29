@@ -34,6 +34,7 @@ end
 if getActivatedMods():contains("ScrapArmor(new version)") then
 TweakItem("Base.Rucksack","DisplayCategory","ClothBack");
 TweakItem("Base.SwordSheath","DisplayCategory","ClothAcc");
+TweakItem("Base.ShieldBelt","DisplayCategory","ClothAcc");
 TweakItem("Base.ScrapLegPouchL","DisplayCategory","ClothBag");
 TweakItem("Base.ScrapLegPouchR","DisplayCategory","ClothBag");
 TweakItem("SArmor.ArmorMag1","DisplayCategory","LitR");
