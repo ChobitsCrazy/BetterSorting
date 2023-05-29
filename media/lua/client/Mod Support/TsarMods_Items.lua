@@ -287,6 +287,7 @@ end
 if getActivatedMods():contains("truemusic") then
 TweakItem("Tsarcraft.TCBoombox","DisplayCategory","Elec");
 TweakItem("Tsarcraft.TCVinylplayer","DisplayCategory","Elec");
+TweakItem("Tsarcraft.TCWalkman","DisplayCategory","Elec");
 end
 
 --tsarslib
