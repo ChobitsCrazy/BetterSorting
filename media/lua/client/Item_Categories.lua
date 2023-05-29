@@ -115,6 +115,7 @@ TweakItem("Base.Bag_ShotgunSawnoffBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_ShotgunDblBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_ShotgunDblSawnoffBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_BowlingBallBag","DisplayCategory","ClothBack");
+TweakItem("Base.Bag_JanitorToolbox","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_FoodCanned","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_FoodSnacks","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_MedicalBag","DisplayCategory","ClothBack");
