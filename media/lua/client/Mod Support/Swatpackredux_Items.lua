@@ -10,7 +10,7 @@ TweakItem("Base.SwatKneePads","DisplayCategory","ClothLeg");
 TweakItem("Base.SwatShoulderPads","DisplayCategory","ClothArm");
 TweakItem("Base.Trousers_Swat","DisplayCategory","ClothLeg");
 TweakItem("Base.Shoes_RiotBoots","DisplayCategory","ClothFeet");
-TweakItem("Base.Shoes_SwatBoots","DisplayCategory","ClothFeet);
+TweakItem("Base.Shoes_SwatBoots","DisplayCategory","ClothFeet");
 TweakItem("Base.Gloves_SwatGloves","DisplayCategory","ClothArm");
 TweakItem("Base.Gloves_RiotGloves","DisplayCategory","ClothArm");
 TweakItem("Base.Hat_SwatHelmet","DisplayCategory","ClothHead");
