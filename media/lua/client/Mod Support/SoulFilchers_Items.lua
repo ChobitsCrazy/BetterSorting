@@ -271,16 +271,19 @@ end
 --DrinkingTime
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2578460720
 if getActivatedMods():contains("DrinkingTime") or getActivatedMods():contains("SoulFilchersDrinkingTime") then
-TweakItem("filcher.JarWater","DisplayCategory","FoodB");
-TweakItem("filcher.PetrolCanWater","DisplayCategory","FoodB");
-TweakItem("filcher.PopCanWater","DisplayCategory","FoodB");
-TweakItem("filcher.Pop2CanWater","DisplayCategory","FoodB");
-TweakItem("filcher.Pop3CanWater","DisplayCategory","FoodB");
-TweakItem("filcher.RoastingPanWater","DisplayCategory","FoodB");
-TweakItem("filcher.TinCanWater","DisplayCategory","FoodB");
-TweakItem("filcher.WaterDishFull","DisplayCategory","FoodB");
-TweakItem("filcher.WaterGallon","DisplayCategory","FoodB");
-TweakItem("filcher.WaterGallonEmpty","DisplayCategory","Cont");
+TweakItem("Base.BeerCanWater","DisplayCategory","FoodB");
+TweakItem("Base.FountainCupWater","DisplayCategory","FoodB");
+TweakItem("Base.JarWater","DisplayCategory","FoodB");
+TweakItem("Base.PetrolCanWater","DisplayCategory","FoodB");
+TweakItem("Base.PlasticCupWater","DisplayCategory","FoodB");
+TweakItem("Base.PopCanWater","DisplayCategory","FoodB");
+TweakItem("Base.Pop2CanWater","DisplayCategory","FoodB");
+TweakItem("Base.Pop3CanWater","DisplayCategory","FoodB");
+TweakItem("Base.RoastingPanWater","DisplayCategory","FoodB");
+TweakItem("Base.TinCanWater","DisplayCategory","FoodB");
+TweakItem("Base.WaterDishFull","DisplayCategory","FoodB");
+TweakItem("Base.WaterGallon","DisplayCategory","FoodB");
+TweakItem("Base.WaterGallonEmpty","DisplayCategory","Cont");
 end
 
 --ExploringTime
