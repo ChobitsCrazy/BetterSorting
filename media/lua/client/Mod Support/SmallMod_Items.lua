@@ -1043,3 +1043,15 @@ TweakItem("XNTree.XNSaplingOrange","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPeach","DisplayCategory","SurFarm");
 TweakItem("XNTree.XNSaplingPineapple","DisplayCategory","SurFarm");
 end
+
+--Z Remote Door Control
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2857280512
+if getActivatedMods():contains("RDC_Z777") then
+TweakItem("Base.RDCZHijackingMagazineVol1","DisplayCategory","LitR");
+TweakItem("Base.Simple Remote Door Control Receiver","DisplayCategory","Elec");
+TweakItem("Base. Master V2 Remote","DisplayCategory","Elec");
+TweakItem("Base.EngineerMagazine1","DisplayCategory","LitR");
+TweakItem("Base.Master V3 Remote","DisplayCategory","Elec");
+TweakItem("Base.Remote Door Control Receiver","DisplayCategory","Elec");
+TweakItem("Base.EngineerMagazine2","DisplayCategory","LitR");
+end
