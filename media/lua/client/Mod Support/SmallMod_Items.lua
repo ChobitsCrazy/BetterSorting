@@ -621,6 +621,37 @@ TweakItem("MoreTraits.AntiqueHammer","DisplayCategory","Tool");
 TweakItem("MoreTraits.AntiqueKatana","DisplayCategory","WepMelee");
 end
 
+--Noir's Attachments
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2754567348
+if getActivatedMods():contains("nattachments") then
+TweakItem("Base.AnimeTshirt","DisplayCategory","ClothBody");
+TweakItem("Base.Bag_ALICEpack_Pink","DisplayCategory","ClothBack");
+TweakItem("Base.NATT_Weapon","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_Weapon","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_ShortWeapon","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_ShortWeapon","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Flashlight","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_Flashlight","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Left","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_Left","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Right","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_Right","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_UtilityLeft","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_UtilityLeft","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_UtilityRight","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_UtilityRight","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Container","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_Container","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_ContainerSmallLeft","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_ContainerSmallLeft","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_ContainerSmallRight","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_ContainerSmallRight","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Bedroll","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_Remove_Bedroll","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_AlicepackPouch","DisplayCategory","CraftTailor");
+TweakItem("Base.NATT_AlicepackNonPouch","DisplayCategory","CraftTailor");
+end
+
 --Onifurniture
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2873290715
 if getActivatedMods():contains("Onifurniture") then
