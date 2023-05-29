@@ -1029,6 +1029,7 @@ TweakItem("Base.WaterTeacup","DisplayCategory","FoodB");
 -- TweakItem("Base.DriedLentils","DisplayCategory","FoodN");
 -- TweakItem("Base.DriedSplitPeas","DisplayCategory","FoodN");
 -- TweakItem("Base.DriedWhiteBeans","DisplayCategory","FoodN");
+TweakItem("Base.Frog","DisplayCategory","FoodN");
 -- TweakItem("Base.Apple","DisplayCategory","FoodP");
 -- TweakItem("Base.Avocado","DisplayCategory","FoodP");
 -- TweakItem("Base.Banana","DisplayCategory","FoodP");
