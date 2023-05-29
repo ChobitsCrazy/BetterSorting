@@ -913,7 +913,7 @@ end
 
 --Tactical Organisation Solutions
 --https://steamcommunity.com/sharedfiles/filedetails/?id=2969497586
-if getActivatedMods():contains("tactorgsol") 
+if getActivatedMods():contains("tactorgsol") then
 TweakItem("tactorgsol.tactorgsol_admin","DisplayCategory","Cont");
 TweakItem("tactorgsol.tactorgsol_large","DisplayCategory","Cont");
 TweakItem("tactorgsol.tactorgsol_medium","DisplayCategory","Cont");
