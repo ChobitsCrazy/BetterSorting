@@ -20,6 +20,7 @@ IGUI_DE = {
 	IGUI_ItemCat_CraftAmmo = "Basteln - Munition",
 	IGUI_ItemCat_CraftCarp = "Basteln - Tischlern",
 	IGUI_ItemCat_CraftElec = "Basteln - Elektronik",
+	IGUI_ItemCat_CraftMas = "Crafting - Masonry",
 	IGUI_ItemCat_CraftMetal = "Basteln - Metallbearbeitung",
 	IGUI_ItemCat_CraftTailor = "Basteln - Schneiderei",
 	IGUI_ItemCat_Drugs = "Drogen",
