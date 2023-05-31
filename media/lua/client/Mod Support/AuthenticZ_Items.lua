@@ -1187,7 +1187,7 @@ TweakItem(moduleName..".WaterPopBottle","DisplayCategory","FoodB");
 TweakItem(moduleName..".Pop","DisplayCategory","FoodB");
 TweakItem(moduleName..".Pop2","DisplayCategory","FoodB");
 TweakItem(moduleName..".Pop3","DisplayCategory","FoodB");
-TweakItem(moduleName..".PopBottle","DisplayCategory","Cont");
+TweakItem(moduleName..".PopBottle","DisplayCategory","FoodB");
 TweakItem(moduleName..".GardenSaw","DisplayCategory","Tool");
 TweakItem(moduleName..".Saw","DisplayCategory","Tool");
 end
