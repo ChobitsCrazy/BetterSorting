@@ -20,6 +20,7 @@ IGUI_CN = {
 	IGUI_ItemCat_CraftAmmo = "制作 - 弹药",
 	IGUI_ItemCat_CraftCarp = "工艺 - 木工",
 	IGUI_ItemCat_CraftElec = "制作 - 电子产品",
+	IGUI_ItemCat_CraftMas = "Crafting - Masonry",
 	IGUI_ItemCat_CraftMetal = "工艺 - 金属加工",
 	IGUI_ItemCat_CraftTailor = "制作 - 裁缝",
 	IGUI_ItemCat_Drugs = "药物",
