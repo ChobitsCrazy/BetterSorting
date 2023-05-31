@@ -1,6 +1,6 @@
 IGUI_CH = {
 	IGUI_ItemCat_Appear = "外貌"
-	IGUI_ItemCat_Cleaning = "清潔",
+	IGUI_ItemCat_Clean = "清潔",
 	IGUI_ItemCat_ClothAcc = "服裝 - 附件",
 	IGUI_ItemCat_ClothArm = "Clothing - Arms/Hands",
 	IGUI_ItemCat_ClothBack = "Clothing - Backpack",
