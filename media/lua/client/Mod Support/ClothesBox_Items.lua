@@ -73,7 +73,7 @@ TweakItem("Base.CBX_Sumk_1M_L","DisplayCategory","ClothBag");
 TweakItem("Base.CBX_Sumk_1M_R","DisplayCategory","ClothBag");
 TweakItem("Base.CBX_Sumk_2_L","DisplayCategory","ClothBag");
 TweakItem("Base.CBX_Sumk_2_R","DisplayCategory","ClothBag");
-TweakItem("Base.CBX_HR","DisplayCategory","ClothBag");
+TweakItem("Base.CBX_HR","DisplayCategory","ClothBack");
 TweakItem("Base.CBX_ANAT","DisplayCategory","ClothBack");
 TweakItem("Base.CBX_Sumk_3_L","DisplayCategory","ClothBag");
 TweakItem("Base.CBX_Sumk_3_R","DisplayCategory","ClothBag");
