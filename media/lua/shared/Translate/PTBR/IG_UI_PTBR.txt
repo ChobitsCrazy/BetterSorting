@@ -1,5 +1,5 @@
 IGUI_PTBR  = {
-	IGUI_ItemCat_Appear = "Aparęncia",
+	IGUI_ItemCat_Appear = "Aparência",
 	IGUI_ItemCat_Clean = "Limpeza",
 	IGUI_ItemCat_ClothAcc = "Acessorio - Roupa",
 	IGUI_ItemCat_ClothArm = "Clothing - Arms/Hands",
@@ -17,7 +17,7 @@ IGUI_PTBR  = {
 	IGUI_ItemCat_Cook = "Temperos e Alimentos",
 	IGUI_ItemCat_CookB = "Cooking - Brewing",
 	IGUI_ItemCat_Craft = "Construcao",
-	IGUI_ItemCat_CraftAmmo = "Itens - Muniçăo",
+	IGUI_ItemCat_CraftAmmo = "Itens - Munição",
 	IGUI_ItemCat_CraftCarp = "Itens - Carpintaria",
 	IGUI_ItemCat_CraftElec = "Itens - Eletronicos",
 	IGUI_ItemCat_CraftMas = "Itens - Alvenaria",
