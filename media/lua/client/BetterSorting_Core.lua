@@ -58,9 +58,14 @@ function BetterSorting.CategorizeAllItems()
   -- Loop all items
 	for i = 0, items:size() - 1, 1 do
 		local item = items:get(i);
-    
+
+    local hasManualCategory = false
+    if (TweakItemData[item:getFullName()]) then
+      hasManualCategory = TweakItemData[item:getFullName()]["DisplayCategory"] or TweakItemData[item:getFullName()]["displaycategory"]
+    end
+
     -- Try autocategorize item only if it's not already manually categorized
-    if not TweakItemData[item:getFullName()] or (TweakItemData[item:getFullName()] and not TweakItemData[item:getFullName()]["DisplayCategory"]) then
+    if not hasManualCategory then
       BetterSorting.CategorizeItem(item);
     end
   end
