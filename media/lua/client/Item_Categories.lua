@@ -114,8 +114,6 @@ TweakItem("Base.Bag_ShotgunBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_ShotgunSawnoffBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_ShotgunDblBag","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_ShotgunDblSawnoffBag","DisplayCategory","ClothBack");
-TweakItem("Base.Bag_BowlingBallBag","DisplayCategory","ClothBack");
-TweakItem("Base.Bag_JanitorToolbox","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_FoodCanned","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_FoodSnacks","DisplayCategory","ClothBack");
 TweakItem("Base.Bag_MedicalBag","DisplayCategory","ClothBack");
@@ -714,6 +712,8 @@ TweakItem("Base.SackOnions","DisplayCategory","Cont");
 TweakItem("Base.SackCarrots","DisplayCategory","Cont");
 TweakItem("Base.GlassTumbler","DisplayCategory","Cont");
 TweakItem("Base.GlassWine","DisplayCategory","Cont");
+TweakItem("Base.Bag_BowlingBallBag","DisplayCategory","Cont");
+TweakItem("Base.Bag_JanitorToolbox","DisplayCategory","Cont");
 --COOKING
 TweakItem("Base.BakingPan","DisplayCategory","Cook");
 TweakItem("Base.BakingTrayBread","DisplayCategory","Cook");
