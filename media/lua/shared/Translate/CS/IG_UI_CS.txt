@@ -20,6 +20,7 @@ IGUI_CS = {
 	IGUI_ItemCat_CraftAmmo = "Výroba - munice",
 	IGUI_ItemCat_CraftCarp = "Výroba - tesarství",
 	IGUI_ItemCat_CraftElec = "Výroba - elektronika",
+	IGUI_ItemCat_CraftMas = "Crafting - Masonry",
 	IGUI_ItemCat_CraftMetal = "Výroba - kovodelnictví",
 	IGUI_ItemCat_CraftTailor = "Výroba - krejcovství",
 	IGUI_ItemCat_Drugs = "Drogy",
