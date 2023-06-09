@@ -16,7 +16,7 @@ media/lua/shared/Translate/FR/*.txt text working-tree-encoding=cp1252 encoding=u
 media/lua/shared/Translate/HU/*.txt text working-tree-encoding=cp1250 encoding=utf-8,
 media/lua/shared/Translate/IT/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
 media/lua/shared/Translate/JP/*.txt text working-tree-encoding=utf-8 encoding=utf-8,
-media/lua/shared/Translate/KO/*.txt text working-tree-encoding=utf-8 encoding=utf-8,
+media/lua/shared/Translate/KO/*.txt text working-tree-encoding=utf-16 encoding=utf-8,
 media/lua/shared/Translate/NL/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
 media/lua/shared/Translate/NO/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
 media/lua/shared/Translate/PL/*.txt text working-tree-encoding=cp1250 encoding=utf-8,
