@@ -874,6 +874,7 @@ TweakItem("Base.RemoteCraftedV3","DisplayCategory","Elec");
 TweakItem("Base.Speaker","DisplayCategory","Elec");
 TweakItem("Base.TimerCrafted","DisplayCategory","Elec");
 TweakItem("Base.VideoGame","DisplayCategory","Elec");
+TweakItem("Radio.CDplayer","DisplayCategory","Elec");
 TweakItem("Radio.HamRadio1","DisplayCategory","Elec");
 TweakItem("Radio.HamRadio2","DisplayCategory","Elec");
 TweakItem("Radio.HamRadioMakeShift","DisplayCategory","Elec");
