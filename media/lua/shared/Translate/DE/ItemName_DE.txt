@@ -1,6 +1,6 @@
 ItemName_DE = {
 /************** PAINT **************/
-ItemName_Base.PaintBlack="Paint - Schwarz",
+ItemName_Base.PaintBlack="Farbe - Schwarz",
 ItemName_Base.PaintBlue="Farbe - Blau",
 ItemName_Base.PaintBrown="Farbe - Braun",
 ItemName_Base.PaintCyan="Farbe - Cyan",
