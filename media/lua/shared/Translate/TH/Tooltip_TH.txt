@@ -1,0 +1,25 @@
+Tooltip_TH = {
+  /************** BOOK TOOLTIPS **************/
+  Tooltip_BookTitle = "ชื่อหนังสือ",
+  Tooltip_BookTitle_1 = "%1สำหรับมือใหม่",
+  Tooltip_BookTitle_3 = "%1ระดับกลาง",
+  Tooltip_BookTitle_5 = "%1ระดับสูง",
+  Tooltip_BookTitle_7 = "%1ระดับผู้เชี่ยวชาญ",
+  Tooltip_BookTitle_9 = "%1ระดับมืออาชีพ",
+  Tooltip_BookTitle_Blacksmith = "งานตีเหล็ก",
+  Tooltip_BookTitle_Carpentry = "งานช่างไม้",
+  Tooltip_BookTitle_Cooking = "การทำอาหาร",
+  Tooltip_BookTitle_Electricity = "งานไฟฟ้า",
+  Tooltip_BookTitle_Farming = "การเพาะปลูก",
+  Tooltip_BookTitle_FirstAid = "การปฐมพยาบาล",
+  Tooltip_BookTitle_Fishing = "การจับปลา",
+  Tooltip_BookTitle_Foraging = "การหาของ",
+  Tooltip_BookTitle_Mechanics = "ช่างยนต์",
+  Tooltip_BookTitle_MetalWelding = "งานเหล็ก",
+  Tooltip_BookTitle_Tailoring = "งานตัดเย็บเสื้อผ้า",
+  Tooltip_BookTitle_Trapping = "การวางกับดัก",
+  /************** BOOK TOOLTIPS FROM MODS **************/
+  Tooltip_BookTitle_Scavenging = "การคุ้ยหาของ",
+  Tooltip_BookTitle_Driving = "การขับรถ",
+  Tooltip_BookTitle_Tinkering = "งานซ่อมแซม",
+}
